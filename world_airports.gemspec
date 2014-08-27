@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = WorldAirports::VERSION
   spec.authors       = ["Adam Pahlevi"]
   spec.email         = ["adam.pahlevi@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = %q{A gem that allow you to get the name of airports by IATA/ICAO code}
+  spec.description   = %q{This gem will translate an IATA into an airport full name. Wikipedia has provided the list of the airports}
+  spec.homepage      = "http://adampahlevi.com"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
