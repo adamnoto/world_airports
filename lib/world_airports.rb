@@ -7,6 +7,7 @@ module WorldAirports
     attr_accessor :location
     attr_accessor :iata
     attr_accessor :icao
+    attr_accessor :city
     attr_accessor :country
   end
 
@@ -19,6 +20,7 @@ module WorldAirports
     airport.icao = airport_dt[:icao]
     airport.iata = airport_dt[:iata]
     airport.country = airport_dt[:country]
+    airport.city = airport.location.split(",")[0]
 
     airport
   end
