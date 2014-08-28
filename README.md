@@ -18,8 +18,8 @@ Or install it yourself as:
 
 ## Usage
 
-require 'world_airports'
-WorldAirports.iata("CGK")
+    require 'world_airports'
+    WorldAirports.iata("CGK")
 
 ## Contributing
 
