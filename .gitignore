@@ -21,3 +21,6 @@ tmp
 *.o
 *.a
 mkmf.log
+.gitignore
+.idea
+.DS_Store
