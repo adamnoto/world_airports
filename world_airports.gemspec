@@ -18,6 +18,9 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
+  spec.cert_chain    = ['certs/adampahlevi.pem']
+  s.signing_key      = File.expand_path("~/scrapper/gem-private_key.pem") if $0 =~ /gem\z/
+
   spec.add_development_dependency "bundler", "~> 1.6"
   spec.add_development_dependency "rake"
 end
