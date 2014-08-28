@@ -1,3 +1,4 @@
+# encoding: UTF-8
 require "scrapper/scrapped_0.rb"
 (2..27).each do |i|
   require "scrapper/scrapped_#{i}.rb"

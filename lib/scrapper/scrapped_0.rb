@@ -1,4 +1,4 @@
-
+# encoding: UTF-8
 def airp_0
   {
       SNO: {iata: "SNO", icao: "VTUI", name: "Sakon Nakhon Airport", country: "Thailand", city: "Sakon Nakhon", location: "Sakon Nakhon, Thailand"},

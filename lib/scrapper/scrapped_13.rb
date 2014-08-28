@@ -1,6 +1,5 @@
-
-      # encoding: UTF-8
-      def airp_13
+# encoding: UTF-8
+def airp_13
         {"LAA"=>
   {:iata=>"LAA",
    :name=>"Lamar Municipal Airport",
@@ -3266,6 +3265,4 @@
    :city=>"Nyingchi",
    :country=>"China",
    :location=>"Nyingchi, Tibet Autonomous Region, China"}}
-
-      end
-      
+end
