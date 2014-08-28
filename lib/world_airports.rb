@@ -13,7 +13,7 @@ module WorldAirports
   end
 
   def self.iata(iata_code)
-    airport_dt = all_airports[iata_code.to_s.upcase]
+    airport_dt = airport_of iata_code
     airport = WorldAirports::Airport.new
 
     if airport_dt

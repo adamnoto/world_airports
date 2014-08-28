@@ -22,3 +22,11 @@ def all_airports
 
   airports
 end
+
+def airport_of(code)
+  data = all_airports[code.to_s.upcase]
+  return data unless data.nil?
+  data = all_airports[code.to_s.upcase.to_sym]
+  return data unless data.nil?
+  nil
+end
