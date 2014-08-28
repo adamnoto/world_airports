@@ -1,6 +1,6 @@
 # WorldAirports
 
-TODO: Write a gem description
+world_airports is a lightweight ruby gem that allow you to get several information such as airport name, location, city and country based on an IATA code.
 
 ## Installation
 
@@ -18,7 +18,8 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+require 'world_airports'
+WorldAirports.iata("CGK")
 
 ## Contributing
 
