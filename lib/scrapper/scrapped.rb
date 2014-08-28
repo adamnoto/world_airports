@@ -1,6 +1,6 @@
-require "./scrapped_0.rb"
+require "scrapper/scrapped_0.rb"
 (2..27).each do |i|
-  require "./scrapped_#{i}.rb"
+  require "scrapper/scrapped_#{i}.rb"
 end
 
 def all_airports

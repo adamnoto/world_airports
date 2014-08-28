@@ -20,6 +20,17 @@ Or install it yourself as:
 
     require 'world_airports'
     WorldAirports.iata("CGK")
+    
+The code above will return a class of WorldAirports::Airport, on which instance you can invoke these methods:
+
+    name
+    location
+    iata
+    icao
+    city
+    country
+    
+ICAO is not guaranteed to be available for all the data, but other fields are.
 
 ## Contributing
 
