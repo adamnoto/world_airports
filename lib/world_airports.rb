@@ -1,6 +1,6 @@
 # encoding: UTF-8
 require "world_airports/version"
-require "scrapped"
+require "scrapper/scrapped"
 
 module WorldAirports
   class WorldAirports::Airport
@@ -13,14 +13,14 @@ module WorldAirports
   end
 
   def self.iata(iata_code)
-    airport_dt = scrapped_airports[iata_code.to_s.upcase]
+    airport_dt = all_airports[iata_code.to_s.upcase]
     airport = WorldAirports::Airport.new
 
     if airport_dt
       airport.name = airport_dt[:name]
       airport.location = airport_dt[:location]
       airport.icao = airport_dt[:icao]
-      airport.iata = airport_dt[:iata]
+      airport.iata = airport_dt[:iata].upcase
       airport.country = airport_dt[:country]
       airport.city = airport.location.split(",")[0]
 

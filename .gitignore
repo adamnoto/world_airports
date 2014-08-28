@@ -9,7 +9,7 @@ _yardoc
 coverage
 doc/
 lib/bundler/man
-scrapper/
+scrapper/scrapper.rb
 pkg
 rdoc
 spec/reports
