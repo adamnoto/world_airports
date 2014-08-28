@@ -34,6 +34,10 @@ ICAO is not guaranteed to be available for all the data, but other fields are.
 
 ## Contributing
 
+Please don't hesitate to contact me, I have twitter @adamvim, for anything: reporting bug, missing airport, etc.
+
+Otherwise:
+
 1. Fork it ( https://github.com/[my-github-username]/world_airports/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
