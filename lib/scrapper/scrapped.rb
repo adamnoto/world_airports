@@ -1,10 +1,10 @@
 # encoding: UTF-8
 require "singleton"
 
-require "./scrapped_0.rb"
+require_relative "scrapped_0.rb"
 (2..27).each do |i|
   puts "requiring: #{i}"
-  require "./scrapped_#{i}.rb"
+  require_relative "scrapped_#{i}.rb"
 end
 
 class Scrapped
