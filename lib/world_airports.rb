@@ -13,7 +13,7 @@ module WorldAirports
   end
 
   def self.iata(iata_code)
-    airport_dt = airport_of iata_code
+    airport_dt = Scrapped.instance.airport_of iata_code
     airport = WorldAirports::Airport.new
 
     if airport_dt

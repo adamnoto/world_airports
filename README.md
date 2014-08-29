@@ -43,3 +43,8 @@ Otherwise:
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create a new Pull Request
+
+## Recent enchancements
+
+29 August 2014:
+Adding some new 1000+ airports: AKV, AOQ, AGM, ACA, AGU, AJS, AZG, ACN, AZP, AWK, AFO, ...ZTM, ZTB, ZFN, ZWL, ZAC, ZMH, ZAA, ZBM, ZFW, ZFA, ZGF, ZHP, ZUC, ZJG, ZGR, ZNU, ZNG, ZFB, ZPO, ZSW, ZQS, ZSP, ZFL, ZST, ZJN, ZTS, ZIH, ZLO, ZCL, ZMM, ZMD, ZOS, ZPC, ZCO, ZAL, ZUD, ZLR, ZIC, ZBL, ZBO, ZNE, ZGL, ZVG, ZTA, ZQN, ZGU, ZSA, ZSS, ZUE, ZKM, ZWA, ZVA, ZZU, ZLG, ZND, ZAR, ZSE, ZIG, ZEC, ZLX, ZNZ, ZKB, ZGM, ZYR, ZAD, ZAG, ZDN, ZBE, ZAO, ZQW, ZWN, ZTH, ZBK, ZXQ, ZZO, ZIX, ZKP, ZAZ, ZRH, ZTR, ZAJ, ZTU, ZXT, ZYL, ZHM, ZGC, ZQZ, ZHA, ZAT, ZHY, ZUH, ZYI, ZMY, ZER, ZRM, ZEG, ZRI, ZKL, ZBR, ZAH, ZVK, ZBY, ZIZ, ZEN, ZAM, ZUL, ZDY, ZCN, ZNC, ZPH, ZPQ, ZWS, ZZV, SNO, PHS, TLI, WNI, NST, NAW, DTB, SQG, SOQ, SWQ, TMC, TTE, PSU, RTI, SXK, YKR, RRZ, PLW, PGK, PKN, PUM, PSJ, DQJ, WUB, TGG, OTI, PKY, FLZ. Read the complete list of new airports in the history file.
