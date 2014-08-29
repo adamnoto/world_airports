@@ -27,6 +27,7 @@ def airp_0
       WUB: {iata: "WUB", name: "Bandar Udara Bali", icao: "WAME", city: "Maba", location: "Maba, Maluku Utara, Indonesia", country: "Indonesia"},
       TGG: {iata: "TGG", name: "Sultan Mahmud Airport", city: "Kuala Terengganu", location: "Kuala Terengganu, Terengganu, Malaysia", country: "Malaysia"},
       OTI: {iata: "OTI", name: "Bandar Udara Pitu", city: "Morotai Island", location: "Morotai Island, North Maluku, Indonesia", country: "Indonesia"},
-      PKY: {iata: "PKY", name: "Tjilik Riwut Airport", city: "Palangkaraya", location: "Palangkaraya, Central Kalimantan, Indonesia", country: "Indonesia"}
+      PKY: {iata: "PKY", name: "Tjilik Riwut Airport", city: "Palangkaraya", location: "Palangkaraya, Central Kalimantan, Indonesia", country: "Indonesia"},
+      FLZ: {iata: "FLZ", name: "Ferdinand Lumban Tobing Airport", city: "Sibolga", location: "Sibolga, North Sumatera, Indonesia", country: "Indonesia"}
   }
 end
