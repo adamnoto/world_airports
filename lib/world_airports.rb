@@ -1,6 +1,6 @@
 # encoding: UTF-8
 require "world_airports/version"
-require "scrapper/scrapped"
+require "world_airports/scrapper/scrapped"
 
 module WorldAirports
   class WorldAirports::Airport
