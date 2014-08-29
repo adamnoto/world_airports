@@ -3,7 +3,6 @@ require "singleton"
 
 require_relative "scrapped_0.rb"
 (2..27).each do |i|
-  puts "requiring: #{i}"
   require_relative "scrapped_#{i}.rb"
 end
 
@@ -15,7 +14,6 @@ class Scrapped
 
     ((2..27).to_a + [0]).each do |method_id|
       airports.merge!(send("airp_#{method_id}"))
-      puts "loaded #{method_id}: #{airports.keys.length}"
     end
 
     # validate the airport
