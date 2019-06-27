@@ -10,6 +10,7 @@ module WorldAirports
     attr_accessor :icao
     attr_accessor :city
     attr_accessor :country
+    attr_accessor :country_code
   end
 
   def self.iata(iata_code)
@@ -22,6 +23,7 @@ module WorldAirports
       airport.icao = airport_dt[:icao]
       airport.iata = airport_dt[:iata].upcase
       airport.country = airport_dt[:country]
+      airport.country_code = airport_dt[:country_code]
       airport.city = airport.location.split(",")[0]
 
       return airport

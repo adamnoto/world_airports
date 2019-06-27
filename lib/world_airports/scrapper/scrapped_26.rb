@@ -6,6 +6,7 @@ def airp_26
    :icao=>"CYYC",
    :city=>"Calgary",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Calgary, Alberta, Canada"},
  "YEG"=>
   {:iata=>"YEG",
@@ -13,6 +14,7 @@ def airp_26
    :icao=>"CYEG",
    :city=>"Edmonton",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Edmonton, Alberta, Canada"},
  "YHZ"=>
   {:iata=>"YHZ",
@@ -20,6 +22,7 @@ def airp_26
    :icao=>"CYHZ",
    :city=>"Enfield",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Enfield, Nova Scotia, Canada"},
  "YUL"=>
   {:iata=>"YUL",
@@ -27,6 +30,7 @@ def airp_26
    :icao=>"CYUL",
    :city=>"Dorval",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Dorval, Quebec, Canada"},
  "YOW"=>
   {:iata=>"YOW",
@@ -34,6 +38,7 @@ def airp_26
    :icao=>"CYOW",
    :city=>"Ottawa",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Ottawa, Ontario, Canada"},
  "YQB"=>
   {:iata=>"YQB",
@@ -41,6 +46,7 @@ def airp_26
    :icao=>"CYQB",
    :city=>"Sainte-Foy",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Sainte-Foy, Quebec City, Quebec, Canada"},
  "YTZ"=>
   {:iata=>"YTZ",
@@ -48,6 +54,7 @@ def airp_26
    :icao=>"CYTZ",
    :city=>"Toronto",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Toronto, Ontario, Canada"},
  "YYZ"=>
   {:iata=>"YYZ",
@@ -55,6 +62,7 @@ def airp_26
    :icao=>"CYYZ",
    :city=>"Mississauga",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Mississauga, Ontario, Canada"},
  "YVR"=>
   {:iata=>"YVR",
@@ -62,6 +70,7 @@ def airp_26
    :icao=>"CYVR",
    :city=>"Vancouver",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Vancouver, British Columbia, Canada"},
  "YWG"=>
   {:iata=>"YWG",
@@ -69,6 +78,7 @@ def airp_26
    :icao=>"CYWG",
    :city=>"Winnipeg",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Winnipeg, Manitoba, Canada"},
  "YXX"=>
   {:iata=>"YXX",
@@ -76,6 +86,7 @@ def airp_26
    :icao=>"CYXX",
    :city=>"Abbotsford",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Abbotsford, British Columbia, Canada"},
  "YTF"=>
   {:iata=>"YTF",
@@ -83,6 +94,7 @@ def airp_26
    :icao=>"CYTF",
    :city=>"Alma",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Alma, Quebec, Canada"},
  "YEY"=>
   {:iata=>"YEY",
@@ -90,6 +102,7 @@ def airp_26
    :icao=>"CYEY",
    :city=>"Amos",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Amos, Quebec, Canada"},
  "YAA"=>
   {:iata=>"YAA",
@@ -97,6 +110,7 @@ def airp_26
    :icao=>"",
    :city=>"Anahim Lake",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Anahim Lake, British Columbia, Canada"},
  "YAX"=>
   {:iata=>"YAX",
@@ -104,6 +118,7 @@ def airp_26
    :city=>"Angling Lake",
    :icao=>"CKB6",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Angling Lake, Canada"},
  "YAB"=>
   {:iata=>"YAB",
@@ -111,6 +126,7 @@ def airp_26
    :icao=>"",
    :city=>"Arctic Bay",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Arctic Bay, Nunavut, Canada"},
  "YYW"=>
   {:iata=>"YYW",
@@ -118,6 +134,7 @@ def airp_26
    :icao=>"CYYW",
    :city=>"Armstrong",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Armstrong, Thunder Bay District, Ontario, Canada"},
  "YEK"=>
   {:iata=>"YEK",
@@ -125,6 +142,7 @@ def airp_26
    :icao=>"CYEK",
    :city=>"Arviat",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Arviat, Nunavut, Canada"},
  "YAT"=>
   {:iata=>"YAT",
@@ -132,6 +150,7 @@ def airp_26
    :icao=>"CYAT",
    :city=>"Attawapiskat",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Attawapiskat, Ontario, Canada"},
  "YPJ"=>
   {:iata=>"YPJ",
@@ -139,6 +158,7 @@ def airp_26
    :icao=>"CYLA",
    :city=>"Aupaluk",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Aupaluk, Quebec, Canada"},
  "YBC"=>
   {:iata=>"YBC",
@@ -146,6 +166,7 @@ def airp_26
    :icao=>"CYBC",
    :city=>"Baie-Comeau",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Baie-Comeau, Quebec, Canada"},
  "YBK"=>
   {:iata=>"YBK",
@@ -153,6 +174,7 @@ def airp_26
    :icao=>"CYBK",
    :city=>"Baker Lake",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Baker Lake, Nunavut, Canada"},
  "YBF"=>
   {:iata=>"YBF",
@@ -160,6 +182,7 @@ def airp_26
    :icao=>"",
    :city=>"Bamfield",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Bamfield, British Columbia, Canada"},
  "YBW"=>
   {:iata=>"YBW",
@@ -167,6 +190,7 @@ def airp_26
    :icao=>"",
    :city=>"Bedwell Harbour",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Bedwell Harbour, British Columbia, Canada"},
  "YBV"=>
   {:iata=>"YBV",
@@ -174,6 +198,7 @@ def airp_26
    :icao=>"CYBV",
    :city=>"Berens River",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Berens River, Manitoba, Canada"},
  "YTL"=>
   {:iata=>"YTL",
@@ -181,6 +206,7 @@ def airp_26
    :icao=>"CYTL",
    :city=>"Big Trout Lake",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Big Trout Lake, Ontario, Canada"},
  "YBI"=>
   {:iata=>"YBI",
@@ -188,6 +214,7 @@ def airp_26
    :icao=>"",
    :city=>"Black Tickle",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Black Tickle, Newfoundland and Labrador, Canada"},
  "YBX"=>
   {:iata=>"YBX",
@@ -195,6 +222,7 @@ def airp_26
    :icao=>"CYBX",
    :city=>"Lourdes-de-Blanc-Sablon",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Lourdes-de-Blanc-Sablon, Quebec, Canada"},
  "YVB"=>
   {:iata=>"YVB",
@@ -202,6 +230,7 @@ def airp_26
    :icao=>"CYVB",
    :city=>"Bonaventure",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Bonaventure, Quebec, Canada"},
  "YBY"=>
   {:iata=>"YBY",
@@ -209,6 +238,7 @@ def airp_26
    :icao=>"CYBF",
    :city=>"Bonnyville",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Bonnyville, Alberta, Canada"},
  "YBR"=>
   {:iata=>"YBR",
@@ -216,6 +246,7 @@ def airp_26
    :icao=>"CYBR",
    :city=>"Brandon",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Brandon, Manitoba, Canada"},
  "YBT"=>
   {:iata=>"YBT",
@@ -223,6 +254,7 @@ def airp_26
    :icao=>"CYBT",
    :city=>"Brochet",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Brochet, Manitoba, Canada"},
  "YVM"=>
   {:iata=>"YVM",
@@ -230,6 +262,7 @@ def airp_26
    :icao=>"CYVM",
    :city=>"Qikiqtarjuaq",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Qikiqtarjuaq, Nunavut, Canada"},
  "YPZ"=>
   {:iata=>"YPZ",
@@ -237,6 +270,7 @@ def airp_26
    :icao=>"CYPZ",
    :city=>"Burns Lake",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Burns Lake, British Columbia, Canada"},
  "YCB"=>
   {:iata=>"YCB",
@@ -244,6 +278,7 @@ def airp_26
    :icao=>"CYCB",
    :city=>"Cambridge Bay",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Cambridge Bay, Nunavut, Canada"},
  "YBL"=>
   {:iata=>"YBL",
@@ -251,6 +286,7 @@ def airp_26
    :icao=>"CYBL",
    :city=>"Campbell River",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Campbell River, British Columbia, Canada"},
  "YHH"=>
   {:iata=>"YHH",
@@ -258,6 +294,7 @@ def airp_26
    :icao=>"",
    :city=>"Campbell River",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Campbell River, British Columbia, Canada"},
  "YTE"=>
   {:iata=>"YTE",
@@ -265,6 +302,7 @@ def airp_26
    :icao=>"CYTE",
    :city=>"Cape Dorset",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Cape Dorset, Nunavut, Canada"},
  "YRF"=>
   {:iata=>"YRF",
@@ -272,6 +310,7 @@ def airp_26
    :icao=>"CYCA",
    :city=>"Cartwright",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Cartwright, Newfoundland and Labrador, Canada"},
  "YCG"=>
   {:iata=>"YCG",
@@ -279,6 +318,7 @@ def airp_26
    :icao=>"CYCG",
    :city=>"Castlegar",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Castlegar, British Columbia, Canada"},
  "YAC"=>
   {:iata=>"YAC",
@@ -286,6 +326,7 @@ def airp_26
    :icao=>"CYAC",
    :city=>"Cat Lake",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Cat Lake, Ontario, Canada"},
  "YCL"=>
   {:iata=>"YCL",
@@ -293,6 +334,7 @@ def airp_26
    :icao=>"CYCL",
    :city=>"Charlo",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Charlo, New Brunswick, Canada"},
  "YHG"=>
   {:iata=>"YHG",
@@ -300,6 +342,7 @@ def airp_26
    :icao=>"",
    :city=>"Charlottetown",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Charlottetown, Newfoundland and Labrador, Canada"},
  "YYG"=>
   {:iata=>"YYG",
@@ -307,6 +350,7 @@ def airp_26
    :icao=>"CYYG",
    :city=>"Charlottetown",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Charlottetown, Prince Edward Island, Canada"},
  "YCS"=>
   {:iata=>"YCS",
@@ -314,6 +358,7 @@ def airp_26
    :icao=>"CYCS",
    :city=>"Chesterfield Inlet",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Chesterfield Inlet, Nunavut, Canada"},
  "YCQ"=>
   {:iata=>"YCQ",
@@ -321,6 +366,7 @@ def airp_26
    :icao=>"CYCQ",
    :city=>"Chetwynd",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Chetwynd, British Columbia, Canada"},
  "YHR"=>
   {:iata=>"YHR",
@@ -328,6 +374,7 @@ def airp_26
    :icao=>"CYHR",
    :city=>"Chevery",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Chevery, Quebec, Canada"},
  "YMT"=>
   {:iata=>"YMT",
@@ -335,6 +382,7 @@ def airp_26
    :icao=>"CYMT",
    :city=>"Chibougamau",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Chibougamau, Quebec, Canada"},
  "YKU"=>
   {:iata=>"YKU",
@@ -342,6 +390,7 @@ def airp_26
    :icao=>"",
    :city=>"Chisasibi",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Chisasibi, Quebec, Canada"},
  "YYQ"=>
   {:iata=>"YYQ",
@@ -349,6 +398,7 @@ def airp_26
    :icao=>"CYYQ",
    :city=>"Churchill",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Churchill, Manitoba, Canada"},
  "YCY"=>
   {:iata=>"YCY",
@@ -356,6 +406,7 @@ def airp_26
    :icao=>"CYCY",
    :city=>"Clyde River",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Clyde River, Nunavut, Canada"},
  "YCN"=>
   {:iata=>"YCN",
@@ -363,6 +414,7 @@ def airp_26
    :icao=>"CYCN",
    :city=>"Cochrane",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Cochrane, Ontario, Canada"},
  "YOD"=>
   {:iata=>"YOD",
@@ -370,6 +422,7 @@ def airp_26
    :icao=>"CYOD",
    :city=>"Cold Lake",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Cold Lake, Alberta, Canada"},
  "YKC"=>
   {:iata=>"YKC",
@@ -377,6 +430,7 @@ def airp_26
    :icao=>"CYKC",
    :city=>"Collins Bay",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Collins Bay, Saskatchewan, Canada"},
  "YCK"=>
   {:iata=>"YCK",
@@ -384,6 +438,7 @@ def airp_26
    :icao=>"",
    :city=>"Colville Lake",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Colville Lake, Northwest Territories, Canada"},
  "YQQ"=>
   {:iata=>"YQQ",
@@ -391,6 +446,7 @@ def airp_26
    :icao=>"CYQQ",
    :city=>"Comox",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Comox, British Columbia, Canada"},
  "YZS"=>
   {:iata=>"YZS",
@@ -398,6 +454,7 @@ def airp_26
    :icao=>"CYZS",
    :city=>"Coral Harbour",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Coral Harbour, Nunavut, Canada"},
  "YCC"=>
   {:iata=>"YCC",
@@ -405,6 +462,7 @@ def airp_26
    :icao=>"CYCC",
    :city=>"Cornwall",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Cornwall, Ontario, Canada"},
  "YCF"=>
   {:iata=>"YCF",
@@ -412,6 +470,7 @@ def airp_26
    :icao=>"",
    :city=>"Cortes Island",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Cortes Island, British Columbia, Canada"},
  "YCA"=>
   {:iata=>"YCA",
@@ -419,6 +478,7 @@ def airp_26
    :icao=>"",
    :city=>"Courtenay",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Courtenay, British Columbia, Canada"},
  "YXC"=>
   {:iata=>"YXC",
@@ -426,6 +486,7 @@ def airp_26
    :icao=>"CYXC",
    :city=>"Cranbrook",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Cranbrook, British Columbia, Canada"},
  "YCR"=>
   {:iata=>"YCR",
@@ -433,6 +494,7 @@ def airp_26
    :icao=>"CYCR",
    :city=>"Cross Lake",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Cross Lake, Manitoba, Canada"},
  "YDN"=>
   {:iata=>"YDN",
@@ -440,6 +502,7 @@ def airp_26
    :icao=>"CYDN",
    :city=>"Dauphin",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Dauphin, Manitoba, Canada"},
  "YDA"=>
   {:iata=>"YDA",
@@ -447,6 +510,7 @@ def airp_26
    :icao=>"CYDA",
    :city=>"Dawson City",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Dawson City, Yukon, Canada"},
  "YDQ"=>
   {:iata=>"YDQ",
@@ -454,6 +518,7 @@ def airp_26
    :icao=>"CYDQ",
    :city=>"Dawson Creek",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Dawson Creek, British Columbia, Canada"},
  "YDF"=>
   {:iata=>"YDF",
@@ -461,6 +526,7 @@ def airp_26
    :icao=>"CYDF",
    :city=>"Deer Lake",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Deer Lake, Newfoundland and Labrador, Canada"},
  "YVZ"=>
   {:iata=>"YVZ",
@@ -468,6 +534,7 @@ def airp_26
    :icao=>"CYVZ",
    :city=>"Deer Lake",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Deer Lake, Ontario, Canada"},
  "YWJ"=>
   {:iata=>"YWJ",
@@ -475,6 +542,7 @@ def airp_26
    :icao=>"CYWJ",
    :city=>"Deline",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Deline, Northwest Territories, Canada"},
  "YDS"=>
   {:iata=>"YDS",
@@ -482,6 +550,7 @@ def airp_26
    :icao=>"",
    :city=>"Desolation Sound",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Desolation Sound, British Columbia, Canada"},
  "YHD"=>
   {:iata=>"YHD",
@@ -489,6 +558,7 @@ def airp_26
    :icao=>"CYHD",
    :city=>"Dryden",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Dryden, Ontario, Canada"},
  "YXD"=>
   {:iata=>"YXD",
@@ -496,6 +566,7 @@ def airp_26
    :city=>"Edmonton",
    :icao=>"CYXD",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Edmonton, Canada"},
  "YOA"=>
   {:iata=>"YOA",
@@ -503,6 +574,7 @@ def airp_26
    :city=>"Ekati",
    :icao=>"CYOA",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Ekati, Canada"},
  "YEN"=>
   {:iata=>"YEN",
@@ -510,6 +582,7 @@ def airp_26
    :icao=>"CYEN",
    :city=>"Estevan",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Estevan, Saskatchewan, Canada"},
  "YFO"=>
   {:iata=>"YFO",
@@ -517,6 +590,7 @@ def airp_26
    :icao=>"CYFO",
    :city=>"Flin Flon",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Flin Flon, Manitoba, Canada"},
  "YFA"=>
   {:iata=>"YFA",
@@ -524,6 +598,7 @@ def airp_26
    :icao=>"CYFA",
    :city=>"Fort Albany",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Fort Albany, Ontario, Canada"},
  "YPY"=>
   {:iata=>"YPY",
@@ -531,6 +606,7 @@ def airp_26
    :icao=>"CYPY",
    :city=>"Fort Chipewyan",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Fort Chipewyan, Alberta, Canada"},
  "YAG"=>
   {:iata=>"YAG",
@@ -538,6 +614,7 @@ def airp_26
    :icao=>"CYAG",
    :city=>"Fort Frances",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Fort Frances, Ontario, Canada"},
  "YGH"=>
   {:iata=>"YGH",
@@ -545,6 +622,7 @@ def airp_26
    :icao=>"CYGH",
    :city=>"Fort Good Hope",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Fort Good Hope, Northwest Territories, Canada"},
  "YFH"=>
   {:iata=>"YFH",
@@ -552,6 +630,7 @@ def airp_26
    :icao=>"CYFH",
    :city=>"Fort Hope",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Fort Hope, Ontario, Canada"},
  "YMM"=>
   {:iata=>"YMM",
@@ -559,6 +638,7 @@ def airp_26
    :icao=>"CYMM",
    :city=>"Fort McMurray",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Fort McMurray, Alberta, Canada"},
  "YYE"=>
   {:iata=>"YYE",
@@ -566,6 +646,7 @@ def airp_26
    :icao=>"CYYE",
    :city=>"Fort Nelson",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Fort Nelson, British Columbia, Canada"},
  "YER"=>
   {:iata=>"YER",
@@ -573,6 +654,7 @@ def airp_26
    :icao=>"CYER",
    :city=>"Fort Severn",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Fort Severn, Ontario, Canada"},
  "YFS"=>
   {:iata=>"YFS",
@@ -580,6 +662,7 @@ def airp_26
    :icao=>"CYFS",
    :city=>"Fort Simpson",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Fort Simpson, Northwest Territories, Canada"},
  "YSM"=>
   {:iata=>"YSM",
@@ -587,6 +670,7 @@ def airp_26
    :icao=>"CYSM",
    :city=>"Fort Smith",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Fort Smith, Northwest Territories, Canada"},
  "YXJ"=>
   {:iata=>"YXJ",
@@ -594,6 +678,7 @@ def airp_26
    :icao=>"CYXJ",
    :city=>"Fort St. John",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Fort St. John, British Columbia, Canada"},
  "YFX"=>
   {:iata=>"YFX",
@@ -601,6 +686,7 @@ def airp_26
    :icao=>"",
    :city=>"St. Lewis",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"St. Lewis, Newfoundland and Labrador, Canada"},
  "YFC"=>
   {:iata=>"YFC",
@@ -608,6 +694,7 @@ def airp_26
    :icao=>"CYFC",
    :city=>"Fredericton",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Fredericton, New Brunswick, Canada"},
  "YQX"=>
   {:iata=>"YQX",
@@ -615,6 +702,7 @@ def airp_26
    :icao=>"CYQX",
    :city=>"Gander",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Gander, Newfoundland, Canada"},
  "YGG"=>
   {:iata=>"YGG",
@@ -622,6 +710,7 @@ def airp_26
    :icao=>"",
    :city=>"Ganges",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Ganges, British Columbia, Canada"},
  "YGP"=>
   {:iata=>"YGP",
@@ -629,6 +718,7 @@ def airp_26
    :icao=>"CYGP",
    :city=>"Gaspé",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Gaspé, Quebec, Canada"},
  "YND"=>
   {:iata=>"YND",
@@ -636,6 +726,7 @@ def airp_26
    :icao=>"CYND",
    :city=>"Gatineau",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Gatineau, Quebec, Canada"},
  "YGQ"=>
   {:iata=>"YGQ",
@@ -643,6 +734,7 @@ def airp_26
    :icao=>"CYGQ",
    :city=>"Geraldton",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Geraldton, Ontario, Canada"},
  "YGX"=>
   {:iata=>"YGX",
@@ -650,6 +742,7 @@ def airp_26
    :icao=>"CYGX",
    :city=>"Gillam",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Gillam, Manitoba, Canada"},
  "YGB"=>
   {:iata=>"YGB",
@@ -657,6 +750,7 @@ def airp_26
    :icao=>"CYGB",
    :city=>"Texada Island",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Texada Island, British Columbia, Canada"},
  "YHK"=>
   {:iata=>"YHK",
@@ -664,6 +758,7 @@ def airp_26
    :icao=>"CYHK",
    :city=>"Gjoa Haven",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Gjoa Haven, Nunavut, Canada"},
  "YGO"=>
   {:iata=>"YGO",
@@ -671,6 +766,7 @@ def airp_26
    :icao=>"CYGO",
    :city=>"Gods Lake Narrows",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Gods Lake Narrows, Manitoba, Canada"},
  "YYR"=>
   {:iata=>"YYR",
@@ -678,6 +774,7 @@ def airp_26
    :icao=>"CYYR",
    :city=>"Goose Bay",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Goose Bay, Labrador, Canada"},
  "YGE"=>
   {:iata=>"YGE",
@@ -685,6 +782,7 @@ def airp_26
    :icao=>"",
    :city=>"Gorge Harbour",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Gorge Harbour, British Columbia, Canada"},
  "YQU"=>
   {:iata=>"YQU",
@@ -692,6 +790,7 @@ def airp_26
    :icao=>"CYQU",
    :city=>"Grande Prairie",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Grande Prairie, Alberta, Canada"},
  "YGN"=>
   {:iata=>"YGN",
@@ -699,6 +798,7 @@ def airp_26
    :icao=>"",
    :city=>"Greenway Sound",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Greenway Sound, British Columbia, Canada"},
  "YGZ"=>
   {:iata=>"YGZ",
@@ -706,6 +806,7 @@ def airp_26
    :icao=>"CYGZ",
    :city=>"Grise Fiord",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Grise Fiord, Nunavut, Canada"},
  "YHC"=>
   {:iata=>"YHC",
@@ -713,6 +814,7 @@ def airp_26
    :icao=>"",
    :city=>"Hakai Pass",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Hakai Pass, British Columbia, Canada"},
  "YUX"=>
   {:iata=>"YUX",
@@ -720,6 +822,7 @@ def airp_26
    :icao=>"CYUX",
    :city=>"Hall Beach",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Hall Beach, Nunavut, Canada"},
  "YHM"=>
   {:iata=>"YHM",
@@ -727,6 +830,7 @@ def airp_26
    :icao=>"CYHM",
    :city=>"Hamilton",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Hamilton, Ontario, Canada"},
  "YGV"=>
   {:iata=>"YGV",
@@ -734,6 +838,7 @@ def airp_26
    :icao=>"CYGV",
    :city=>"Havre-Saint-Pierre",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Havre-Saint-Pierre, Quebec, Canada"},
  "YHY"=>
   {:iata=>"YHY",
@@ -741,6 +846,7 @@ def airp_26
    :icao=>"CYHY",
    :city=>"Hay River",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Hay River, Northwest Territories, Canada"},
  "YOJ"=>
   {:iata=>"YOJ",
@@ -748,6 +854,7 @@ def airp_26
    :icao=>"CYOJ",
    :city=>"High Level",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"High Level, Alberta, Canada"},
  "YHI"=>
   {:iata=>"YHI",
@@ -755,6 +862,7 @@ def airp_26
    :icao=>"CYHI",
    :city=>"Ulukhaktok",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Ulukhaktok, Northwest Territories, Canada"},
  "YHO"=>
   {:iata=>"YHO",
@@ -762,6 +870,7 @@ def airp_26
    :icao=>"CYHO",
    :city=>"Hopedale",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Hopedale, Labrador, Canada"},
  "YHB"=>
   {:iata=>"YHB",
@@ -769,6 +878,7 @@ def airp_26
    :icao=>"CYHB",
    :city=>"Hudson Bay",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Hudson Bay, Saskatchewan, Canada"},
  "YGT"=>
   {:iata=>"YGT",
@@ -776,6 +886,7 @@ def airp_26
    :icao=>"CYGT",
    :city=>"Igloolik",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Igloolik, Nunavut, Canada"},
  "YGR"=>
   {:iata=>"YGR",
@@ -783,6 +894,7 @@ def airp_26
    :icao=>"CYGR",
    :city=>"Les Îles-de-la-Madeleine",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Les Îles-de-la-Madeleine, Quebec, Canada"},
  "YPH"=>
   {:iata=>"YPH",
@@ -790,6 +902,7 @@ def airp_26
    :icao=>"CYPH",
    :city=>"Inukjuak",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Inukjuak, Quebec, Canada"},
  "YEV"=>
   {:iata=>"YEV",
@@ -797,6 +910,7 @@ def airp_26
    :icao=>"CYEV",
    :city=>"Inuvik",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Inuvik, Northwest Territories, Canada"},
  "YFB"=>
   {:iata=>"YFB",
@@ -804,6 +918,7 @@ def airp_26
    :icao=>"CYFB",
    :city=>"Iqaluit",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Iqaluit, Nunavut, Canada"},
  "YIV"=>
   {:iata=>"YIV",
@@ -811,6 +926,7 @@ def airp_26
    :icao=>"CYIV",
    :city=>"Island Lake",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Island Lake, Manitoba, Canada"},
  "YIK"=>
   {:iata=>"YIK",
@@ -818,6 +934,7 @@ def airp_26
    :icao=>"CYIK",
    :city=>"Ivujivik",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Ivujivik, Québec, Canada"},
  "YJA"=>
   {:iata=>"YJA",
@@ -825,6 +942,7 @@ def airp_26
    :icao=>"CYJA",
    :city=>"Jasper",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Jasper, Alberta, Canada"},
  "YKA"=>
   {:iata=>"YKA",
@@ -832,6 +950,7 @@ def airp_26
    :icao=>"CYKA",
    :city=>"Kamloops",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Kamloops, British Columbia, Canada"},
  "YWB"=>
   {:iata=>"YWB",
@@ -839,6 +958,7 @@ def airp_26
    :icao=>"CYKG",
    :city=>"Kangiqsujuaq",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Kangiqsujuaq, Quebec, Canada"},
  "YKG"=>
   {:iata=>"YKG",
@@ -846,6 +966,7 @@ def airp_26
    :icao=>"CYAS",
    :city=>"Kangirsuk",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Kangirsuk, Quebec, Canada"},
  "YYU"=>
   {:iata=>"YYU",
@@ -853,6 +974,7 @@ def airp_26
    :icao=>"CYYU",
    :city=>"Kapuskasing",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Kapuskasing, Ontario, Canada"},
  "YLW"=>
   {:iata=>"YLW",
@@ -860,6 +982,7 @@ def airp_26
    :icao=>"CYLW",
    :city=>"Kelowna",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Kelowna, British Columbia, Canada"},
  "YQK"=>
   {:iata=>"YQK",
@@ -867,6 +990,7 @@ def airp_26
    :icao=>"CYQK",
    :city=>"Kenora",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Kenora, Ontario, Canada"},
  "YKJ"=>
   {:iata=>"YKJ",
@@ -874,6 +998,7 @@ def airp_26
    :city=>"Key Lake",
    :icao=>"CYKJ",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Key Lake, Canada"},
  "YLC"=>
   {:iata=>"YLC",
@@ -881,6 +1006,7 @@ def airp_26
    :icao=>"CYLC",
    :city=>"Kimmirut",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Kimmirut, Nunavut, Canada"},
  "YKY"=>
   {:iata=>"YKY",
@@ -888,6 +1014,7 @@ def airp_26
    :icao=>"CYKY",
    :city=>"Kindersley",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Kindersley, Saskatchewan, Canada"},
  "YGK"=>
   {:iata=>"YGK",
@@ -895,6 +1022,7 @@ def airp_26
    :icao=>"CYGK",
    :city=>"Kingston",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Kingston, Ontario, Canada"},
  "YKF"=>
   {:iata=>"YKF",
@@ -902,6 +1030,7 @@ def airp_26
    :icao=>"CYKF",
    :city=>"Waterloo Regional Municipality",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Waterloo Regional Municipality, Ontario, Canada"},
  "YKT"=>
   {:iata=>"YKT",
@@ -909,6 +1038,7 @@ def airp_26
    :icao=>"",
    :city=>"Klemtu",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Klemtu, British Columbia, Canada"},
  "YCO"=>
   {:iata=>"YCO",
@@ -916,6 +1046,7 @@ def airp_26
    :icao=>"CYCO",
    :city=>"Kugluktuk",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Kugluktuk, Nunavut, Canada"},
  "YVP"=>
   {:iata=>"YVP",
@@ -923,6 +1054,7 @@ def airp_26
    :icao=>"CYVP",
    :city=>"Kuujjuaq",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Kuujjuaq, Quebec, Canada"},
  "YGW"=>
   {:iata=>"YGW",
@@ -930,6 +1062,7 @@ def airp_26
    :icao=>"CYGW",
    :city=>"Kuujjuarapik",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Kuujjuarapik, Quebec, Canada"},
  "YBG"=>
   {:iata=>"YBG",
@@ -937,6 +1070,7 @@ def airp_26
    :icao=>"CYBG",
    :city=>"Bagotville",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Bagotville, Quebec, Canada"},
  "YGL"=>
   {:iata=>"YGL",
@@ -944,6 +1078,7 @@ def airp_26
    :icao=>"CYGL",
    :city=>"Radisson",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Radisson, Quebec, Canada"},
  "YAR"=>
   {:iata=>"YAR",
@@ -951,6 +1086,7 @@ def airp_26
    :icao=>"CYAD",
    :city=>"Northern Quebec",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Northern Quebec, Canada"},
  "YAH"=>
   {:iata=>"YAH",
@@ -958,6 +1094,7 @@ def airp_26
    :icao=>"CYAH",
    :city=>"Northern Quebec",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Northern Quebec, Canada"},
  "YTM"=>
   {:iata=>"YTM",
@@ -965,6 +1102,7 @@ def airp_26
    :icao=>"CYFJ",
    :city=>"Mont-Tremblant (La Macaza)",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Mont-Tremblant (La Macaza), Quebec, Canada"},
  "YVC"=>
   {:iata=>"YVC",
@@ -972,6 +1110,7 @@ def airp_26
    :icao=>"CYVC",
    :city=>"La Ronge",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"La Ronge, Saskatchewan, Canada"},
  "YLH"=>
   {:iata=>"YLH",
@@ -979,6 +1118,7 @@ def airp_26
    :icao=>"CYLH",
    :city=>"Lansdowne House",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Lansdowne House, Ontario, Canada"},
  "YQL"=>
   {:iata=>"YQL",
@@ -986,6 +1126,7 @@ def airp_26
    :icao=>"CYQL",
    :city=>"Lethbridge",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Lethbridge, Alberta, Canada"},
  "YLL"=>
   {:iata=>"YLL",
@@ -993,6 +1134,7 @@ def airp_26
    :icao=>"CYLL",
    :city=>"Lloydminster",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Lloydminster, Alberta/Saskatchewan, Canada"},
  "YXU"=>
   {:iata=>"YXU",
@@ -1000,6 +1142,7 @@ def airp_26
    :icao=>"CYXU",
    :city=>"London",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"London, Ontario, Canada"},
  "YSG"=>
   {:iata=>"YSG",
@@ -1007,6 +1150,7 @@ def airp_26
    :icao=>"",
    :city=>"Lutselke (formerly Snowdrift)",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Lutselke (formerly Snowdrift), Northwest Territories, Canada"},
  "YAJ"=>
   {:iata=>"YAJ",
@@ -1014,6 +1158,7 @@ def airp_26
    :icao=>"",
    :city=>"Lyall Harbour",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Lyall Harbour, British Columbia, Canada"},
  "YYL"=>
   {:iata=>"YYL",
@@ -1021,6 +1166,7 @@ def airp_26
    :icao=>"CYYL",
    :city=>"Lynn Lake",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Lynn Lake, Manitoba, Canada"},
  "YMN"=>
   {:iata=>"YMN",
@@ -1028,6 +1174,7 @@ def airp_26
    :icao=>"CYFT",
    :city=>"Makkovik",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Makkovik, Newfoundland and Labrador, Canada"},
  "YMU"=>
   {:iata=>"YMU",
@@ -1035,6 +1182,7 @@ def airp_26
    :city=>"Mansons Landing",
    :icao=>"",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Mansons Landing, Canada"},
  "YMH"=>
   {:iata=>"YMH",
@@ -1042,6 +1190,7 @@ def airp_26
    :icao=>"CYMH",
    :city=>"Mary's Harbour",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Mary's Harbour, Labrador, Canada"},
  "YLJ"=>
   {:iata=>"YLJ",
@@ -1049,6 +1198,7 @@ def airp_26
    :icao=>"CYLJ",
    :city=>"Meadow Lake",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Meadow Lake, Saskatchewan, Canada"},
  "YXH"=>
   {:iata=>"YXH",
@@ -1056,6 +1206,7 @@ def airp_26
    :icao=>"CYXH",
    :city=>"Medicine Hat",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Medicine Hat, Alberta, Canada"},
  "YAV"=>
   {:iata=>"YAV",
@@ -1063,6 +1214,7 @@ def airp_26
    :icao=>"",
    :city=>"Miner's Bay",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Miner's Bay, British Columbia, Canada"},
  "YCH"=>
   {:iata=>"YCH",
@@ -1070,6 +1222,7 @@ def airp_26
    :icao=>"CYCH",
    :city=>"Miramichi",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Miramichi, New Brunswick, Canada"},
  "YQM"=>
   {:iata=>"YQM",
@@ -1077,6 +1230,7 @@ def airp_26
    :icao=>"CYQM",
    :city=>"Moncton",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Moncton, New Brunswick, Canada"},
  "YYY"=>
   {:iata=>"YYY",
@@ -1084,6 +1238,7 @@ def airp_26
    :icao=>"CYYY",
    :city=>"Mont-Joli",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Mont-Joli, Quebec, Canada"},
  "YMF"=>
   {:iata=>"YMF",
@@ -1091,6 +1246,7 @@ def airp_26
    :icao=>"",
    :city=>"Montague Harbour",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Montague Harbour, British Columbia, Canada"},
  "YHU"=>
   {:iata=>"YHU",
@@ -1098,6 +1254,7 @@ def airp_26
    :icao=>"CYHU",
    :city=>"Saint-Hubert",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Saint-Hubert, Longueuil (near Montreal), Quebec, Canada"},
  "YMX"=>
   {:iata=>"YMX",
@@ -1105,6 +1262,7 @@ def airp_26
    :icao=>"CYMX",
    :city=>"Mirabel (near Montreal)",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Mirabel (near Montreal), Quebec, Canada"},
  "YMO"=>
   {:iata=>"YMO",
@@ -1112,6 +1270,7 @@ def airp_26
    :icao=>"CYMO",
    :city=>"Moosonee",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Moosonee, Ontario, Canada"},
  "YDP"=>
   {:iata=>"YDP",
@@ -1119,6 +1278,7 @@ def airp_26
    :icao=>"CYDP",
    :city=>"Nain",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Nain, Newfoundland and Labrador, Canada"},
  "YQN"=>
   {:iata=>"YQN",
@@ -1126,6 +1286,7 @@ def airp_26
    :icao=>"CYQN",
    :city=>"Nakina",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Nakina, Ontario, Canada"},
  "YCD"=>
   {:iata=>"YCD",
@@ -1133,6 +1294,7 @@ def airp_26
    :icao=>"CYCD",
    :city=>"Nanaimo",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Nanaimo, British Columbia, Canada"},
  "YSR"=>
   {:iata=>"YSR",
@@ -1140,6 +1302,7 @@ def airp_26
    :icao=>"CYSR",
    :city=>"Nanisivik",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Nanisivik, Nunavut, Canada"},
  "YNA"=>
   {:iata=>"YNA",
@@ -1147,6 +1310,7 @@ def airp_26
    :icao=>"CYNA",
    :city=>"Natashquan",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Natashquan, Quebec, Canada"},
  "YNP"=>
   {:iata=>"YNP",
@@ -1154,6 +1318,7 @@ def airp_26
    :city=>"Natuashish",
    :icao=>"",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Natuashish, Canada"},
  "YNS"=>
   {:iata=>"YNS",
@@ -1161,6 +1326,7 @@ def airp_26
    :icao=>"CYHH",
    :city=>"Nemiscau",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Nemiscau, Quebec, Canada"},
  "YVQ"=>
   {:iata=>"YVQ",
@@ -1168,6 +1334,7 @@ def airp_26
    :icao=>"CYVQ",
    :city=>"Norman Wells",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Norman Wells, Northwest Territories, Canada"},
  "YQW"=>
   {:iata=>"YQW",
@@ -1175,6 +1342,7 @@ def airp_26
    :icao=>"CYQW",
    :city=>"North Battleford",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"North Battleford, Saskatchewan, Canada"},
  "YYB"=>
   {:iata=>"YYB",
@@ -1182,6 +1350,7 @@ def airp_26
    :icao=>"CYYB",
    :city=>"North Bay",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"North Bay, Ontario, Canada"},
  "YNO"=>
   {:iata=>"YNO",
@@ -1189,6 +1358,7 @@ def airp_26
    :icao=>"",
    :city=>"North Spirit Lake",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"North Spirit Lake, Ontario, Canada"},
  "YNE"=>
   {:iata=>"YNE",
@@ -1196,6 +1366,7 @@ def airp_26
    :icao=>"CYNE",
    :city=>"Norway House",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Norway House, Manitoba, Canada"},
  "YOG"=>
   {:iata=>"YOG",
@@ -1203,6 +1374,7 @@ def airp_26
    :icao=>"",
    :city=>"Ogoki Post",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Ogoki Post, Ontario, Canada"},
  "YOC"=>
   {:iata=>"YOC",
@@ -1210,6 +1382,7 @@ def airp_26
    :icao=>"CYOC",
    :city=>"Old Crow",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Old Crow, Yukon, Canada"},
  "YOO"=>
   {:iata=>"YOO",
@@ -1217,6 +1390,7 @@ def airp_26
    :icao=>"CYOO",
    :city=>"Oshawa",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Oshawa, Ontario, Canada"},
  "YOH"=>
   {:iata=>"YOH",
@@ -1224,6 +1398,7 @@ def airp_26
    :icao=>"CYOH",
    :city=>"Oxford House",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Oxford House, Manitoba, Canada"},
  "YIF"=>
   {:iata=>"YIF",
@@ -1231,6 +1406,7 @@ def airp_26
    :icao=>"CYIF",
    :city=>"Saint-Augustin",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Saint-Augustin, Quebec, Canada"},
  "YXP"=>
   {:iata=>"YXP",
@@ -1238,6 +1414,7 @@ def airp_26
    :icao=>"CYXP",
    :city=>"Pangnirtung",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Pangnirtung, Nunavut, Canada"},
  "YPD"=>
   {:iata=>"YPD",
@@ -1245,6 +1422,7 @@ def airp_26
    :icao=>"",
    :city=>"Parry Sound",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Parry Sound, Ontario, Canada"},
  "YPC"=>
   {:iata=>"YPC",
@@ -1252,6 +1430,7 @@ def airp_26
    :icao=>"CYPC",
    :city=>"Paulatuk",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Paulatuk, Northwest Territories, Canada"},
  "YPE"=>
   {:iata=>"YPE",
@@ -1259,6 +1438,7 @@ def airp_26
    :icao=>"CYPE",
    :city=>"Peace River",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Peace River, Alberta, Canada"},
  "YPO"=>
   {:iata=>"YPO",
@@ -1266,6 +1446,7 @@ def airp_26
    :icao=>"CYPO",
    :city=>"Peawanuck",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Peawanuck, Ontario, Canada"},
  "YBB"=>
   {:iata=>"YBB",
@@ -1273,6 +1454,7 @@ def airp_26
    :icao=>"CYBB",
    :city=>"Kugaaruk",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Kugaaruk, Nunavut, Canada"},
  "YPT"=>
   {:iata=>"YPT",
@@ -1280,6 +1462,7 @@ def airp_26
    :icao=>"",
    :city=>"Pender Harbour",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Pender Harbour, British Columbia, Canada"},
  "YYF"=>
   {:iata=>"YYF",
@@ -1287,6 +1470,7 @@ def airp_26
    :icao=>"CYYF",
    :city=>"Penticton",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Penticton, British Columbia, Canada"},
  "YPL"=>
   {:iata=>"YPL",
@@ -1294,6 +1478,7 @@ def airp_26
    :icao=>"CYPL",
    :city=>"Pickle Lake",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Pickle Lake, Ontario, Canada"},
  "YPM"=>
   {:iata=>"YPM",
@@ -1301,6 +1486,7 @@ def airp_26
    :icao=>"CYPM",
    :city=>"Pikangikum",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Pikangikum, Ontario, Canada"},
  "YNL"=>
   {:iata=>"YNL",
@@ -1308,6 +1494,7 @@ def airp_26
    :icao=>"CYNL",
    :city=>"Points North Landing",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Points North Landing, Saskatchewan, Canada"},
  "YIO"=>
   {:iata=>"YIO",
@@ -1315,6 +1502,7 @@ def airp_26
    :icao=>"CYIO",
    :city=>"Pond Inlet",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Pond Inlet, Nunavut, Canada"},
  "YHP"=>
   {:iata=>"YHP",
@@ -1322,6 +1510,7 @@ def airp_26
    :icao=>"CYHP",
    :city=>"Poplar Hill",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Poplar Hill, Ontario, Canada"},
  "YPB"=>
   {:iata=>"YPB",
@@ -1329,6 +1518,7 @@ def airp_26
    :icao=>"",
    :city=>"Port Alberni",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Port Alberni, British Columbia, Canada"},
  "YZT"=>
   {:iata=>"YZT",
@@ -1336,6 +1526,7 @@ def airp_26
    :icao=>"CYZT",
    :city=>"Port Hardy",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Port Hardy, British Columbia, Canada"},
  "YHA"=>
   {:iata=>"YHA",
@@ -1343,6 +1534,7 @@ def airp_26
    :icao=>"",
    :city=>"Port Hope Simpson",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Port Hope Simpson, Newfoundland and Labrador, Canada"},
  "YMP"=>
   {:iata=>"YMP",
@@ -1350,6 +1542,7 @@ def airp_26
    :icao=>"",
    :city=>"Port McNeill",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Port McNeill, British Columbia, Canada"},
  "YPN"=>
   {:iata=>"YPN",
@@ -1357,6 +1550,7 @@ def airp_26
    :icao=>"CYPN",
    :city=>"Port-Menier",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Port-Menier, Quebec, Canada"},
  "YSO"=>
   {:iata=>"YSO",
@@ -1364,6 +1558,7 @@ def airp_26
    :icao=>"",
    :city=>"Postville",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Postville, Newfoundland and Labrador, Canada"},
  "YPX"=>
   {:iata=>"YPX",
@@ -1371,6 +1566,7 @@ def airp_26
    :icao=>"CYPX",
    :city=>"Puvirnituq",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Puvirnituq, Quebec, Canada"},
  "YPW"=>
   {:iata=>"YPW",
@@ -1378,6 +1574,7 @@ def airp_26
    :icao=>"CYPW",
    :city=>"Powell River",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Powell River, British Columbia, Canada"},
  "YPA"=>
   {:iata=>"YPA",
@@ -1385,6 +1582,7 @@ def airp_26
    :icao=>"CYPA",
    :city=>"Prince Albert",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Prince Albert, Saskatchewan, Canada"},
  "YXS"=>
   {:iata=>"YXS",
@@ -1392,6 +1590,7 @@ def airp_26
    :icao=>"CYXS",
    :city=>"Prince George",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Prince George, British Columbia, Canada"},
  "YPR"=>
   {:iata=>"YPR",
@@ -1399,6 +1598,7 @@ def airp_26
    :icao=>"CYPR",
    :city=>"Prince Rupert",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Prince Rupert, British Columbia, Canada"},
  "YQJ"=>
   {:iata=>"YQJ",
@@ -1406,6 +1606,7 @@ def airp_26
    :city=>"Quadra Island",
    :icao=>"",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Quadra Island, Canada"},
  "YQC"=>
   {:iata=>"YQC",
@@ -1413,6 +1614,7 @@ def airp_26
    :icao=>"CYHA",
    :city=>"Quaqtaq",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Quaqtaq, Quebec, Canada"},
  "YQZ"=>
   {:iata=>"YQZ",
@@ -1420,6 +1622,7 @@ def airp_26
    :icao=>"CYQZ",
    :city=>"Quesnel",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Quesnel, British Columbia, Canada"},
  "YRA"=>
   {:iata=>"YRA",
@@ -1427,6 +1630,7 @@ def airp_26
    :icao=>"CYRA",
    :city=>"Gamèti (formerly Rae Lakes)",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Gamèti (formerly Rae Lakes), Northwest Territories, Canada"},
  "YOP"=>
   {:iata=>"YOP",
@@ -1434,6 +1638,7 @@ def airp_26
    :icao=>"CYOP",
    :city=>"Rainbow Lake",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Rainbow Lake, Alberta, Canada"},
  "YRT"=>
   {:iata=>"YRT",
@@ -1441,6 +1646,7 @@ def airp_26
    :icao=>"CYRT",
    :city=>"Rankin Inlet",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Rankin Inlet, Nunavut, Canada"},
  "YQF"=>
   {:iata=>"YQF",
@@ -1448,6 +1654,7 @@ def airp_26
    :icao=>"CYQF",
    :city=>"Red Deer",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Red Deer, Alberta, Canada"},
  "YRL"=>
   {:iata=>"YRL",
@@ -1455,6 +1662,7 @@ def airp_26
    :icao=>"CYRL",
    :city=>"Red Lake",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Red Lake, Ontario, Canada"},
  "YRS"=>
   {:iata=>"YRS",
@@ -1462,6 +1670,7 @@ def airp_26
    :icao=>"CYRS",
    :city=>"Red Sucker Lake",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Red Sucker Lake, Manitoba, Canada"},
  "YRC"=>
   {:iata=>"YRC",
@@ -1469,6 +1678,7 @@ def airp_26
    :city=>"Refuge Cove",
    :icao=>"",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Refuge Cove, Canada"},
  "YQR"=>
   {:iata=>"YQR",
@@ -1476,6 +1686,7 @@ def airp_26
    :icao=>"CYQR",
    :city=>"Regina",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Regina, Saskatchewan, Canada"},
  "YUT"=>
   {:iata=>"YUT",
@@ -1483,6 +1694,7 @@ def airp_26
    :icao=>"CYUT",
    :city=>"Repulse Bay",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Repulse Bay, Nunavut, Canada"},
  "YRB"=>
   {:iata=>"YRB",
@@ -1490,6 +1702,7 @@ def airp_26
    :icao=>"CYRB",
    :city=>"Resolute",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Resolute, Nunavut, Canada"},
  "YRG"=>
   {:iata=>"YRG",
@@ -1497,6 +1710,7 @@ def airp_26
    :icao=>"",
    :city=>"Rigolet",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Rigolet, Newfoundland and Labrador, Canada"},
  "YXK"=>
   {:iata=>"YXK",
@@ -1504,6 +1718,7 @@ def airp_26
    :icao=>"CYXK",
    :city=>"Rimouski",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Rimouski, Quebec, Canada"},
  "YRJ"=>
   {:iata=>"YRJ",
@@ -1511,6 +1726,7 @@ def airp_26
    :icao=>"CYRJ",
    :city=>"Roberval",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Roberval, Quebec, Canada"},
  "YUY"=>
   {:iata=>"YUY",
@@ -1518,6 +1734,7 @@ def airp_26
    :icao=>"CYUY",
    :city=>"Rouyn-Noranda",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Rouyn-Noranda, Quebec, Canada"},
  "YSY"=>
   {:iata=>"YSY",
@@ -1525,6 +1742,7 @@ def airp_26
    :icao=>"CYSY",
    :city=>"Sachs Harbour",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Sachs Harbour, Northwest Territories, Canada"},
  "YAY"=>
   {:iata=>"YAY",
@@ -1532,6 +1750,7 @@ def airp_26
    :icao=>"CYAY",
    :city=>"St. Anthony",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"St. Anthony, Newfoundland and Labrador, Canada"},
  "YSJ"=>
   {:iata=>"YSJ",
@@ -1539,6 +1758,7 @@ def airp_26
    :icao=>"CYSJ",
    :city=>"Saint John",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Saint John, New Brunswick, Canada"},
  "YZG"=>
   {:iata=>"YZG",
@@ -1546,6 +1766,7 @@ def airp_26
    :icao=>"CYZG",
    :city=>"Salluit",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Salluit, Quebec, Canada"},
  "YZP"=>
   {:iata=>"YZP",
@@ -1553,6 +1774,7 @@ def airp_26
    :icao=>"CYZP",
    :city=>"Sandspit",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Sandspit, British Columbia, Canada"},
  "YSK"=>
   {:iata=>"YSK",
@@ -1560,6 +1782,7 @@ def airp_26
    :icao=>"CYSK",
    :city=>"Sanikiluaq",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Sanikiluaq, Nunavut, Canada"},
  "YZR"=>
   {:iata=>"YZR",
@@ -1567,6 +1790,7 @@ def airp_26
    :icao=>"CYZR",
    :city=>"Sarnia",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Sarnia, Ontario, Canada"},
  "YXE"=>
   {:iata=>"YXE",
@@ -1574,6 +1798,7 @@ def airp_26
    :icao=>"CYXE",
    :city=>"Saskatoon",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Saskatoon, Saskatchewan, Canada"},
  "YAM"=>
   {:iata=>"YAM",
@@ -1581,6 +1806,7 @@ def airp_26
    :icao=>"CYAM",
    :city=>"Sault Ste. Marie",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Sault Ste. Marie, Ontario, Canada"},
  "YKL"=>
   {:iata=>"YKL",
@@ -1588,6 +1814,7 @@ def airp_26
    :icao=>"CYKL",
    :city=>"Schefferville",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Schefferville, Quebec, Canada"},
  "YZV"=>
   {:iata=>"YZV",
@@ -1595,6 +1822,7 @@ def airp_26
    :icao=>"CYZV",
    :city=>"Sept-Îles",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Sept-Îles, Quebec, Canada"},
  "YXL"=>
   {:iata=>"YXL",
@@ -1602,6 +1830,7 @@ def airp_26
    :icao=>"CYXL",
    :city=>"Sioux Lookout",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Sioux Lookout, Ontario, Canada"},
  "YZH"=>
   {:iata=>"YZH",
@@ -1609,6 +1838,7 @@ def airp_26
    :icao=>"CYZH",
    :city=>"Slave Lake",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Slave Lake, Alberta, Canada"},
  "YSH"=>
   {:iata=>"YSH",
@@ -1616,6 +1846,7 @@ def airp_26
    :icao=>"CYSH",
    :city=>"Smiths Falls",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Smiths Falls, Ontario, Canada"},
  "YYD"=>
   {:iata=>"YYD",
@@ -1623,6 +1854,7 @@ def airp_26
    :icao=>"CYYD",
    :city=>"Smithers",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Smithers, British Columbia, Canada"},
  "YFJ"=>
   {:iata=>"YFJ",
@@ -1630,6 +1862,7 @@ def airp_26
    :city=>"Snare Lake",
    :icao=>"CFJ2",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Snare Lake, Canada"},
  "YYT"=>
   {:iata=>"YYT",
@@ -1637,6 +1870,7 @@ def airp_26
    :icao=>"CYYT",
    :city=>"St. John's",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"St. John's, Newfoundland and Labrador, Canada"},
  "YST"=>
   {:iata=>"YST",
@@ -1644,6 +1878,7 @@ def airp_26
    :icao=>"CYST",
    :city=>"St. Theresa Point",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"St. Theresa Point, Manitoba, Canada"},
  "YJT"=>
   {:iata=>"YJT",
@@ -1651,6 +1886,7 @@ def airp_26
    :icao=>"CYJT",
    :city=>"Stephenville",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Stephenville, Newfoundland and Labrador, Canada"},
  "YSF"=>
   {:iata=>"YSF",
@@ -1658,6 +1894,7 @@ def airp_26
    :icao=>"CYSF",
    :city=>"Stony Rapids",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Stony Rapids, Saskatchewan, Canada"},
  "YRR"=>
   {:iata=>"YRR",
@@ -1665,6 +1902,7 @@ def airp_26
    :icao=>"",
    :city=>"Stuart Island",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Stuart Island, British Columbia, Canada"},
  "YSB"=>
   {:iata=>"YSB",
@@ -1672,6 +1910,7 @@ def airp_26
    :icao=>"CYSB",
    :city=>"Greater Sudbury",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Greater Sudbury, Ontario, Canada"},
  "YTG"=>
   {:iata=>"YTG",
@@ -1679,6 +1918,7 @@ def airp_26
    :icao=>"",
    :city=>"Sullivan Bay",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Sullivan Bay, British Columbia, Canada"},
  "YYN"=>
   {:iata=>"YYN",
@@ -1686,6 +1926,7 @@ def airp_26
    :icao=>"CYYN",
    :city=>"Swift Current",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Swift Current, Saskatchewan, Canada"},
  "YQY"=>
   {:iata=>"YQY",
@@ -1693,6 +1934,7 @@ def airp_26
    :icao=>"CYQY",
    :city=>"Sydney",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Sydney, Nova Scotia, Canada"},
  "YYH"=>
   {:iata=>"YYH",
@@ -1700,6 +1942,7 @@ def airp_26
    :icao=>"CYYH",
    :city=>"Taloyoak",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Taloyoak, Nunavut, Canada"},
  "YTQ"=>
   {:iata=>"YTQ",
@@ -1707,6 +1950,7 @@ def airp_26
    :icao=>"CYTQ",
    :city=>"Tasiujaq",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Tasiujaq, Quebec, Canada"},
  "YXT"=>
   {:iata=>"YXT",
@@ -1714,6 +1958,7 @@ def airp_26
    :icao=>"CYXT",
    :city=>"Terrace",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>
     "Terrace, British Columbia and Kitimat, British Columbia, Canada"},
  "YQD"=>
@@ -1722,6 +1967,7 @@ def airp_26
    :icao=>"CYQD",
    :city=>"The Pas",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"The Pas, Manitoba, Canada"},
  "YTD"=>
   {:iata=>"YTD",
@@ -1729,6 +1975,7 @@ def airp_26
    :icao=>"CZLQ",
    :city=>"Thicket Portage",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Thicket Portage, Manitoba, Canada"},
  "YTH"=>
   {:iata=>"YTH",
@@ -1736,6 +1983,7 @@ def airp_26
    :icao=>"CYTH",
    :city=>"Thompson",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Thompson, Manitoba, Canada"},
  "YQT"=>
   {:iata=>"YQT",
@@ -1743,6 +1991,7 @@ def airp_26
    :icao=>"CYQT",
    :city=>"Thunder Bay",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Thunder Bay, Ontario, Canada"},
  "YTS"=>
   {:iata=>"YTS",
@@ -1750,6 +1999,7 @@ def airp_26
    :icao=>"CYTS",
    :city=>"Timmins",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Timmins, Ontario, Canada"},
  "YAZ"=>
   {:iata=>"YAZ",
@@ -1757,6 +2007,7 @@ def airp_26
    :icao=>"CYAZ",
    :city=>"Tofino",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Tofino, British Columbia, Canada"},
  "YKZ"=>
   {:iata=>"YKZ",
@@ -1764,6 +2015,7 @@ def airp_26
    :icao=>"CYKZ",
    :city=>"Buttonville",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Buttonville, Ontario, Canada"},
  "YZZ"=>
   {:iata=>"YZZ",
@@ -1771,6 +2023,7 @@ def airp_26
    :city=>"Trail",
    :icao=>"CAD4",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Trail, Canada"},
  "YRQ"=>
   {:iata=>"YRQ",
@@ -1778,6 +2031,7 @@ def airp_26
    :icao=>"CYRQ",
    :city=>"Trois-Rivières",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Trois-Rivières, Quebec, Canada"},
  "YUB"=>
   {:iata=>"YUB",
@@ -1785,6 +2039,7 @@ def airp_26
    :icao=>"CYUB",
    :city=>"Tuktoyaktuk",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Tuktoyaktuk, Northwest Territories, Canada"},
  "YUD"=>
   {:iata=>"YUD",
@@ -1792,6 +2047,7 @@ def airp_26
    :icao=>"CYMU",
    :city=>"Umiujaq",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Umiujaq, Quebec, Canada"},
  "YVO"=>
   {:iata=>"YVO",
@@ -1799,6 +2055,7 @@ def airp_26
    :icao=>"CYVO",
    :city=>"Val-d'Or",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Val-d'Or, Quebec, Canada"},
  "YWH"=>
   {:iata=>"YWH",
@@ -1806,6 +2063,7 @@ def airp_26
    :icao=>"CYWH",
    :city=>"Victoria",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Victoria, British Columbia, Canada"},
  "YYJ"=>
   {:iata=>"YYJ",
@@ -1813,6 +2071,7 @@ def airp_26
    :icao=>"CYYJ",
    :city=>"Victoria",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Victoria, British Columbia, Canada"},
  "YWK"=>
   {:iata=>"YWK",
@@ -1820,6 +2079,7 @@ def airp_26
    :icao=>"CYWK",
    :city=>"Wabush",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Wabush, Labrador, Canada"},
  "YKQ"=>
   {:iata=>"YKQ",
@@ -1827,6 +2087,7 @@ def airp_26
    :icao=>"CYKQ",
    :city=>"Waskaganish",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Waskaganish, Quebec, Canada"},
  "YWP"=>
   {:iata=>"YWP",
@@ -1834,6 +2095,7 @@ def airp_26
    :icao=>"CYWP",
    :city=>"Webequie",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Webequie, Ontario, Canada"},
  "YNC"=>
   {:iata=>"YNC",
@@ -1841,6 +2103,7 @@ def airp_26
    :icao=>"CYNC",
    :city=>"Wemindji",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Wemindji, Quebec, Canada"},
  "YXN"=>
   {:iata=>"YXN",
@@ -1848,6 +2111,7 @@ def airp_26
    :icao=>"CYXN",
    :city=>"Whale Cove",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Whale Cove, Nunavut, Canada"},
  "YLE"=>
   {:iata=>"YLE",
@@ -1855,6 +2119,7 @@ def airp_26
    :icao=>"CWMT",
    :city=>"Lac La Martre",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Lac La Martre, Northwest Territories, Canada"},
  "YXY"=>
   {:iata=>"YXY",
@@ -1862,6 +2127,7 @@ def airp_26
    :icao=>"CYXY",
    :city=>"Whitehorse",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Whitehorse, Yukon, Canada"},
  "YWM"=>
   {:iata=>"YWM",
@@ -1869,6 +2135,7 @@ def airp_26
    :icao=>"",
    :city=>"Williams Harbour",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Williams Harbour, Newfoundland and Labrador, Canada"},
  "YWL"=>
   {:iata=>"YWL",
@@ -1876,6 +2143,7 @@ def airp_26
    :icao=>"CYWL",
    :city=>"Williams Lake",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Williams Lake, British Columbia, Canada"},
  "YQG"=>
   {:iata=>"YQG",
@@ -1883,6 +2151,7 @@ def airp_26
    :icao=>"CYQG",
    :city=>"Windsor",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Windsor, Ontario, Canada"},
  "YQI"=>
   {:iata=>"YQI",
@@ -1890,6 +2159,7 @@ def airp_26
    :icao=>"CYQI",
    :city=>"Yarmouth",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Yarmouth, Nova Scotia, Canada"},
  "YZF"=>
   {:iata=>"YZF",
@@ -1897,6 +2167,7 @@ def airp_26
    :icao=>"CYZF",
    :city=>"Yellowknife",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Yellowknife, Northwest Territories, Canada"},
  "YQV"=>
   {:iata=>"YQV",
@@ -1904,6 +2175,7 @@ def airp_26
    :icao=>"CYQV",
    :city=>"Yorkton",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Yorkton, Saskatchewan, Canada"},
  "YLT"=>
   {:iata=>"YLT",
@@ -1911,6 +2183,7 @@ def airp_26
    :icao=>"CYLT",
    :city=>"Alert",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Alert, Nunavut, Canada"},
  "YAL"=>
   {:iata=>"YAL",
@@ -1918,6 +2191,7 @@ def airp_26
    :icao=>"CYAL",
    :city=>"British Columbia",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"British Columbia, Canada"},
  "YAE"=>
   {:iata=>"YAE",
@@ -1925,6 +2199,7 @@ def airp_26
    :city=>"Alta Lake",
    :icao=>"",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Alta Lake, Canada"},
  "YNR"=>
   {:iata=>"YNR",
@@ -1932,6 +2207,7 @@ def airp_26
    :icao=>"",
    :city=>"Arnes",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Arnes, Manitoba, Canada"},
  "YAF"=>
   {:iata=>"YAF",
@@ -1939,6 +2215,7 @@ def airp_26
    :city=>"Asbestos Hill",
    :icao=>"",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Asbestos Hill, Canada"},
  "YZA"=>
   {:iata=>"YZA",
@@ -1946,6 +2223,7 @@ def airp_26
    :icao=>"CYZA",
    :city=>"Ashcroft",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Ashcroft, British Columbia, Canada"},
  "YIB"=>
   {:iata=>"YIB",
@@ -1953,6 +2231,7 @@ def airp_26
    :icao=>"CYIB",
    :city=>"Atikokan",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Atikokan, Ontario, Canada"},
  "YBJ"=>
   {:iata=>"YBJ",
@@ -1960,6 +2239,7 @@ def airp_26
    :icao=>"",
    :city=>"Baie-Johan-Beetz",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Baie-Johan-Beetz, Quebec, Canada"},
  "YBA"=>
   {:iata=>"YBA",
@@ -1967,6 +2247,7 @@ def airp_26
    :icao=>"CYBA",
    :city=>"Banff",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Banff, Alberta, Canada"},
  "YZC"=>
   {:iata=>"YZC",
@@ -1974,6 +2255,7 @@ def airp_26
    :icao=>"",
    :city=>"Beatton River",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Beatton River, British Columbia, Canada"},
  "YXQ"=>
   {:iata=>"YXQ",
@@ -1981,6 +2263,7 @@ def airp_26
    :icao=>"CYXQ",
    :city=>"Beaver Creek",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Beaver Creek, Yukon, Canada"},
  "YIG"=>
   {:iata=>"YIG",
@@ -1988,6 +2271,7 @@ def airp_26
    :icao=>"",
    :city=>"Big Bay Marina",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Big Bay Marina, British Columbia, Canada"},
  "YYA"=>
   {:iata=>"YYA",
@@ -1995,6 +2279,7 @@ def airp_26
    :icao=>"",
    :city=>"Big Bay",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Big Bay, British Columbia, Canada"},
  "YDV"=>
   {:iata=>"YDV",
@@ -2002,6 +2287,7 @@ def airp_26
    :icao=>"CZTA",
    :city=>"Bloodvein River",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Bloodvein River, Manitoba, Canada"},
  "YBO"=>
   {:iata=>"YBO",
@@ -2009,6 +2295,7 @@ def airp_26
    :icao=>"",
    :city=>"Bob Quinn Lake",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Bob Quinn Lake, British Columbia, Canada"},
  "YBN"=>
   {:iata=>"YBN",
@@ -2016,6 +2303,7 @@ def airp_26
    :icao=>"CYBN",
    :city=>"Borden",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Borden, Ontario, Canada"},
  "YDR"=>
   {:iata=>"YDR",
@@ -2023,6 +2311,7 @@ def airp_26
    :icao=>"CYDR",
    :city=>"Broadview",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Broadview, Saskatchewan, Canada"},
  "YBM"=>
   {:iata=>"YBM",
@@ -2030,6 +2319,7 @@ def airp_26
    :icao=>"",
    :city=>"Bronson Creek",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Bronson Creek, British Columbia, Canada"},
  "YZM"=>
   {:iata=>"YZM",
@@ -2037,6 +2327,7 @@ def airp_26
    :icao=>"",
    :city=>"Buchans",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Buchans, Newfoundland and Labrador, Canada"},
  "YVT"=>
   {:iata=>"YVT",
@@ -2044,6 +2335,7 @@ def airp_26
    :icao=>"CYVT",
    :city=>"Buffalo Narrows",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Buffalo Narrows, Saskatchewan, Canada"},
  "YBH"=>
   {:iata=>"YBH",
@@ -2051,6 +2343,7 @@ def airp_26
    :icao=>"CYBH",
    :city=>"Bull Harbour",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Bull Harbour, British Columbia, Canada"},
  "YDB"=>
   {:iata=>"YDB",
@@ -2058,6 +2351,7 @@ def airp_26
    :icao=>"CYDB",
    :city=>"Burwash Landing",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Burwash Landing, Yukon, Canada"},
  "YR6"=>
   {:iata=>"YR6",
@@ -2065,6 +2359,7 @@ def airp_26
    :city=>"Campbell River",
    :icao=>"CYR6",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Campbell River, Canada"},
  "YCJ"=>
   {:iata=>"YCJ",
@@ -2072,6 +2367,7 @@ def airp_26
    :city=>"Cape Saint James",
    :icao=>"",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Cape Saint James, Canada"},
  "YCI"=>
   {:iata=>"YCI",
@@ -2079,6 +2375,7 @@ def airp_26
    :icao=>"CWCI",
    :city=>"Caribou Island",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Caribou Island, Ontario, Canada"},
  "YCV"=>
   {:iata=>"YCV",
@@ -2086,6 +2383,7 @@ def airp_26
    :icao=>"CYCV",
    :city=>"Cartierville",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Cartierville, Quebec, Canada"},
  "YCE"=>
   {:iata=>"YCE",
@@ -2093,6 +2391,7 @@ def airp_26
    :icao=>"CYCE",
    :city=>"Centralia",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Centralia, Ontario, Canada"},
  "YLD"=>
   {:iata=>"YLD",
@@ -2100,6 +2399,7 @@ def airp_26
    :icao=>"CYLD",
    :city=>"Chapleau",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Chapleau, Ontario, Canada"},
  "YCW"=>
   {:iata=>"YCW",
@@ -2107,6 +2407,7 @@ def airp_26
    :icao=>"CYCW",
    :city=>"Chilliwack",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Chilliwack, British Columbia, Canada"},
  "YWQ"=>
   {:iata=>"YWQ",
@@ -2114,6 +2415,7 @@ def airp_26
    :city=>"Chute-Des-Passes",
    :icao=>"",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Chute-Des-Passes, Canada"},
  "YLM"=>
   {:iata=>"YLM",
@@ -2121,6 +2423,7 @@ def airp_26
    :city=>"Clinton Creek",
    :icao=>"",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Clinton Creek, Canada"},
  "YCP"=>
   {:iata=>"YCP",
@@ -2128,6 +2431,7 @@ def airp_26
    :icao=>"CYCP",
    :city=>"Blue River (Co-op Point)",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Blue River (Co-op Point), British Columbia, Canada"},
  "YNF"=>
   {:iata=>"YNF",
@@ -2135,6 +2439,7 @@ def airp_26
    :city=>"Corner Brook",
    :icao=>"",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Corner Brook, Canada"},
  "YCT"=>
   {:iata=>"YCT",
@@ -2142,6 +2447,7 @@ def airp_26
    :icao=>"CYCT",
    :city=>"Coronation",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Coronation, Alberta, Canada"},
  "YYM"=>
   {:iata=>"YYM",
@@ -2149,6 +2455,7 @@ def airp_26
    :icao=>"CYYM",
    :city=>"Cowley",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Cowley, Alberta, Canada"},
  "YDH"=>
   {:iata=>"YDH",
@@ -2156,6 +2463,7 @@ def airp_26
    :icao=>"",
    :city=>"Daniel's Harbour",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Daniel's Harbour, Newfoundland and Labrador, Canada"},
  "YDI"=>
   {:iata=>"YDI",
@@ -2163,6 +2471,7 @@ def airp_26
    :icao=>"",
    :city=>"Davis Inlet",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Davis Inlet, Newfoundland and Labrador, Canada"},
  "YRD"=>
   {:iata=>"YRD",
@@ -2170,6 +2479,7 @@ def airp_26
    :icao=>"",
    :city=>"Dean River",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Dean River, British Columbia, Canada"},
  "YDL"=>
   {:iata=>"YDL",
@@ -2177,6 +2487,7 @@ def airp_26
    :icao=>"CYDL",
    :city=>"Dease Lake",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Dease Lake, British Columbia, Canada"},
  "YGY"=>
   {:iata=>"YGY",
@@ -2184,6 +2495,7 @@ def airp_26
    :icao=>"CYGY",
    :city=>"Deception",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Deception, Quebec, Canada"},
  "YDG"=>
   {:iata=>"YDG",
@@ -2191,6 +2503,7 @@ def airp_26
    :icao=>"CYID",
    :city=>"Digby",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Digby, Nova Scotia, Canada"},
  "YDX"=>
   {:iata=>"YDX",
@@ -2198,6 +2511,7 @@ def airp_26
    :icao=>"",
    :city=>"Doc Creek",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Doc Creek, British Columbia, Canada"},
  "YDO"=>
   {:iata=>"YDO",
@@ -2205,6 +2519,7 @@ def airp_26
    :icao=>"CYDO",
    :city=>"Dolbeau-Mistassini",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Dolbeau-Mistassini, Quebec, Canada"},
  "YDC"=>
   {:iata=>"YDC",
@@ -2212,6 +2527,7 @@ def airp_26
    :icao=>"",
    :city=>"Drayton Valley",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Drayton Valley, Alberta, Canada"},
  "YXR"=>
   {:iata=>"YXR",
@@ -2219,6 +2535,7 @@ def airp_26
    :icao=>"CYXR",
    :city=>"Earlton",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Earlton, Ontario, Canada"},
  "YED"=>
   {:iata=>"YED",
@@ -2226,6 +2543,7 @@ def airp_26
    :icao=>"CYED",
    :city=>"Edmonton",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Edmonton, Alberta, Canada"},
  "YET"=>
   {:iata=>"YET",
@@ -2233,6 +2551,7 @@ def airp_26
    :icao=>"CYET",
    :city=>"Edson",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Edson, Alberta, Canada"},
  "YEL"=>
   {:iata=>"YEL",
@@ -2240,6 +2559,7 @@ def airp_26
    :icao=>"CYEL",
    :city=>"Elliot Lake",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Elliot Lake, Ontario, Canada"},
  "YPF"=>
   {:iata=>"YPF",
@@ -2247,6 +2567,7 @@ def airp_26
    :icao=>"CWPF",
    :city=>"Esquimalt",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Esquimalt, British Columbia, Canada"},
  "YEP"=>
   {:iata=>"YEP",
@@ -2254,6 +2575,7 @@ def airp_26
    :icao=>"CYEP",
    :city=>"Estevan Point",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Estevan Point, British Columbia, Canada"},
  "YEU"=>
   {:iata=>"YEU",
@@ -2261,6 +2583,7 @@ def airp_26
    :icao=>"CYEU",
    :city=>"Eureka",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Eureka, Nunavut, Canada"},
  "YCZ"=>
   {:iata=>"YCZ",
@@ -2268,6 +2591,7 @@ def airp_26
    :icao=>"CYCZ",
    :city=>"Fairmont Hot Springs",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Fairmont Hot Springs, British Columbia, Canada"},
  "YOE"=>
   {:iata=>"YOE",
@@ -2275,6 +2599,7 @@ def airp_26
    :icao=>"",
    :city=>"Donnelly",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Donnelly, Alberta, Canada"},
  "YFG"=>
   {:iata=>"YFG",
@@ -2282,6 +2607,7 @@ def airp_26
    :icao=>"",
    :city=>"Fontanges",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Fontanges, Quebec, Canada"},
  "YFE"=>
   {:iata=>"YFE",
@@ -2289,6 +2615,7 @@ def airp_26
    :icao=>"CYFE",
    :city=>"Forestville",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Forestville, Quebec, Canada"},
  "YJF"=>
   {:iata=>"YJF",
@@ -2296,6 +2623,7 @@ def airp_26
    :icao=>"CYJF",
    :city=>"Fort Liard",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Fort Liard, Northwest Territories, Canada"},
  "YFL"=>
   {:iata=>"YFL",
@@ -2303,6 +2631,7 @@ def airp_26
    :icao=>"CYFL",
    :city=>"Fort Reliance",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Fort Reliance, Northwest Territories, Canada"},
  "YFR"=>
   {:iata=>"YFR",
@@ -2310,6 +2639,7 @@ def airp_26
    :icao=>"CYFR",
    :city=>"Fort Resolution",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Fort Resolution, Northwest Territories, Canada"},
  "YCX"=>
   {:iata=>"YCX",
@@ -2317,6 +2647,7 @@ def airp_26
    :icao=>"CYCX",
    :city=>"Gagetown",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Gagetown, New Brunswick, Canada"},
  "YGA"=>
   {:iata=>"YGA",
@@ -2324,6 +2655,7 @@ def airp_26
    :icao=>"CYGA",
    :city=>"Gagnon",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Gagnon, Quebec, Canada"},
  "YGS"=>
   {:iata=>"YGS",
@@ -2331,6 +2663,7 @@ def airp_26
    :icao=>"CYGS",
    :city=>"Germansen Landing",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Germansen Landing, British Columbia, Canada"},
  "YGM"=>
   {:iata=>"YGM",
@@ -2338,6 +2671,7 @@ def airp_26
    :icao=>"CYGM",
    :city=>"Gimli",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Gimli, Manitoba, Canada"},
  "YZE"=>
   {:iata=>"YZE",
@@ -2345,6 +2679,7 @@ def airp_26
    :icao=>"CYZE",
    :city=>"Gore Bay",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Gore Bay, Ontario, Canada"},
  "YGC"=>
   {:iata=>"YGC",
@@ -2352,6 +2687,7 @@ def airp_26
    :icao=>"",
    :city=>"Grande Cache",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Grande Cache, Alberta, Canada"},
  "YZX"=>
   {:iata=>"YZX",
@@ -2359,6 +2695,7 @@ def airp_26
    :icao=>"CYZX",
    :city=>"Greenwood",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Greenwood, Nova Scotia, Canada"},
  "YHT"=>
   {:iata=>"YHT",
@@ -2366,6 +2703,7 @@ def airp_26
    :icao=>"CYHT",
    :city=>"Haines Junction",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Haines Junction, Yukon, Canada"},
  "YAW"=>
   {:iata=>"YAW",
@@ -2373,6 +2711,7 @@ def airp_26
    :icao=>"CYAW",
    :city=>"Shearwater",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Shearwater, Nova Scotia, Canada"},
  "YWF"=>
   {:iata=>"YWF",
@@ -2380,6 +2719,7 @@ def airp_26
    :icao=>"",
    :city=>"Halifax",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Halifax, Nova Scotia, Canada"},
  "YTB"=>
   {:iata=>"YTB",
@@ -2387,6 +2727,7 @@ def airp_26
    :icao=>"",
    :city=>"Hartley Bay",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Hartley Bay, British Columbia, Canada"},
  "YDJ"=>
   {:iata=>"YDJ",
@@ -2394,6 +2735,7 @@ def airp_26
    :city=>"Hatchet Lake",
    :icao=>"CJL2",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Hatchet Lake, Canada"},
  "YHF"=>
   {:iata=>"YHF",
@@ -2401,6 +2743,7 @@ def airp_26
    :icao=>"CYHF",
    :city=>"Hearst",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Hearst, Ontario, Canada"},
  "YHE"=>
   {:iata=>"YHE",
@@ -2408,6 +2751,7 @@ def airp_26
    :icao=>"CYHE",
    :city=>"Hope",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Hope, British Columbia, Canada"},
  "YHN"=>
   {:iata=>"YHN",
@@ -2415,6 +2759,7 @@ def airp_26
    :icao=>"CYHN",
    :city=>"Hornepayne",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Hornepayne, Ontario, Canada"},
  "YNH"=>
   {:iata=>"YNH",
@@ -2422,6 +2767,7 @@ def airp_26
    :icao=>"CYNH",
    :city=>"Hudson's Hope",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Hudson's Hope, British Columbia, Canada"},
  "YJP"=>
   {:iata=>"YJP",
@@ -2429,6 +2775,7 @@ def airp_26
    :icao=>"",
    :city=>"Hinton",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Hinton, Alberta, Canada"},
  "YJO"=>
   {:iata=>"YJO",
@@ -2436,6 +2783,7 @@ def airp_26
    :city=>"Johnny Mountain",
    :icao=>"",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Johnny Mountain, Canada"},
  "YDU"=>
   {:iata=>"YDU",
@@ -2443,6 +2791,7 @@ def airp_26
    :city=>"Kasba Lake",
    :icao=>"CJL8",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Kasba Lake, Canada"},
  "YAU"=>
   {:iata=>"YAU",
@@ -2450,6 +2799,7 @@ def airp_26
    :icao=>"",
    :city=>"Raglan Mines",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Raglan Mines, Quebec, Canada"},
  "YXI"=>
   {:iata=>"YXI",
@@ -2457,6 +2807,7 @@ def airp_26
    :city=>"Killaloe",
    :icao=>"",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Killaloe, Canada"},
  "YQE"=>
   {:iata=>"YQE",
@@ -2464,6 +2815,7 @@ def airp_26
    :icao=>"",
    :city=>"Kimberley",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Kimberley, British Columbia, Canada"},
  "YKD"=>
   {:iata=>"YKD",
@@ -2471,6 +2823,7 @@ def airp_26
    :icao=>"CYKM",
    :city=>"Kincardine",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Kincardine, Ontario, Canada"},
  "YKX"=>
   {:iata=>"YKX",
@@ -2478,6 +2831,7 @@ def airp_26
    :icao=>"CYKX",
    :city=>"Kirkland Lake",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Kirkland Lake, Ontario, Canada"},
  "YKK"=>
   {:iata=>"YKK",
@@ -2485,6 +2839,7 @@ def airp_26
    :icao=>"",
    :city=>"Kitkatla",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Kitkatla, British Columbia, Canada"},
  "YKE"=>
   {:iata=>"YKE",
@@ -2492,6 +2847,7 @@ def airp_26
    :icao=>"",
    :city=>"Knee Lake",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Knee Lake, Manitoba, Canada"},
  "YLQ"=>
   {:iata=>"YLQ",
@@ -2499,6 +2855,7 @@ def airp_26
    :icao=>"CYLQ",
    :city=>"La Tuque",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"La Tuque, Quebec, Canada"},
  "YLB"=>
   {:iata=>"YLB",
@@ -2506,6 +2863,7 @@ def airp_26
    :icao=>"CYLB",
    :city=>"Lac La Biche",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Lac La Biche, Alberta, Canada"},
  "YLF"=>
   {:iata=>"YLF",
@@ -2513,6 +2871,7 @@ def airp_26
    :icao=>"",
    :city=>"Laforges",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Laforges, Quebec, Canada"},
  "YLA"=>
   {:iata=>"YLA",
@@ -2520,6 +2879,7 @@ def airp_26
    :icao=>"CWJU",
    :city=>"Langara[disambiguation needed]",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Langara[disambiguation needed], British Columbia, Canada"},
  "YLY"=>
   {:iata=>"YLY",
@@ -2527,6 +2887,7 @@ def airp_26
    :city=>"Langley",
    :icao=>"CYNJ",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Langley, Canada"},
  "YLR"=>
   {:iata=>"YLR",
@@ -2534,6 +2895,7 @@ def airp_26
    :icao=>"CYLR",
    :city=>"Leaf Rapids",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Leaf Rapids, Manitoba, Canada"},
  "YLS"=>
   {:iata=>"YLS",
@@ -2541,6 +2903,7 @@ def airp_26
    :icao=>"",
    :city=>"Lebel-sur-Quévillon",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Lebel-sur-Quévillon, Quebec, Canada"},
  "YWO"=>
   {:iata=>"YWO",
@@ -2548,6 +2911,7 @@ def airp_26
    :city=>"Lupin",
    :icao=>"CYWO",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Lupin, Canada"},
  "YDK"=>
   {:iata=>"YDK",
@@ -2555,6 +2919,7 @@ def airp_26
    :icao=>"CYDK",
    :city=>"Main Duck Island",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Main Duck Island, Ontario, Canada"},
  "YMG"=>
   {:iata=>"YMG",
@@ -2562,6 +2927,7 @@ def airp_26
    :icao=>"CYMG",
    :city=>"Manitouwadge",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Manitouwadge, Ontario, Canada"},
  "YEM"=>
   {:iata=>"YEM",
@@ -2569,6 +2935,7 @@ def airp_26
    :icao=>"CYEM",
    :city=>"Manitowaning",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Manitowaning, Ontario, Canada"},
  "YMW"=>
   {:iata=>"YMW",
@@ -2576,6 +2943,7 @@ def airp_26
    :icao=>"CYMW",
    :city=>"Maniwaki",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Maniwaki, Quebec, Canada"},
  "YAQ"=>
   {:iata=>"YAQ",
@@ -2583,6 +2951,7 @@ def airp_26
    :icao=>"",
    :city=>"Maple Bay",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Maple Bay, British Columbia, Canada"},
  "YSP"=>
   {:iata=>"YSP",
@@ -2590,6 +2959,7 @@ def airp_26
    :icao=>"CYSP",
    :city=>"Marathon",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Marathon, Ontario, Canada"},
  "YMC"=>
   {:iata=>"YMC",
@@ -2597,6 +2967,7 @@ def airp_26
    :icao=>"",
    :city=>"Maricourt",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Maricourt, Quebec, Canada"},
  "YNM"=>
   {:iata=>"YNM",
@@ -2604,6 +2975,7 @@ def airp_26
    :icao=>"CYNM",
    :city=>"Matagami",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Matagami, Quebec, Canada"},
  "YME"=>
   {:iata=>"YME",
@@ -2611,6 +2983,7 @@ def airp_26
    :icao=>"CYME",
    :city=>"Matane",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Matane, Quebec, Canada"},
  "YMA"=>
   {:iata=>"YMA",
@@ -2618,6 +2991,7 @@ def airp_26
    :icao=>"CYMA",
    :city=>"Mayo",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Mayo, Yukon, Canada"},
  "YMB"=>
   {:iata=>"YMB",
@@ -2625,6 +2999,7 @@ def airp_26
    :icao=>"",
    :city=>"Merritt",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Merritt, British Columbia, Canada"},
  "YMR"=>
   {:iata=>"YMR",
@@ -2632,6 +3007,7 @@ def airp_26
    :city=>"Merry Island",
    :icao=>"",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Merry Island, Canada"},
  "YMI"=>
   {:iata=>"YMI",
@@ -2639,6 +3015,7 @@ def airp_26
    :icao=>"",
    :city=>"Minaki",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Minaki, Ontario, Canada"},
  "YLP"=>
   {:iata=>"YLP",
@@ -2646,6 +3023,7 @@ def airp_26
    :icao=>"CYLP",
    :city=>"Mingan",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Mingan, Quebec, Canada"},
  "YMJ"=>
   {:iata=>"YMJ",
@@ -2653,6 +3031,7 @@ def airp_26
    :icao=>"CYMJ",
    :city=>"Moose Jaw",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Moose Jaw, Saskatchewan, Canada"},
  "YAD"=>
   {:iata=>"YAD",
@@ -2660,6 +3039,7 @@ def airp_26
    :icao=>"",
    :city=>"Moose Lake",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Moose Lake, Manitoba, Canada"},
  "YMD"=>
   {:iata=>"YMD",
@@ -2667,6 +3047,7 @@ def airp_26
    :icao=>"CYMD",
    :city=>"Mould Bay",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Mould Bay, Northwest Territories, Canada"},
  "YML"=>
   {:iata=>"YML",
@@ -2674,6 +3055,7 @@ def airp_26
    :icao=>"CYML",
    :city=>"Charlevoix",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Charlevoix, Quebec, Canada"},
  "YQA"=>
   {:iata=>"YQA",
@@ -2681,6 +3063,7 @@ def airp_26
    :icao=>"CYQA",
    :city=>"Muskoka",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Muskoka, Ontario, Canada"},
  "YBD"=>
   {:iata=>"YBD",
@@ -2688,6 +3071,7 @@ def airp_26
    :icao=>"",
    :city=>"New Westminster",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"New Westminster, British Columbia, Canada"},
  "YNI"=>
   {:iata=>"YNI",
@@ -2695,6 +3079,7 @@ def airp_26
    :icao=>"CYNI",
    :city=>"Nitchequon",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Nitchequon, Quebec, Canada"},
  "YNK"=>
   {:iata=>"YNK",
@@ -2702,6 +3087,7 @@ def airp_26
    :icao=>"",
    :city=>"Nootka Sound",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Nootka Sound, British Columbia, Canada"},
  "YDW"=>
   {:iata=>"YDW",
@@ -2709,6 +3095,7 @@ def airp_26
    :icao=>"",
    :city=>"Obre Lake",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Obre Lake, Northwest Territories, Canada"},
  "YBS"=>
   {:iata=>"YBS",
@@ -2716,6 +3103,7 @@ def airp_26
    :city=>"Opapamiska Lake",
    :icao=>"",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Opapamiska Lake, Canada"},
  "YRO"=>
   {:iata=>"YRO",
@@ -2723,6 +3111,7 @@ def airp_26
    :icao=>"CYRO",
    :city=>"Ottawa",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Ottawa, Ontario, Canada"},
  "YOS"=>
   {:iata=>"YOS",
@@ -2730,6 +3119,7 @@ def airp_26
    :icao=>"CYOS",
    :city=>"Owen Sound",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Owen Sound, Ontario, Canada"},
  "YDE"=>
   {:iata=>"YDE",
@@ -2737,6 +3127,7 @@ def airp_26
    :icao=>"",
    :city=>"Paradise River",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Paradise River, Newfoundland and Labrador, Canada"},
  "YUF"=>
   {:iata=>"YUF",
@@ -2744,6 +3135,7 @@ def airp_26
    :city=>"Pelly Bay",
    :icao=>"",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Pelly Bay, Canada"},
  "YTA"=>
   {:iata=>"YTA",
@@ -2751,6 +3143,7 @@ def airp_26
    :icao=>"CYTA",
    :city=>"Pembroke",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Pembroke, Ontario, Canada"},
  "YWA"=>
   {:iata=>"YWA",
@@ -2758,6 +3151,7 @@ def airp_26
    :icao=>"CYWA",
    :city=>"Petawawa",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Petawawa, Ontario, Canada"},
  "YPQ"=>
   {:iata=>"YPQ",
@@ -2765,6 +3159,7 @@ def airp_26
    :icao=>"CYPQ",
    :city=>"Peterborough",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Peterborough, Ontario, Canada"},
  "YPP"=>
   {:iata=>"YPP",
@@ -2772,6 +3167,7 @@ def airp_26
    :icao=>"",
    :city=>"Pine Point",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Pine Point, Northwest Territories, Canada"},
  "YPS"=>
   {:iata=>"YPS",
@@ -2779,6 +3175,7 @@ def airp_26
    :icao=>"CYPD",
    :city=>"Port Hawkesbury",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Port Hawkesbury, Nova Scotia, Canada"},
  "YPI"=>
   {:iata=>"YPI",
@@ -2786,6 +3183,7 @@ def airp_26
    :icao=>"",
    :city=>"Port Simpson",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Port Simpson, British Columbia, Canada"},
  "YPG"=>
   {:iata=>"YPG",
@@ -2793,6 +3191,7 @@ def airp_26
    :icao=>"CYPG",
    :city=>"Portage la Prairie",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Portage la Prairie, Manitoba, Canada"},
  "YRE"=>
   {:iata=>"YRE",
@@ -2800,6 +3199,7 @@ def airp_26
    :icao=>"",
    :city=>"Resolution Island",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Resolution Island, Nunavut, Canada"},
  "YRV"=>
   {:iata=>"YRV",
@@ -2807,6 +3207,7 @@ def airp_26
    :icao=>"CYRV",
    :city=>"Revelstoke",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Revelstoke, British Columbia, Canada"},
  "YYI"=>
   {:iata=>"YYI",
@@ -2814,6 +3215,7 @@ def airp_26
    :icao=>"CYYI",
    :city=>"Rivers",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Rivers, Manitoba, Canada"},
  "YRN"=>
   {:iata=>"YRN",
@@ -2821,6 +3223,7 @@ def airp_26
    :icao=>"",
    :city=>"Rivers Inlet",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Rivers Inlet, British Columbia, Canada"},
  "YTN"=>
   {:iata=>"YTN",
@@ -2828,6 +3231,7 @@ def airp_26
    :icao=>"",
    :city=>"Rivière-au-Tonnerre",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Rivière-au-Tonnerre, Quebec, Canada"},
  "YRI"=>
   {:iata=>"YRI",
@@ -2835,6 +3239,7 @@ def airp_26
    :icao=>"CYRI",
    :city=>"Rivière-du-Loup",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Rivière-du-Loup, Quebec, Canada"},
  "YRM"=>
   {:iata=>"YRM",
@@ -2842,6 +3247,7 @@ def airp_26
    :icao=>"CYRM",
    :city=>"Rocky Mountain House",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Rocky Mountain House, Alberta, Canada"},
  "YSA"=>
   {:iata=>"YSA",
@@ -2849,6 +3255,7 @@ def airp_26
    :icao=>"CYSA",
    :city=>"Sable Island",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Sable Island, Nova Scotia, Canada"},
  "YSV"=>
   {:iata=>"YSV",
@@ -2856,6 +3263,7 @@ def airp_26
    :icao=>"CYSV",
    :city=>"Saglek",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Saglek, Labrador, Canada"},
  "YCM"=>
   {:iata=>"YCM",
@@ -2863,6 +3271,7 @@ def airp_26
    :icao=>"CYSN",
    :city=>"St. Catharines",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"St. Catharines, Ontario, Canada"},
  "YJN"=>
   {:iata=>"YJN",
@@ -2870,6 +3279,7 @@ def airp_26
    :icao=>"CYJN",
    :city=>"Saint-Jean-sur-Richelieu",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Saint-Jean-sur-Richelieu, Quebec, Canada"},
  "YSL"=>
   {:iata=>"YSL",
@@ -2877,6 +3287,7 @@ def airp_26
    :icao=>"CYSL",
    :city=>"Saint-Léonard",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Saint-Léonard, New Brunswick, Canada"},
  "YQS"=>
   {:iata=>"YQS",
@@ -2884,6 +3295,7 @@ def airp_26
    :icao=>"CYQS",
    :city=>"St. Thomas",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"St. Thomas, Ontario, Canada"},
  "YSN"=>
   {:iata=>"YSN",
@@ -2891,6 +3303,7 @@ def airp_26
    :icao=>"CZAM",
    :city=>"Salmon Arm",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Salmon Arm, British Columbia, Canada"},
  "YSI"=>
   {:iata=>"YSI",
@@ -2898,6 +3311,7 @@ def airp_26
    :icao=>"",
    :city=>"Frying Pan Island (near Parry Sound)",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Frying Pan Island (near Parry Sound), Ontario, Canada"},
  "YHS"=>
   {:iata=>"YHS",
@@ -2905,6 +3319,7 @@ def airp_26
    :icao=>"",
    :city=>"Sechelt",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Sechelt, British Columbia, Canada"},
  "YSX"=>
   {:iata=>"YSX",
@@ -2912,6 +3327,7 @@ def airp_26
    :icao=>"",
    :city=>"Bella Bella",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Bella Bella, British Columbia, Canada"},
  "YSC"=>
   {:iata=>"YSC",
@@ -2919,6 +3335,7 @@ def airp_26
    :icao=>"CYSC",
    :city=>"Sherbrooke",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Sherbrooke, Quebec, Canada"},
  "YLO"=>
   {:iata=>"YLO",
@@ -2926,6 +3343,7 @@ def airp_26
    :icao=>"CYLO",
    :city=>"Shilo",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Shilo, Manitoba, Canada"},
  "YXF"=>
   {:iata=>"YXF",
@@ -2933,6 +3351,7 @@ def airp_26
    :icao=>"",
    :city=>"Snake River",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Snake River, Yukon, Canada"},
  "YSE"=>
   {:iata=>"YSE",
@@ -2940,6 +3359,7 @@ def airp_26
    :icao=>"CYSE",
    :city=>"Squamish",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Squamish, British Columbia, Canada"},
  "YSZ"=>
   {:iata=>"YSZ",
@@ -2947,6 +3367,7 @@ def airp_26
    :icao=>"",
    :city=>"Squirrel Cove",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Squirrel Cove, British Columbia, Canada"},
  "YTC"=>
   {:iata=>"YTC",
@@ -2954,6 +3375,7 @@ def airp_26
    :icao=>"",
    :city=>"Sturdee",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Sturdee, British Columbia, Canada"},
  "YSD"=>
   {:iata=>"YSD",
@@ -2961,6 +3383,7 @@ def airp_26
    :icao=>"CYSD",
    :city=>"Suffield",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Suffield, Alberta, Canada"},
  "YSU"=>
   {:iata=>"YSU",
@@ -2968,6 +3391,7 @@ def airp_26
    :icao=>"CYSU",
    :city=>"Summerside",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Summerside, Prince Edward Island, Canada"},
  "YTU"=>
   {:iata=>"YTU",
@@ -2975,6 +3399,7 @@ def airp_26
    :icao=>"",
    :city=>"Tasu",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Tasu, British Columbia, Canada"},
  "YTX"=>
   {:iata=>"YTX",
@@ -2982,6 +3407,7 @@ def airp_26
    :icao=>"",
    :city=>"Telegraph Creek",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Telegraph Creek, British Columbia, Canada"},
  "YBQ"=>
   {:iata=>"YBQ",
@@ -2989,6 +3415,7 @@ def airp_26
    :icao=>"",
    :city=>"Telegraph Harbour",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Telegraph Harbour, British Columbia, Canada"},
  "YTJ"=>
   {:iata=>"YTJ",
@@ -2996,6 +3423,7 @@ def airp_26
    :icao=>"CYTJ",
    :city=>"Terrace Bay",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Terrace Bay, Ontario, Canada"},
  "YZW"=>
   {:iata=>"YZW",
@@ -3003,6 +3431,7 @@ def airp_26
    :icao=>"CYZW",
    :city=>"Teslin",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Teslin, Yukon, Canada"},
  "YTT"=>
   {:iata=>"YTT",
@@ -3010,6 +3439,7 @@ def airp_26
    :icao=>"",
    :city=>"Tisdale",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Tisdale, Saskatchewan, Canada"},
  "YTP"=>
   {:iata=>"YTP",
@@ -3017,6 +3447,7 @@ def airp_26
    :icao=>"",
    :city=>"Tofino",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Tofino, British Columbia, Canada"},
  "YTR"=>
   {:iata=>"YTR",
@@ -3024,6 +3455,7 @@ def airp_26
    :icao=>"CYTR",
    :city=>"Trenton",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Trenton, Ontario, Canada"},
  "YTK"=>
   {:iata=>"YTK",
@@ -3031,6 +3463,7 @@ def airp_26
    :icao=>"",
    :city=>"Tulugak",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Tulugak, Quebec, Canada"},
  "YBE"=>
   {:iata=>"YBE",
@@ -3038,6 +3471,7 @@ def airp_26
    :icao=>"CYBE",
    :city=>"Uranium City",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Uranium City, Saskatchewan, Canada"},
  "YOY"=>
   {:iata=>"YOY",
@@ -3045,6 +3479,7 @@ def airp_26
    :icao=>"CYOY",
    :city=>"Valcartier",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Valcartier, Québec, Canada"},
  "YDT"=>
   {:iata=>"YDT",
@@ -3052,6 +3487,7 @@ def airp_26
    :icao=>"CZBB",
    :city=>"Delta",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Delta, British Columbia, Canada"},
  "YVG"=>
   {:iata=>"YVG",
@@ -3059,6 +3495,7 @@ def airp_26
    :icao=>"CYVG",
    :city=>"Vermilion",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Vermilion, Alberta, Canada"},
  "YVE"=>
   {:iata=>"YVE",
@@ -3066,6 +3503,7 @@ def airp_26
    :icao=>"CYVK",
    :city=>"Vernon",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Vernon, British Columbia, Canada"},
  "YQH"=>
   {:iata=>"YQH",
@@ -3073,6 +3511,7 @@ def airp_26
    :icao=>"CYQH",
    :city=>"Watson Lake",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Watson Lake, Yukon, Canada"},
  "YXZ"=>
   {:iata=>"YXZ",
@@ -3080,6 +3519,7 @@ def airp_26
    :icao=>"CYXZ",
    :city=>"Wawa",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Wawa, Ontario, Canada"},
  "YWS"=>
   {:iata=>"YWS",
@@ -3087,6 +3527,7 @@ def airp_26
    :icao=>"",
    :city=>"Whistler",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Whistler, British Columbia, Canada"},
  "YWR"=>
   {:iata=>"YWR",
@@ -3094,6 +3535,7 @@ def airp_26
    :icao=>"CYWR",
    :city=>"White River",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"White River, Ontario, Canada"},
  "YZU"=>
   {:iata=>"YZU",
@@ -3101,6 +3543,7 @@ def airp_26
    :icao=>"CYZU",
    :city=>"Whitecourt",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Whitecourt, Alberta, Canada"},
  "YVV"=>
   {:iata=>"YVV",
@@ -3108,6 +3551,7 @@ def airp_26
    :icao=>"CYVV",
    :city=>"Wiarton",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Wiarton, Ontario, Canada"},
  "YWN"=>
   {:iata=>"YWN",
@@ -3115,6 +3559,7 @@ def airp_26
    :icao=>"",
    :city=>"Winisk",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Winisk, Ontario, Canada"},
  "YWY"=>
   {:iata=>"YWY",
@@ -3122,6 +3567,7 @@ def airp_26
    :icao=>"CYWY",
    :city=>"Wrigley",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Wrigley, Northwest Territories, Canada"},
  "YAI"=>
   {:iata=>"YAI",
@@ -3129,6 +3575,7 @@ def airp_26
    :icao=>"SCCH",
    :city=>"Chillán",
    :country=>"Chile",
+:country_code=>"CL",
    :location=>"Chillán, Ñuble, Chile"},
  "YMS"=>
   {:iata=>"YMS",
@@ -3136,6 +3583,7 @@ def airp_26
    :icao=>"SPMS",
    :city=>"Yurimaguas",
    :country=>"Peru",
+:country_code=>"PE",
    :location=>"Yurimaguas, Peru"},
  "YLG"=>
   {:iata=>"YLG",
@@ -3143,6 +3591,7 @@ def airp_26
    :icao=>"YYAL",
    :city=>"Yalgoo",
    :country=>"Australia",
+:country_code=>"AU",
    :location=>"Yalgoo, Western Australia, Australia"},
  "YNN"=>
   {:iata=>"YNN",
@@ -3150,6 +3599,7 @@ def airp_26
    :city=>"Yandicoogina",
    :icao=>"",
    :country=>"Australia",
+:country_code=>"AU",
    :location=>"Yandicoogina, Australia"},
  "YUE"=>
   {:iata=>"YUE",
@@ -3157,6 +3607,7 @@ def airp_26
    :icao=>"YYND",
    :city=>"Yuendumu",
    :country=>"Australia",
+:country_code=>"AU",
    :location=>"Yuendumu, Northern Territory, Australia"},
  "YAS"=>
   {:iata=>"YAS",
@@ -3164,258 +3615,260 @@ def airp_26
    :icao=>"NFSW",
    :city=>"Yasawa Island",
    :country=>"Fiji",
+:country_code=>"FJ",
    :location=>"Yasawa Island, Fiji"},
  "YAP"=>
   {:iata=>"YAP",
    :name=>"Yap International Airport (FAA: T11)",
    :icao=>"PTYA",
    :city=>"Yap",
-   :country=>"Federated States of Micronesia",
+   :country=>'Federated States of Micronesia', :country_code=>'FM',
    :location=>"Yap, Federated States of Micronesia"},
  "YAO"=>
   {:iata=>"YAO",
    :name=>"Yaoundé Airport",
    :icao=>"FKKY",
    :city=>"Yaoundé",
-   :country=>"Cameroon",
+   :country=>'Cameroon', :country_code=>'CM',
    :location=>"Yaoundé, Cameroon"},
  "YVA"=>
   {:iata=>"YVA",
    :name=>"Iconi Airport",
    :icao=>"FMCN",
    :city=>"Moroni",
-   :country=>"Comoros",
+   :country=>'Comoros', :country_code=>'KM',
    :location=>"Moroni, Comoros"},
  "YOL"=>
   {:iata=>"YOL",
    :name=>"Yola Airport",
    :icao=>"DNYO",
    :city=>"Yola",
-   :country=>"Nigeria",
+   :country=>'Nigeria', :country_code=>'NG',
    :location=>"Yola, Nigeria"},
  "YAN"=>
   {:iata=>"YAN",
    :name=>"Yangambi Airport",
    :icao=>"FZIR",
    :city=>"Yangambi",
-   :country=>"Democratic Republic of the Congo",
+   :country=>'Democratic Republic of the Congo', :country_code=>'',
    :location=>"Yangambi, Democratic Republic of the Congo"},
  "YLI"=>
   {:iata=>"YLI",
    :name=>"Ylivieska Airport",
    :icao=>"EFYL",
    :city=>"Ylivieska",
-   :country=>"Finland",
+   :country=>'Finland', :country_code=>'FI',
    :location=>"Ylivieska, Finland"},
  "YMK"=>
   {:iata=>"YMK",
    :name=>"Mys Kamennyy Airport",
    :city=>"Mys Kamennyy",
    :icao=>"USDK",
-   :country=>"Federation",
+   :country=>'Federation', :country_code=>'',
    :location=>"Mys Kamennyy, Federation"},
  "YKS"=>
   {:iata=>"YKS",
    :name=>"Yakutsk Airport",
    :icao=>"UEEE",
    :city=>"Yakutsk",
-   :country=>"Russia",
+   :country=>'Russia', :country_code=>'RU',
    :location=>"Yakutsk, Sakha (Yakutia) Republic, Russia"},
  "YEI"=>
   {:iata=>"YEI",
    :name=>"Yenişehir Airport",
    :icao=>"LTBR",
    :city=>"Yenişehir",
-   :country=>"Turkey",
+   :country=>'Turkey', :country_code=>'TR',
    :location=>"Yenişehir, Bursa, Turkey"},
  "YEO"=>
   {:iata=>"YEO",
    :name=>"RNAS Yeovilton",
    :icao=>"EGDY",
    :city=>"Yeovilton",
-   :country=>"United Kingdom",
+   :country=>'United Kingdom', :country_code=>'GB',
    :location=>"Yeovilton, England, United Kingdom"},
  "YON"=>
   {:iata=>"YON",
    :name=>"Yongphulla Airport",
    :city=>"Trashigang",
    :icao=>"VQTY",
-   :country=>"Bhutan",
+   :country=>'Bhutan', :country_code=>'BT',
    :location=>"Trashigang, Bhutan"},
  "YIE"=>
   {:iata=>"YIE",
    :name=>"Arxan Airport",
    :icao=>"",
    :city=>"Arxan",
-   :country=>"China",
+   :country=>'China', :country_code=>'CN',
    :location=>"Arxan, Inner Mongolia, China"},
  "YNZ"=>
   {:iata=>"YNZ",
    :name=>"Yancheng Nanyang Airport",
    :icao=>"ZSYN",
    :city=>"Yancheng",
-   :country=>"China",
+   :country=>'China', :country_code=>'CN',
    :location=>"Yancheng, Jiangsu, China"},
  "YTY"=>
   {:iata=>"YTY",
    :name=>"Yangzhou Taizhou Airport",
    :icao=>"ZSYA",
    :city=>"Yangzhou and Taizhou",
-   :country=>"China",
+   :country=>'China', :country_code=>'CN',
    :location=>"Yangzhou and Taizhou, Jiangsu, China"},
  "YNJ"=>
   {:iata=>"YNJ",
    :name=>"Yanji Chaoyangchuan Airport",
    :icao=>"ZYYJ",
    :city=>"Yanji",
-   :country=>"China",
+   :country=>'China', :country_code=>'CN',
    :location=>"Yanji, Jilin, China"},
  "YNT"=>
   {:iata=>"YNT",
    :name=>"Yantai Laishan International Airport",
    :icao=>"ZSYT",
    :city=>"Yantai",
-   :country=>"China",
+   :country=>'China', :country_code=>'CN',
    :location=>"Yantai, Shandong, China"},
  "YBP"=>
   {:iata=>"YBP",
    :name=>"Yibin Caiba Airport",
    :icao=>"ZUYB",
    :city=>"Yibin",
-   :country=>"China",
+   :country=>'China', :country_code=>'CN',
    :location=>"Yibin, Sichuan, China"},
  "YIH"=>
   {:iata=>"YIH",
    :name=>"Yichang Sanxia Airport",
    :icao=>"ZHYC",
    :city=>"Yichang",
-   :country=>"China",
+   :country=>'China', :country_code=>'CN',
    :location=>"Yichang, Hubei, China"},
  "YIC"=>
   {:iata=>"YIC",
    :name=>"Yichun Mingyueshan Airport",
    :icao=>"",
    :city=>"Yichun",
-   :country=>"China",
+   :country=>'China', :country_code=>'CN',
    :location=>"Yichun, Jiangxi, China"},
  "YIN"=>
   {:iata=>"YIN",
    :name=>"Yining Airport",
    :icao=>"ZWYN",
    :city=>"Yining",
-   :country=>"China",
+   :country=>'China', :country_code=>'CN',
    :location=>"Yining, Xinjiang, China"},
  "YIW"=>
   {:iata=>"YIW",
    :name=>"Yiwu Airport",
    :icao=>"ZSYW",
    :city=>"Yiwu",
-   :country=>"China",
+   :country=>'China', :country_code=>'CN',
    :location=>"Yiwu, Zhejiang, China"},
  "YCU"=>
   {:iata=>"YCU",
    :name=>"Yuncheng Guangong Airport",
    :icao=>"ZBYC",
    :city=>"Yuncheng",
-   :country=>"China",
+   :country=>'China', :country_code=>'CN',
    :location=>"Yuncheng, China"},
  "YUS"=>
   {:iata=>"YUS",
    :name=>"Yushu Batang Airport",
    :icao=>"ZLYS",
    :city=>"Yushu County",
-   :country=>"China",
+   :country=>'China', :country_code=>'CN',
    :location=>"Yushu County, Qinghai, China"},
  "YZY"=>
   {:iata=>"YZY",
    :name=>"Zhangye Ganzhou Airport",
    :icao=>"",
    :city=>"Zhangye",
-   :country=>"China",
+   :country=>'China', :country_code=>'CN',
    :location=>"Zhangye, Gansu, China"},
  "YLN"=>
   {:iata=>"YLN",
    :name=>"Yilan Airport",
    :icao=>"ZYYL",
    :city=>"Yilan",
-   :country=>"China",
+   :country=>'China', :country_code=>'CN',
    :location=>"Yilan, Heilongjiang, China"},
  "YUA"=>
   {:iata=>"YUA",
    :name=>"Yuanmou Airport",
    :icao=>"ZPYM",
    :city=>"Yuanmou",
-   :country=>"China",
+   :country=>'China', :country_code=>'CN',
    :location=>"Yuanmou, Yunnan, China"},
  "YES"=>
   {:iata=>"YES",
    :name=>"Yasuj Airport",
    :city=>"Yasouj",
    :icao=>"",
-   :country=>"Iran",
+   :country=>'Iran', :country_code=>'IR',
    :location=>"Yasouj, Iran"},
  "YGJ"=>
   {:iata=>"YGJ",
    :name=>"Miho-Yonago Airport",
    :icao=>"RJOH",
    :city=>"Yonago",
-   :country=>"Japan",
+   :country=>'Japan', :country_code=>'JP',
    :location=>"Yonago, Tottori, Japan"},
  "YOK"=>
   {:iata=>"YOK",
    :name=>"Yokohoma Airport",
    :city=>"Yokohoma",
    :icao=>"",
-   :country=>"Japan",
+   :country=>'Japan', :country_code=>'JP',
    :location=>"Yokohoma, Japan"},
  "YEQ"=>
   {:iata=>"YEQ",
    :name=>"Yenkis Airport",
    :icao=>"",
    :city=>"Yenkis",
-   :country=>"Papua New Guinea",
+   :country=>'Papua New Guinea', :country_code=>'PG',
    :location=>"Yenkis, Papua New Guinea"},
  "YVD"=>
   {:iata=>"YVD",
    :name=>"Yeva Airport",
    :icao=>"",
    :city=>"Yeva",
-   :country=>"Papua New Guinea",
+   :country=>'Papua New Guinea', :country_code=>'PG',
    :location=>"Yeva, Papua New Guinea"},
  "YNY"=>
   {:iata=>"YNY",
    :name=>"Yangyang Airport",
    :city=>"Yangyang",
    :icao=>"",
-   :country=>"Korea",
+   :country=>'Korea', :country_code=>'',
    :location=>"Yangyang, Korea"},
  "YEC"=>
   {:iata=>"YEC",
    :name=>"Yecheon Air Base",
    :icao=>"RKTY",
    :city=>"Yecheon",
-   :country=>"South Korea",
+   :country=>'South Korea', :country_code=>'KR',
    :location=>"Yecheon, South Korea"},
  "YOT"=>
   {:iata=>"YOT",
    :name=>"Yotvata Airport",
    :icao=>"LLYT",
    :city=>"Yotvata",
-   :country=>"Israel",
+   :country=>'Israel', :country_code=>'IL',
    :location=>"Yotvata, Israel"},
  "YNB"=>
   {:iata=>"YNB",
    :name=>"Yanbu Airport (Yenbo Airport)",
    :icao=>"OEYN",
    :city=>"Yanbu (Yenbo)",
-   :country=>"Saudi Arabia",
+   :country=>'Saudi Arabia', :country_code=>'SA',
    :location=>"Yanbu (Yenbo), Al Madinah, Saudi Arabia"},
  "YAK"=>
   {:iata=>"YAK",
    :name=>"Yakutat Airport",
    :icao=>"PAYA",
    :city=>"Yakutat",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Yakutat, Alaska, United States"},
  "YEA"=>
   {:iata=>"YEA",
@@ -3423,27 +3876,31 @@ def airp_26
    :icao=>"",
    :city=>"Edmonton",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Edmonton, Alberta, Canada"},
  "YIP"=>
   {:iata=>"YIP",
    :name=>"Willow Run Airport",
    :icao=>"KYIP",
    :city=>"Detroit",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Detroit, Michigan, United States"},
  "YKM"=>
   {:iata=>"YKM",
    :name=>"Yakima Air Terminal (McAllister Field)",
    :icao=>"KYKM",
    :city=>"Yakima",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Yakima, Washington, United States"},
  "YKN"=>
   {:iata=>"YKN",
    :name=>"Chan Gurney Municipal Airport",
    :icao=>"KYKN",
    :city=>"Yankton",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Yankton, South Dakota, United States"},
  "YMQ"=>
   {:iata=>"YMQ",
@@ -3451,13 +3908,15 @@ def airp_26
    :icao=>"",
    :city=>"Montreal",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Montreal, Quebec, Canada"},
  "YNG"=>
   {:iata=>"YNG",
    :name=>"Youngstown-Warren Regional Airport",
    :icao=>"KYNG",
    :city=>"Youngstown/Warren",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Youngstown/Warren, Ohio, United States"},
  "YPK"=>
   {:iata=>"YPK",
@@ -3465,6 +3924,7 @@ def airp_26
    :icao=>"CYPK",
    :city=>"Pitt Meadows",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Pitt Meadows, British Columbia, Canada"},
  "YTI"=>
   {:iata=>"YTI",
@@ -3472,6 +3932,7 @@ def airp_26
    :icao=>"",
    :city=>"Triple Island",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Triple Island, British Columbia, Canada"},
  "YTO"=>
   {:iata=>"YTO",
@@ -3479,13 +3940,15 @@ def airp_26
    :icao=>"",
    :city=>"Toronto",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Toronto, Ontario, Canada"},
  "YUM"=>
   {:iata=>"YUM",
    :name=>"Yuma International Airport / MCAS Yuma (FAA: NYL)",
    :icao=>"KNYL",
    :city=>"Yuma",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Yuma, Arizona, United States"},
  "YWV"=>
   {:iata=>"YWV",
@@ -3493,6 +3956,7 @@ def airp_26
    :icao=>"CYWV",
    :city=>"Wainwright",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Wainwright, Alberta, Canada"}}
 
 end

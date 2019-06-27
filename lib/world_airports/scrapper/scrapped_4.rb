@@ -6,6 +6,7 @@ def airp_4
    :icao=>"CYHC",
    :city=>"Vancouver",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Vancouver, British Columbia, Canada"},
  "CJH"=>
   {:iata=>"CJH",
@@ -13,6 +14,7 @@ def airp_4
    :icao=>"",
    :city=>"Chilko Lake",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Chilko Lake, British Columbia, Canada"},
  "CFQ"=>
   {:iata=>"CFQ",
@@ -20,6 +22,7 @@ def airp_4
    :city=>"Creston",
    :icao=>"CAJ3",
    :country=>"Canada",
+:country_code=>"CA",
    :location=>"Creston, Canada"},
  "CNP"=>
   {:iata=>"CNP",
@@ -27,146 +30,167 @@ def airp_4
    :icao=>"BGCO",
    :city=>"Nerlerit Inaat (Constable Pynt)",
    :country=>"Greenland",
+:country_code=>"GL",
    :location=>"Nerlerit Inaat (Constable Pynt), Greenland"},
  "CUN"=>
   {:iata=>"CUN",
    :name=>"Cancún International Airport",
    :icao=>"MMUN",
    :city=>"Cancún",
-   :country=>"Mexico",
+   :country=>'Mexico', :country_code=>'MX',
+
    :location=>"Cancún, Quintana Roo, Mexico"},
  "CPE"=>
   {:iata=>"CPE",
    :name=>"Ing. Alberto Acuña Ongay International Airport",
    :icao=>"MMCP",
    :city=>"Campeche",
-   :country=>"Mexico",
+   :country=>'Mexico', :country_code=>'MX',
+
    :location=>"Campeche, Campeche, Mexico"},
  "CTM"=>
   {:iata=>"CTM",
    :name=>"Chetumal International Airport",
    :icao=>"MMCM",
    :city=>"Chetumal",
-   :country=>"Mexico",
+   :country=>'Mexico', :country_code=>'MX',
+
    :location=>"Chetumal, Quintana Roo, Mexico"},
  "CUU"=>
   {:iata=>"CUU",
    :name=>"General Roberto Fierro Villalobos International Airport",
    :icao=>"MMCU",
    :city=>"Chihuahua",
-   :country=>"Mexico",
+   :country=>'Mexico', :country_code=>'MX',
+
    :location=>"Chihuahua, Chihuahua, Mexico"},
  "CME"=>
   {:iata=>"CME",
    :name=>"Ciudad del Carmen International Airport",
    :icao=>"MMCE",
    :city=>"Ciudad del Carmen",
-   :country=>"Mexico",
+   :country=>'Mexico', :country_code=>'MX',
+
    :location=>"Ciudad del Carmen, Campeche, Mexico"},
  "CJS"=>
   {:iata=>"CJS",
    :name=>"Abraham González International Airport",
    :icao=>"MMCS",
    :city=>"Ciudad Juárez",
-   :country=>"Mexico",
+   :country=>'Mexico', :country_code=>'MX',
+
    :location=>"Ciudad Juárez, Chihuahua, Mexico"},
  "CEN"=>
   {:iata=>"CEN",
    :name=>"Ciudad Obregón International Airport",
    :icao=>"MMCN",
    :city=>"Ciudad Obregón",
-   :country=>"Mexico",
+   :country=>'Mexico', :country_code=>'MX',
+
    :location=>"Ciudad Obregón, Sonora, Mexico"},
  "CVM"=>
   {:iata=>"CVM",
    :name=>"General Pedro J. Méndez National Airport",
    :icao=>"MMCV",
    :city=>"Ciudad Victoria",
-   :country=>"Mexico",
+   :country=>'Mexico', :country_code=>'MX',
+
    :location=>"Ciudad Victoria, Tamaulipas, Mexico"},
  "CLQ"=>
   {:iata=>"CLQ",
    :name=>"Licenciado Miguel de la Madrid Airport",
    :icao=>"MMIA",
    :city=>"Colima",
-   :country=>"Mexico",
+   :country=>'Mexico', :country_code=>'MX',
+
    :location=>"Colima, Colima, Mexico"},
  "CZM"=>
   {:iata=>"CZM",
    :name=>"Cozumel International Airport",
    :icao=>"MMCZ",
    :city=>"Cozumel",
-   :country=>"Mexico",
+   :country=>'Mexico', :country_code=>'MX',
+
    :location=>"Cozumel, Quintana Roo, Mexico"},
  "CVJ"=>
   {:iata=>"CVJ",
    :name=>"General Mariano Matamoros Airport",
    :icao=>"MMCB",
    :city=>"Cuernavaca",
-   :country=>"Mexico",
+   :country=>'Mexico', :country_code=>'MX',
+
    :location=>"Cuernavaca, Morelos, Mexico"},
  "CUL"=>
   {:iata=>"CUL",
    :name=>"Federal de Bachigualato International Airport",
    :icao=>"MMCL",
    :city=>"Culiacán",
-   :country=>"Mexico",
+   :country=>'Mexico', :country_code=>'MX',
+
    :location=>"Culiacán, Sinaloa, Mexico"},
  "CNA"=>
   {:iata=>"CNA",
    :name=>"Cananea Airport",
    :icao=>"MMCA",
    :city=>"Cananea",
-   :country=>"Mexico",
+   :country=>'Mexico', :country_code=>'MX',
+
    :location=>"Cananea, Sonora, Mexico"},
  "CYW"=>
   {:iata=>"CYW",
    :name=>"Captain Rogelio Castillo National Airport",
    :icao=>"MMCY",
    :city=>"Celaya",
-   :country=>"Mexico",
+   :country=>'Mexico', :country_code=>'MX',
+
    :location=>"Celaya, Guanajuato, Mexico"},
  "CZA"=>
   {:iata=>"CZA",
    :name=>"Kaua International Airport",
    :icao=>"MMCT",
    :city=>"Chichén Itzá",
-   :country=>"Mexico",
+   :country=>'Mexico', :country_code=>'MX',
+
    :location=>"Chichén Itzá, Yucatán, Mexico"},
  "CUA"=>
   {:iata=>"CUA",
    :name=>"Ciudad Constitución Airport",
    :icao=>"",
    :city=>"Ciudad Constitución",
-   :country=>"Mexico",
+   :country=>'Mexico', :country_code=>'MX',
+
    :location=>"Ciudad Constitución, Baja California Sur, Mexico"},
  "CJT"=>
   {:iata=>"CJT",
    :name=>"Copalar Airport",
    :icao=>"MMCO",
    :city=>"Comitán",
-   :country=>"Mexico",
+   :country=>'Mexico', :country_code=>'MX',
+
    :location=>"Comitán, Chiapas, Mexico"},
  "CPR"=>
   {:iata=>"CPR",
    :name=>"Natrona County International Airport",
    :icao=>"KCPR",
    :city=>"Casper",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Casper, Wyoming, United States"},
  "CYS"=>
   {:iata=>"CYS",
    :name=>"Cheyenne Regional Airport (Jerry Olson Field)",
    :icao=>"KCYS",
    :city=>"Cheyenne",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Cheyenne, Wyoming, United States"},
  "COD"=>
   {:iata=>"COD",
    :name=>"Yellowstone Regional Airport",
    :icao=>"KCOD",
    :city=>"Cody",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Cody, Wyoming, United States"},
  "CPG"=>
   {:iata=>"CPG",
@@ -174,6 +198,7 @@ def airp_4
    :icao=>"",
    :city=>"Carmen de Patagones",
    :country=>"Argentina",
+:country_code=>"AR",
    :location=>"Carmen de Patagones, Buenos Aires, Argentina"},
  "CTC"=>
   {:iata=>"CTC",
@@ -181,6 +206,7 @@ def airp_4
    :icao=>"SANC",
    :city=>"Catamarca",
    :country=>"Argentina",
+:country_code=>"AR",
    :location=>"Catamarca, Catamarca, Argentina"},
  "CRD"=>
   {:iata=>"CRD",
@@ -188,6 +214,7 @@ def airp_4
    :icao=>"SAVC",
    :city=>"Comodoro Rivadavia",
    :country=>"Argentina",
+:country_code=>"AR",
    :location=>"Comodoro Rivadavia, Chubut, Argentina"},
  "COR"=>
   {:iata=>"COR",
@@ -196,6 +223,7 @@ def airp_4
    :icao=>"SACO",
    :city=>"Córdoba",
    :country=>"Argentina",
+:country_code=>"AR",
    :location=>"Córdoba, Córdoba, Argentina"},
  "CNQ"=>
   {:iata=>"CNQ",
@@ -203,6 +231,7 @@ def airp_4
    :icao=>"SARC",
    :city=>"Corrientes",
    :country=>"Argentina",
+:country_code=>"AR",
    :location=>"Corrientes, Corrientes, Argentina"},
  "CPC"=>
   {:iata=>"CPC",
@@ -210,6 +239,7 @@ def airp_4
    :icao=>"SAZY",
    :city=>"San Martín de los Andes",
    :country=>"Argentina",
+:country_code=>"AR",
    :location=>"San Martín de los Andes, Neuquén, Argentina"},
  "CVI"=>
   {:iata=>"CVI",
@@ -217,6 +247,7 @@ def airp_4
    :icao=>"",
    :city=>"Caleta Olivia",
    :country=>"Argentina",
+:country_code=>"AR",
    :location=>"Caleta Olivia, Santa Cruz, Argentina"},
  "CVH"=>
   {:iata=>"CVH",
@@ -224,6 +255,7 @@ def airp_4
    :icao=>"",
    :city=>"Caviahue",
    :country=>"Argentina",
+:country_code=>"AR",
    :location=>"Caviahue, Neuquén, Argentina"},
  "CRR"=>
   {:iata=>"CRR",
@@ -231,6 +263,7 @@ def airp_4
    :icao=>"SANW",
    :city=>"Ceres",
    :country=>"Argentina",
+:country_code=>"AR",
    :location=>"Ceres, Santa Fe, Argentina"},
  "CNT"=>
   {:iata=>"CNT",
@@ -238,6 +271,7 @@ def airp_4
    :icao=>"",
    :city=>"Charata",
    :country=>"Argentina",
+:country_code=>"AR",
    :location=>"Charata, Chubut, Argentina"},
  "CLX"=>
   {:iata=>"CLX",
@@ -245,6 +279,7 @@ def airp_4
    :icao=>"SATC",
    :city=>"Clorinda",
    :country=>"Argentina",
+:country_code=>"AR",
    :location=>"Clorinda, Formosa, Argentina"},
  "CCT"=>
   {:iata=>"CCT",
@@ -252,6 +287,7 @@ def airp_4
    :icao=>"",
    :city=>"Colonia Catriel",
    :country=>"Argentina",
+:country_code=>"AR",
    :location=>"Colonia Catriel, Río Negro, Argentina"},
  "COC"=>
   {:iata=>"COC",
@@ -259,6 +295,7 @@ def airp_4
    :icao=>"SAAC",
    :city=>"Concordia",
    :country=>"Argentina",
+:country_code=>"AR",
    :location=>"Concordia, Entre Ríos, Argentina"},
  "CSZ"=>
   {:iata=>"CSZ",
@@ -266,6 +303,7 @@ def airp_4
    :icao=>"SAZC",
    :city=>"Coronel Suárez",
    :country=>"Argentina",
+:country_code=>"AR",
    :location=>"Coronel Suárez, Buenos Aires, Argentina"},
  "CUT"=>
   {:iata=>"CUT",
@@ -273,6 +311,7 @@ def airp_4
    :icao=>"SAZW",
    :city=>"Cutral Có",
    :country=>"Argentina",
+:country_code=>"AR",
    :location=>"Cutral Có, Neuquén, Argentina"},
  "CIJ"=>
   {:iata=>"CIJ",
@@ -280,6 +319,7 @@ def airp_4
    :icao=>"SLCO",
    :city=>"Cobija",
    :country=>"Bolivia",
+:country_code=>"BO",
    :location=>"Cobija, Bolivia"},
  "CBB"=>
   {:iata=>"CBB",
@@ -287,6 +327,7 @@ def airp_4
    :icao=>"SLCB",
    :city=>"Cochabamba",
    :country=>"Bolivia",
+:country_code=>"BO",
    :location=>"Cochabamba, Bolivia"},
  "CAM"=>
   {:iata=>"CAM",
@@ -294,6 +335,7 @@ def airp_4
    :icao=>"SLCA",
    :city=>"Camiri",
    :country=>"Bolivia",
+:country_code=>"BO",
    :location=>"Camiri, Bolivia"},
  "CEP"=>
   {:iata=>"CEP",
@@ -301,6 +343,7 @@ def airp_4
    :icao=>"SLCP",
    :city=>"Concepción",
    :country=>"Bolivia",
+:country_code=>"BO",
    :location=>"Concepción, Santa Cruz, Bolivia"},
  "CNF"=>
   {:iata=>"CNF",
@@ -308,6 +351,7 @@ def airp_4
    :icao=>"SBCF",
    :city=>"Confins (near Belo Horizonte)",
    :country=>"Brazil",
+:country_code=>"BR",
    :location=>"Confins (near Belo Horizonte), Minas Gerais, Brazil"},
  "CWB"=>
   {:iata=>"CWB",
@@ -315,6 +359,7 @@ def airp_4
    :icao=>"SBCT",
    :city=>"Curitiba",
    :country=>"Brazil",
+:country_code=>"BR",
    :location=>"Curitiba, Paraná, Brazil"},
  "CGH"=>
   {:iata=>"CGH",
@@ -322,6 +367,7 @@ def airp_4
    :icao=>"SBSP",
    :city=>"São Paulo",
    :country=>"Brazil",
+:country_code=>"BR",
    :location=>"São Paulo, Brazil"},
  "CFB"=>
   {:iata=>"CFB",
@@ -329,6 +375,7 @@ def airp_4
    :icao=>"SBCB",
    :city=>"Cabo Frio",
    :country=>"Brazil",
+:country_code=>"BR",
    :location=>"Cabo Frio, Rio de Janeiro, Brazil"},
  "CFC"=>
   {:iata=>"CFC",
@@ -336,6 +383,7 @@ def airp_4
    :icao=>"SBCD",
    :city=>"Caçador",
    :country=>"Brazil",
+:country_code=>"BR",
    :location=>"Caçador, Santa Catarina, Brazil"},
  "CPV"=>
   {:iata=>"CPV",
@@ -343,6 +391,7 @@ def airp_4
    :icao=>"SBKG",
    :city=>"Campina Grande",
    :country=>"Brazil",
+:country_code=>"BR",
    :location=>"Campina Grande, Paraíba, Brazil"},
  "CPQ"=>
   {:iata=>"CPQ",
@@ -350,6 +399,7 @@ def airp_4
    :icao=>"SDAM",
    :city=>"Campinas",
    :country=>"Brazil",
+:country_code=>"BR",
    :location=>"Campinas, São Paulo, Brazil"},
  "CGR"=>
   {:iata=>"CGR",
@@ -357,6 +407,7 @@ def airp_4
    :icao=>"SBCG",
    :city=>"Campo Grande",
    :country=>"Brazil",
+:country_code=>"BR",
    :location=>"Campo Grande, Mato Grosso do Sul, Brazil"},
  "CAW"=>
   {:iata=>"CAW",
@@ -364,6 +415,7 @@ def airp_4
    :icao=>"SBCP",
    :city=>"Campos dos Goytacazes",
    :country=>"Brazil",
+:country_code=>"BR",
    :location=>"Campos dos Goytacazes, Rio de Janeiro, Brazil"},
  "CKS"=>
   {:iata=>"CKS",
@@ -371,6 +423,7 @@ def airp_4
    :icao=>"SBCJ",
    :city=>"Carajás",
    :country=>"Brazil",
+:country_code=>"BR",
    :location=>"Carajás, Pará, Brazil"},
  "CAC"=>
   {:iata=>"CAC",
@@ -378,6 +431,7 @@ def airp_4
    :icao=>"SBCA",
    :city=>"Cascavel",
    :country=>"Brazil",
+:country_code=>"BR",
    :location=>"Cascavel, Paraná, Brazil"},
  "CXJ"=>
   {:iata=>"CXJ",
@@ -385,6 +439,7 @@ def airp_4
    :icao=>"SBCX",
    :city=>"Caxias do Sul",
    :country=>"Brazil",
+:country_code=>"BR",
    :location=>"Caxias do Sul, Rio Grande do Sul, Brazil"},
  "CIZ"=>
   {:iata=>"CIZ",
@@ -392,6 +447,7 @@ def airp_4
    :icao=>"SWKO",
    :city=>"Coari",
    :country=>"Brazil",
+:country_code=>"BR",
    :location=>"Coari, Amazonas, Brazil"},
  "CMG"=>
   {:iata=>"CMG",
@@ -399,6 +455,7 @@ def airp_4
    :icao=>"SBCR",
    :city=>"Corumbá",
    :country=>"Brazil",
+:country_code=>"BR",
    :location=>"Corumbá, Mato Grosso do Sul, Brazil"},
  "CCM"=>
   {:iata=>"CCM",
@@ -406,6 +463,7 @@ def airp_4
    :icao=>"SBCM",
    :city=>"Criciúma",
    :country=>"Brazil",
+:country_code=>"BR",
    :location=>"Criciúma, Santa Catarina, Brazil"},
  "CZS"=>
   {:iata=>"CZS",
@@ -413,6 +471,7 @@ def airp_4
    :icao=>"SBCZ",
    :city=>"Cruzeiro do Sul",
    :country=>"Brazil",
+:country_code=>"BR",
    :location=>"Cruzeiro do Sul, Acre, Brazil"},
  "CGB"=>
   {:iata=>"CGB",
@@ -420,6 +479,7 @@ def airp_4
    :icao=>"SBCY",
    :city=>"Cuiabá",
    :country=>"Brazil",
+:country_code=>"BR",
    :location=>"Cuiabá, Mato Grosso, Brazil"},
  "CCX"=>
   {:iata=>"CCX",
@@ -427,6 +487,7 @@ def airp_4
    :icao=>"SWKC",
    :city=>"Cáceres",
    :country=>"Brazil",
+:country_code=>"BR",
    :location=>"Cáceres, Minas Gerais, Brazil"},
  "CCQ"=>
   {:iata=>"CCQ",
@@ -434,6 +495,7 @@ def airp_4
    :icao=>"",
    :city=>"Cachoeira",
    :country=>"Brazil",
+:country_code=>"BR",
    :location=>"Cachoeira, Bahia, Brazil"},
  "CDI"=>
   {:iata=>"CDI",
@@ -441,6 +503,7 @@ def airp_4
    :icao=>"",
    :city=>"Cachoeiro de Itapemirim",
    :country=>"Brazil",
+:country_code=>"BR",
    :location=>"Cachoeiro de Itapemirim, Brazil"},
  "CLV"=>
   {:iata=>"CLV",
@@ -448,6 +511,7 @@ def airp_4
    :icao=>"SWKN",
    :city=>"Caldas Novas",
    :country=>"Brazil",
+:country_code=>"BR",
    :location=>"Caldas Novas, Goiás, Brazil"},
  "CMT"=>
   {:iata=>"CMT",
@@ -455,6 +519,7 @@ def airp_4
    :icao=>"",
    :city=>"Cameta",
    :country=>"Brazil",
+:country_code=>"BR",
    :location=>"Cameta, Pará, Brazil"},
  "CMC"=>
   {:iata=>"CMC",
@@ -462,6 +527,7 @@ def airp_4
    :icao=>"SNWC",
    :city=>"Camocim",
    :country=>"Brazil",
+:country_code=>"BR",
    :location=>"Camocim, Ceará, Brazil"},
  "CBW"=>
   {:iata=>"CBW",
@@ -469,6 +535,7 @@ def airp_4
    :icao=>"SSKM",
    :city=>"Campo Mourão",
    :country=>"Brazil",
+:country_code=>"BR",
    :location=>"Campo Mourão, Paraná, Brazil"},
  "CQA"=>
   {:iata=>"CQA",
@@ -476,6 +543,7 @@ def airp_4
    :icao=>"",
    :city=>"Canarana",
    :country=>"Brazil",
+:country_code=>"BR",
    :location=>"Canarana, Mato Grosso, Brazil"},
  "CNV"=>
   {:iata=>"CNV",
@@ -483,6 +551,7 @@ def airp_4
    :icao=>"SNED",
    :city=>"Canavieiras",
    :country=>"Brazil",
+:country_code=>"BR",
    :location=>"Canavieiras, Bahia, Brazil"},
  "CAF"=>
   {:iata=>"CAF",
@@ -490,6 +559,7 @@ def airp_4
    :icao=>"SWCA",
    :city=>"Carauari",
    :country=>"Brazil",
+:country_code=>"BR",
    :location=>"Carauari, Amazonas, Brazil"},
  "CRQ"=>
   {:iata=>"CRQ",
@@ -497,6 +567,7 @@ def airp_4
    :icao=>"SBCV",
    :city=>"Caravelas",
    :country=>"Brazil",
+:country_code=>"BR",
    :location=>"Caravelas, Bahia, Brazil"},
  "CLN"=>
   {:iata=>"CLN",
@@ -504,6 +575,7 @@ def airp_4
    :icao=>"SBCI",
    :city=>"Carolina",
    :country=>"Brazil",
+:country_code=>"BR",
    :location=>"Carolina, Maranhão, Brazil"},
  "CAU"=>
   {:iata=>"CAU",
@@ -511,6 +583,7 @@ def airp_4
    :icao=>"SNRU",
    :city=>"Caruaru",
    :country=>"Brazil",
+:country_code=>"BR",
    :location=>"Caruaru, Pernambuco, Brazil"},
  "CTP"=>
   {:iata=>"CTP",
@@ -518,6 +591,7 @@ def airp_4
    :icao=>"SNCP",
    :city=>"Carutapera",
    :country=>"Brazil",
+:country_code=>"BR",
    :location=>"Carutapera, Maranhão, Brazil"},
  "CSS"=>
   {:iata=>"CSS",
@@ -525,6 +599,7 @@ def airp_4
    :icao=>"SSCL",
    :city=>"Cassilândia",
    :country=>"Brazil",
+:country_code=>"BR",
    :location=>"Cassilândia, Mato Grosso do Sul, Brazil"},
  "CSW"=>
   {:iata=>"CSW",
@@ -532,6 +607,7 @@ def airp_4
    :icao=>"",
    :city=>"Colorado do Oeste",
    :country=>"Brazil",
+:country_code=>"BR",
    :location=>"Colorado do Oeste, Rondônia, Brazil"},
  "CDJ"=>
   {:iata=>"CDJ",
@@ -539,6 +615,7 @@ def airp_4
    :icao=>"SBAA",
    :city=>"Conceição do Araguaia",
    :country=>"Brazil",
+:country_code=>"BR",
    :location=>"Conceição do Araguaia, Pará, Brazil"},
  "CCI"=>
   {:iata=>"CCI",
@@ -546,6 +623,7 @@ def airp_4
    :icao=>"SSCK",
    :city=>"Concórdia",
    :country=>"Brazil",
+:country_code=>"BR",
    :location=>"Concórdia, Amazonas, Brazil"},
  "CFO"=>
   {:iata=>"CFO",
@@ -553,6 +631,7 @@ def airp_4
    :icao=>"",
    :city=>"Confreza",
    :country=>"Brazil",
+:country_code=>"BR",
    :location=>"Confreza, Mato Grosso, Brazil"},
  "CKO"=>
   {:iata=>"CKO",
@@ -560,6 +639,7 @@ def airp_4
    :icao=>"SSCP",
    :city=>"Cornélio Procópio",
    :country=>"Brazil",
+:country_code=>"BR",
    :location=>"Cornélio Procópio, Paraná, Brazil"},
  "CQS"=>
   {:iata=>"CQS",
@@ -567,6 +647,7 @@ def airp_4
    :icao=>"SWCQ",
    :city=>"Costa Marques",
    :country=>"Brazil",
+:country_code=>"BR",
    :location=>"Costa Marques, Rondônia, Brazil"},
  "CZB"=>
   {:iata=>"CZB",
@@ -574,6 +655,7 @@ def airp_4
    :icao=>"",
    :city=>"Cruz Alta",
    :country=>"Brazil",
+:country_code=>"BR",
    :location=>"Cruz Alta, Rio Grande do Sul, Brazil"},
  "CPU"=>
   {:iata=>"CPU",
@@ -581,6 +663,7 @@ def airp_4
    :icao=>"",
    :city=>"Cururupu",
    :country=>"Brazil",
+:country_code=>"BR",
    :location=>"Cururupu, Maranhão, Brazil"},
  "CSU"=>
   {:iata=>"CSU",
@@ -588,6 +671,7 @@ def airp_4
    :city=>"Santa Cruz Do Sul",
    :icao=>"SSSC",
    :country=>"Brazil",
+:country_code=>"BR",
    :location=>"Santa Cruz Do Sul, Brazil"},
  "CTQ"=>
   {:iata=>"CTQ",
@@ -595,6 +679,7 @@ def airp_4
    :icao=>"SSVP",
    :city=>"Santa Vitória",
    :country=>"Brazil",
+:country_code=>"BR",
    :location=>"Santa Vitória, Rio Grande do Sul, Brazil"},
  "CMP"=>
   {:iata=>"CMP",
@@ -602,6 +687,7 @@ def airp_4
    :icao=>"SNKE",
    :city=>"Santana do Araguaia",
    :country=>"Brazil",
+:country_code=>"BR",
    :location=>"Santana do Araguaia, Pará, Brazil"},
  "CJC"=>
   {:iata=>"CJC",
@@ -609,6 +695,7 @@ def airp_4
    :icao=>"SCCF",
    :city=>"Calama",
    :country=>"Chile",
+:country_code=>"CL",
    :location=>"Calama, Antofagasta Region, Chile"},
  "CCP"=>
   {:iata=>"CCP",
@@ -616,6 +703,7 @@ def airp_4
    :icao=>"SCIE",
    :city=>"Concepción",
    :country=>"Chile",
+:country_code=>"CL",
    :location=>"Concepción, Bío Bío Region, Chile"},
  "CPO"=>
   {:iata=>"CPO",
@@ -623,6 +711,7 @@ def airp_4
    :icao=>"SCAT",
    :city=>"Copiapó",
    :country=>"Chile",
+:country_code=>"CL",
    :location=>"Copiapó, Atacama Region, Chile"},
  "CNR"=>
   {:iata=>"CNR",
@@ -630,6 +719,7 @@ def airp_4
    :icao=>"SCRA",
    :city=>"Chañaral",
    :country=>"Chile",
+:country_code=>"CL",
    :location=>"Chañaral, Atacama Region, Chile"},
  "CCH"=>
   {:iata=>"CCH",
@@ -637,6 +727,7 @@ def airp_4
    :icao=>"SCCC",
    :city=>"Chile Chico",
    :country=>"Chile",
+:country_code=>"CL",
    :location=>"Chile Chico, Aisén Region, Chile"},
  "COW"=>
   {:iata=>"COW",
@@ -644,6 +735,7 @@ def airp_4
    :icao=>"SCQB",
    :city=>"Coquimbo",
    :country=>"Chile",
+:country_code=>"CL",
    :location=>"Coquimbo, Coquimbo Region, Chile"},
  "CLO"=>
   {:iata=>"CLO",
@@ -651,6 +743,7 @@ def airp_4
    :icao=>"SKCL",
    :city=>"Cali",
    :country=>"Colombia",
+:country_code=>"CO",
    :location=>"Cali, Colombia"},
  "CTG"=>
   {:iata=>"CTG",
@@ -658,6 +751,7 @@ def airp_4
    :icao=>"SKCG",
    :city=>"Cartagena",
    :country=>"Colombia",
+:country_code=>"CO",
    :location=>"Cartagena, Colombia"},
  "CRC"=>
   {:iata=>"CRC",
@@ -665,6 +759,7 @@ def airp_4
    :icao=>"SKGO",
    :city=>"Cartago",
    :country=>"Colombia",
+:country_code=>"CO",
    :location=>"Cartago, Colombia"},
  "CAQ"=>
   {:iata=>"CAQ",
@@ -672,6 +767,7 @@ def airp_4
    :icao=>"SKCU",
    :city=>"Caucasia",
    :country=>"Colombia",
+:country_code=>"CO",
    :location=>"Caucasia, Antioquia, Colombia"},
  "CZU"=>
   {:iata=>"CZU",
@@ -679,6 +775,7 @@ def airp_4
    :icao=>"SKCZ",
    :city=>"Corozal",
    :country=>"Colombia",
+:country_code=>"CO",
    :location=>"Corozal, Colombia"},
  "CUC"=>
   {:iata=>"CUC",
@@ -686,6 +783,7 @@ def airp_4
    :icao=>"SKCC",
    :city=>"Cúcuta",
    :country=>"Colombia",
+:country_code=>"CO",
    :location=>"Cúcuta, Colombia"},
  "CJD"=>
   {:iata=>"CJD",
@@ -693,6 +791,7 @@ def airp_4
    :icao=>"",
    :city=>"Candilejas",
    :country=>"Colombia",
+:country_code=>"CO",
    :location=>"Candilejas, Colombia"},
  "CPB"=>
   {:iata=>"CPB",
@@ -700,6 +799,7 @@ def airp_4
    :icao=>"SKCA",
    :city=>"Capurganá",
    :country=>"Colombia",
+:country_code=>"CO",
    :location=>"Capurganá, Colombia"},
  "CQT"=>
   {:iata=>"CQT",
@@ -707,6 +807,7 @@ def airp_4
    :icao=>"",
    :city=>"Caquetania",
    :country=>"Colombia",
+:country_code=>"CO",
    :location=>"Caquetania, Colombia"},
  "CCO"=>
   {:iata=>"CCO",
@@ -714,6 +815,7 @@ def airp_4
    :icao=>"SKCI",
    :city=>"Puerto López",
    :country=>"Colombia",
+:country_code=>"CO",
    :location=>"Puerto López, Meta, Colombia"},
  "CUO"=>
   {:iata=>"CUO",
@@ -721,6 +823,7 @@ def airp_4
    :icao=>"SKCR",
    :city=>"Caruru",
    :country=>"Colombia",
+:country_code=>"CO",
    :location=>"Caruru, Colombia"},
  "CSR"=>
   {:iata=>"CSR",
@@ -728,6 +831,7 @@ def airp_4
    :icao=>"",
    :city=>"Casuarito",
    :country=>"Colombia",
+:country_code=>"CO",
    :location=>"Casuarito, Colombia"},
  "CPL"=>
   {:iata=>"CPL",
@@ -735,6 +839,7 @@ def airp_4
    :icao=>"SKHA",
    :city=>"Chaparral",
    :country=>"Colombia",
+:country_code=>"CO",
    :location=>"Chaparral, Colombia"},
  "CIM"=>
   {:iata=>"CIM",
@@ -742,6 +847,7 @@ def airp_4
    :icao=>"SKCM",
    :city=>"Cimitarra",
    :country=>"Colombia",
+:country_code=>"CO",
    :location=>"Cimitarra, Colombia"},
  "COG"=>
   {:iata=>"COG",
@@ -749,6 +855,7 @@ def airp_4
    :icao=>"SKCD",
    :city=>"Condoto",
    :country=>"Colombia",
+:country_code=>"CO",
    :location=>"Condoto, Colombia"},
  "CVE"=>
   {:iata=>"CVE",
@@ -756,6 +863,7 @@ def airp_4
    :icao=>"SKCV",
    :city=>"Coveñas",
    :country=>"Colombia",
+:country_code=>"CO",
    :location=>"Coveñas, Colombia"},
  "CUI"=>
   {:iata=>"CUI",
@@ -763,6 +871,7 @@ def airp_4
    :icao=>"",
    :city=>"Curillo",
    :country=>"Colombia",
+:country_code=>"CO",
    :location=>"Curillo, Colombia"},
  "CUE"=>
   {:iata=>"CUE",
@@ -770,13 +879,14 @@ def airp_4
    :icao=>"SECU",
    :city=>"Cuenca",
    :country=>"Ecuador",
+:country_code=>"EC",
    :location=>"Cuenca, Ecuador"},
  "CAY"=>
   {:iata=>"CAY",
    :name=>"Cayenne-Rochambeau Airport",
    :icao=>"SOCA",
    :city=>"Cayenne",
-   :country=>"French Guiana",
+   :country=>'French Guiana', :country_code=>'GF',
    :location=>"Cayenne, French Guiana"},
  "CIO"=>
   {:iata=>"CIO",
@@ -784,6 +894,7 @@ def airp_4
    :icao=>"SGCO",
    :city=>"Concepción",
    :country=>"Paraguay",
+:country_code=>"PY",
    :location=>"Concepción, Paraguay"},
  "CJA"=>
   {:iata=>"CJA",
@@ -791,6 +902,7 @@ def airp_4
    :icao=>"SPJR",
    :city=>"Cajamarca",
    :country=>"Peru",
+:country_code=>"PE",
    :location=>"Cajamarca, Peru"},
  "CIX"=>
   {:iata=>"CIX",
@@ -798,6 +910,7 @@ def airp_4
    :icao=>"SPHI",
    :city=>"Chiclayo",
    :country=>"Peru",
+:country_code=>"PE",
    :location=>"Chiclayo, Peru"},
  "CHM"=>
   {:iata=>"CHM",
@@ -805,6 +918,7 @@ def airp_4
    :icao=>"SPEO",
    :city=>"Chimbote",
    :country=>"Peru",
+:country_code=>"PE",
    :location=>"Chimbote, Ancash Region, Peru"},
  "CUZ"=>
   {:iata=>"CUZ",
@@ -812,6 +926,7 @@ def airp_4
    :icao=>"SPZO",
    :city=>"Cusco",
    :country=>"Peru",
+:country_code=>"PE",
    :location=>"Cusco, Cusco Region, Peru"},
  "CHH"=>
   {:iata=>"CHH",
@@ -819,6 +934,7 @@ def airp_4
    :icao=>"SPPY",
    :city=>"Chachapoyas",
    :country=>"Peru",
+:country_code=>"PE",
    :location=>"Chachapoyas, Peru"},
  "CYR"=>
   {:iata=>"CYR",
@@ -826,6 +942,7 @@ def airp_4
    :icao=>"SUCA",
    :city=>"Colonia del Sacramento",
    :country=>"Uruguay",
+:country_code=>"UY",
    :location=>"Colonia del Sacramento, Colonia, Uruguay"},
  "CCS"=>
   {:iata=>"CCS",
@@ -833,6 +950,7 @@ def airp_4
    :icao=>"SVMI",
    :city=>"Maiquetía (near Caracas)",
    :country=>"Venezuela",
+:country_code=>"VE",
    :location=>"Maiquetía (near Caracas), Venezuela"},
  "CAJ"=>
   {:iata=>"CAJ",
@@ -840,6 +958,7 @@ def airp_4
    :icao=>"SVCN",
    :city=>"Canaima",
    :country=>"Venezuela",
+:country_code=>"VE",
    :location=>"Canaima, Venezuela"},
  "CBL"=>
   {:iata=>"CBL",
@@ -847,6 +966,7 @@ def airp_4
    :icao=>"SVCB",
    :city=>"Ciudad Bolívar",
    :country=>"Venezuela",
+:country_code=>"VE",
    :location=>"Ciudad Bolívar, Venezuela"},
  "CZE"=>
   {:iata=>"CZE",
@@ -854,6 +974,7 @@ def airp_4
    :icao=>"SVCR",
    :city=>"Santa Ana de Coro",
    :country=>"Venezuela",
+:country_code=>"VE",
    :location=>"Santa Ana de Coro, Venezuela"},
  "CUM"=>
   {:iata=>"CUM",
@@ -861,6 +982,7 @@ def airp_4
    :icao=>"SVCU",
    :city=>"Cumaná",
    :country=>"Venezuela",
+:country_code=>"VE",
    :location=>"Cumaná, Venezuela"},
  "CBS"=>
   {:iata=>"CBS",
@@ -868,6 +990,7 @@ def airp_4
    :icao=>"SVON",
    :city=>"Cabimas",
    :country=>"Venezuela",
+:country_code=>"VE",
    :location=>"Cabimas, Venezuela"},
  "CXA"=>
   {:iata=>"CXA",
@@ -875,6 +998,7 @@ def airp_4
    :icao=>"SVCD",
    :city=>"Caicara de Orinoco",
    :country=>"Venezuela",
+:country_code=>"VE",
    :location=>"Caicara de Orinoco, Venezuela"},
  "CLZ"=>
   {:iata=>"CLZ",
@@ -882,6 +1006,7 @@ def airp_4
    :icao=>"SVCL",
    :city=>"Calabozo",
    :country=>"Venezuela",
+:country_code=>"VE",
    :location=>"Calabozo, Venezuela"},
  "CUP"=>
   {:iata=>"CUP",
@@ -889,6 +1014,7 @@ def airp_4
    :icao=>"SVCP",
    :city=>"Carúpano",
    :country=>"Venezuela",
+:country_code=>"VE",
    :location=>"Carúpano, Venezuela"},
  "CUV"=>
   {:iata=>"CUV",
@@ -896,6 +1022,7 @@ def airp_4
    :icao=>"SVCG",
    :city=>"Casigua",
    :country=>"Venezuela",
+:country_code=>"VE",
    :location=>"Casigua, Venezuela"},
  "CGU"=>
   {:iata=>"CGU",
@@ -903,6 +1030,7 @@ def airp_4
    :icao=>"SVPR",
    :city=>"Ciudad Guayana",
    :country=>"Venezuela",
+:country_code=>"VE",
    :location=>"Ciudad Guayana, Venezuela"},
  "CNS"=>
   {:iata=>"CNS",
@@ -910,6 +1038,7 @@ def airp_4
    :icao=>"YBCS",
    :city=>"Cairns",
    :country=>"Australia",
+:country_code=>"AU",
    :location=>"Cairns, Queensland, Australia"},
  "CBR"=>
   {:iata=>"CBR",
@@ -917,6 +1046,7 @@ def airp_4
    :icao=>"YSCB",
    :city=>"Canberra",
    :country=>"Australia",
+:country_code=>"AU",
    :location=>"Canberra, Australia"},
  "CBI"=>
   {:iata=>"CBI",
@@ -924,6 +1054,7 @@ def airp_4
    :icao=>"",
    :city=>"Cape Barren Island",
    :country=>"Australia",
+:country_code=>"AU",
    :location=>"Cape Barren Island, Tasmania, Australia"},
  "CVQ"=>
   {:iata=>"CVQ",
@@ -931,6 +1062,7 @@ def airp_4
    :icao=>"YCAR",
    :city=>"Carnarvon",
    :country=>"Australia",
+:country_code=>"AU",
    :location=>"Carnarvon, Western Australia, Australia"},
  "CED"=>
   {:iata=>"CED",
@@ -938,6 +1070,7 @@ def airp_4
    :icao=>"YCDU",
    :city=>"Ceduna",
    :country=>"Australia",
+:country_code=>"AU",
    :location=>"Ceduna, South Australia, Australia"},
  "CTL"=>
   {:iata=>"CTL",
@@ -945,6 +1078,7 @@ def airp_4
    :icao=>"YBCV",
    :city=>"Charleville",
    :country=>"Australia",
+:country_code=>"AU",
    :location=>"Charleville, Queensland, Australia"},
  "CKW"=>
   {:iata=>"CKW",
@@ -952,6 +1086,7 @@ def airp_4
    :city=>"Christmas Creek Mine",
    :icao=>"",
    :country=>"Australia",
+:country_code=>"AU",
    :location=>"Christmas Creek Mine, Australia"},
  "CMQ"=>
   {:iata=>"CMQ",
@@ -959,6 +1094,7 @@ def airp_4
    :icao=>"YCMT",
    :city=>"Clermont",
    :country=>"Australia",
+:country_code=>"AU",
    :location=>"Clermont, Queensland, Australia"},
  "CNJ"=>
   {:iata=>"CNJ",
@@ -966,6 +1102,7 @@ def airp_4
    :icao=>"YCCY",
    :city=>"Cloncurry",
    :country=>"Australia",
+:country_code=>"AU",
    :location=>"Cloncurry, Queensland, Australia"},
  "CAZ"=>
   {:iata=>"CAZ",
@@ -973,6 +1110,7 @@ def airp_4
    :icao=>"YCBA",
    :city=>"Cobar",
    :country=>"Australia",
+:country_code=>"AU",
    :location=>"Cobar, New South Wales, Australia"},
  "CUQ"=>
   {:iata=>"CUQ",
@@ -980,6 +1118,7 @@ def airp_4
    :icao=>"YCOE",
    :city=>"Coen",
    :country=>"Australia",
+:country_code=>"AU",
    :location=>"Coen, Queensland, Australia"},
  "CFS"=>
   {:iata=>"CFS",
@@ -987,6 +1126,7 @@ def airp_4
    :icao=>"YCFS",
    :city=>"Coffs Harbour",
    :country=>"Australia",
+:country_code=>"AU",
    :location=>"Coffs Harbour, New South Wales, Australia"},
  "CPD"=>
   {:iata=>"CPD",
@@ -994,6 +1134,7 @@ def airp_4
    :icao=>"YCBP",
    :city=>"Coober Pedy",
    :country=>"Australia",
+:country_code=>"AU",
    :location=>"Coober Pedy, South Australia, Australia"},
  "CTN"=>
   {:iata=>"CTN",
@@ -1001,6 +1142,7 @@ def airp_4
    :icao=>"YCKN",
    :city=>"Cooktown",
    :country=>"Australia",
+:country_code=>"AU",
    :location=>"Cooktown, Queensland, Australia"},
  "CJF"=>
   {:iata=>"CJF",
@@ -1008,6 +1150,7 @@ def airp_4
    :icao=>"YCWA",
    :city=>"Coondewanna",
    :country=>"Australia",
+:country_code=>"AU",
    :location=>"Coondewanna, Western Australia, Australia"},
  "CMA"=>
   {:iata=>"CMA",
@@ -1015,6 +1158,7 @@ def airp_4
    :icao=>"YCMU",
    :city=>"Cunnamulla",
    :country=>"Australia",
+:country_code=>"AU",
    :location=>"Cunnamulla, Queensland, Australia"},
  "CGV"=>
   {:iata=>"CGV",
@@ -1022,6 +1166,7 @@ def airp_4
    :icao=>"YCAG",
    :city=>"Caiguna",
    :country=>"Australia",
+:country_code=>"AU",
    :location=>"Caiguna, Western Australia, Australia"},
  "CUD"=>
   {:iata=>"CUD",
@@ -1029,6 +1174,7 @@ def airp_4
    :icao=>"YCDR",
    :city=>"Caloundra",
    :country=>"Australia",
+:country_code=>"AU",
    :location=>"Caloundra, Queensland, Australia"},
  "CDU"=>
   {:iata=>"CDU",
@@ -1036,6 +1182,7 @@ def airp_4
    :icao=>"YSCN",
    :city=>"Camden",
    :country=>"Australia",
+:country_code=>"AU",
    :location=>"Camden, New South Wales, Australia"},
  "CFI"=>
   {:iata=>"CFI",
@@ -1043,6 +1190,7 @@ def airp_4
    :icao=>"",
    :city=>"Camfield Station",
    :country=>"Australia",
+:country_code=>"AU",
    :location=>"Camfield Station, Northern Territory, Australia"},
  "CML"=>
   {:iata=>"CML",
@@ -1050,6 +1198,7 @@ def airp_4
    :icao=>"YCMW",
    :city=>"Camooweal",
    :country=>"Australia",
+:country_code=>"AU",
    :location=>"Camooweal, Queensland, Australia"},
  "CBY"=>
   {:iata=>"CBY",
@@ -1057,6 +1206,7 @@ def airp_4
    :icao=>"",
    :city=>"Canobie Station",
    :country=>"Australia",
+:country_code=>"AU",
    :location=>"Canobie Station, Queensland, Australia"},
  "CQP"=>
   {:iata=>"CQP",
@@ -1064,6 +1214,7 @@ def airp_4
    :icao=>"",
    :city=>"Cape Flattery",
    :country=>"Australia",
+:country_code=>"AU",
    :location=>"Cape Flattery, Queensland, Australia"},
  "CRY"=>
   {:iata=>"CRY",
@@ -1071,6 +1222,7 @@ def airp_4
    :icao=>"",
    :city=>"Carlton Hill Station",
    :country=>"Australia",
+:country_code=>"AU",
    :location=>"Carlton Hill Station, Western Australia, Australia"},
  "CFP"=>
   {:iata=>"CFP",
@@ -1078,6 +1230,7 @@ def airp_4
    :icao=>"",
    :city=>"Carpentaria Downs",
    :country=>"Australia",
+:country_code=>"AU",
    :location=>"Carpentaria Downs, Queensland, Australia"},
  "CSI"=>
   {:iata=>"CSI",
@@ -1085,6 +1238,7 @@ def airp_4
    :icao=>"YCAS",
    :city=>"Casino",
    :country=>"Australia",
+:country_code=>"AU",
    :location=>"Casino, New South Wales, Australia"},
  "CTR"=>
   {:iata=>"CTR",
@@ -1092,6 +1246,7 @@ def airp_4
    :icao=>"",
    :city=>"Cattle Creek",
    :country=>"Australia",
+:country_code=>"AU",
    :location=>"Cattle Creek, Northern Territory, Australia"},
  "CES"=>
   {:iata=>"CES",
@@ -1099,6 +1254,7 @@ def airp_4
    :icao=>"YCNK",
    :city=>"Cessnock",
    :country=>"Australia",
+:country_code=>"AU",
    :location=>"Cessnock, New South Wales, Australia"},
  "CXT"=>
   {:iata=>"CXT",
@@ -1106,6 +1262,7 @@ def airp_4
    :icao=>"YCHT",
    :city=>"Charters Towers",
    :country=>"Australia",
+:country_code=>"AU",
    :location=>"Charters Towers, Queensland, Australia"},
  "CBC"=>
   {:iata=>"CBC",
@@ -1113,6 +1270,7 @@ def airp_4
    :icao=>"",
    :city=>"Cherrabun",
    :country=>"Australia",
+:country_code=>"AU",
    :location=>"Cherrabun, Western Australia, Australia"},
  "CRH"=>
   {:iata=>"CRH",
@@ -1120,6 +1278,7 @@ def airp_4
    :icao=>"",
    :city=>"Cherribah",
    :country=>"Australia",
+:country_code=>"AU",
    :location=>"Cherribah, Queensland, Australia"},
  "CCL"=>
   {:iata=>"CCL",
@@ -1127,6 +1286,7 @@ def airp_4
    :icao=>"YCCA",
    :city=>"Chinchilla",
    :country=>"Australia",
+:country_code=>"AU",
    :location=>"Chinchilla, Queensland, Australia"},
  "CXQ"=>
   {:iata=>"CXQ",
@@ -1134,6 +1294,7 @@ def airp_4
    :city=>"Christmas Creek",
    :icao=>"",
    :country=>"Australia",
+:country_code=>"AU",
    :location=>"Christmas Creek, Australia"},
  "CVC"=>
   {:iata=>"CVC",
@@ -1141,6 +1302,7 @@ def airp_4
    :icao=>"YCEE",
    :city=>"Cleve",
    :country=>"Australia",
+:country_code=>"AU",
    :location=>"Cleve, South Australia, Australia"},
  "CFH"=>
   {:iata=>"CFH",
@@ -1148,6 +1310,7 @@ def airp_4
    :icao=>"",
    :city=>"Clifton Hills",
    :country=>"Australia",
+:country_code=>"AU",
    :location=>"Clifton Hills, South Australia, Australia"},
  "CZY"=>
   {:iata=>"CZY",
@@ -1155,6 +1318,7 @@ def airp_4
    :icao=>"YUNY",
    :city=>"Cluny",
    :country=>"Australia",
+:country_code=>"AU",
    :location=>"Cluny, Queensland, Australia"},
  "CNC"=>
   {:iata=>"CNC",
@@ -1162,6 +1326,7 @@ def airp_4
    :icao=>"YCCT",
    :city=>"Coconut Island (Poruma Island)",
    :country=>"Australia",
+:country_code=>"AU",
    :location=>"Coconut Island (Poruma Island), Queensland, Australia"},
  "CRB"=>
   {:iata=>"CRB",
@@ -1169,6 +1334,7 @@ def airp_4
    :icao=>"YCBR",
    :city=>"Collarenebri",
    :country=>"Australia",
+:country_code=>"AU",
    :location=>"Collarenebri, New South Wales, Australia"},
  "CIE"=>
   {:iata=>"CIE",
@@ -1176,6 +1342,7 @@ def airp_4
    :icao=>"YCOI",
    :city=>"Collie",
    :country=>"Australia",
+:country_code=>"AU",
    :location=>"Collie, Western Australia, Australia"},
  "CBX"=>
   {:iata=>"CBX",
@@ -1183,6 +1350,7 @@ def airp_4
    :icao=>"YCDO",
    :city=>"Condobolin",
    :country=>"Australia",
+:country_code=>"AU",
    :location=>"Condobolin, New South Wales, Australia"},
  "CDA"=>
   {:iata=>"CDA",
@@ -1190,6 +1358,7 @@ def airp_4
    :icao=>"YCOO",
    :city=>"Cooinda",
    :country=>"Australia",
+:country_code=>"AU",
    :location=>"Cooinda, Northern Territory, Australia"},
  "CLH"=>
   {:iata=>"CLH",
@@ -1197,6 +1366,7 @@ def airp_4
    :icao=>"YCAH",
    :city=>"Coolah",
    :country=>"Australia",
+:country_code=>"AU",
    :location=>"Coolah, New South Wales, Australia"},
  "COY"=>
   {:iata=>"COY",
@@ -1204,6 +1374,7 @@ def airp_4
    :icao=>"YCWY",
    :city=>"Coolawanyah Station",
    :country=>"Australia",
+:country_code=>"AU",
    :location=>"Coolawanyah Station, Western Australia, Australia"},
  "COB"=>
   {:iata=>"COB",
@@ -1211,6 +1382,7 @@ def airp_4
    :icao=>"",
    :city=>"Coolibah Station Northern Territory",
    :country=>"Australia",
+:country_code=>"AU",
    :location=>"Coolibah Station Northern Territory, Australia"},
  "COJ"=>
   {:iata=>"COJ",
@@ -1218,6 +1390,7 @@ def airp_4
    :icao=>"YCBB",
    :city=>"Coonabarabran",
    :country=>"Australia",
+:country_code=>"AU",
    :location=>"Coonabarabran, New South Wales, Australia"},
  "CNB"=>
   {:iata=>"CNB",
@@ -1225,6 +1398,7 @@ def airp_4
    :icao=>"YCNM",
    :city=>"Coonamble",
    :country=>"Australia",
+:country_code=>"AU",
    :location=>"Coonamble, New South Wales, Australia"},
  "CRJ"=>
   {:iata=>"CRJ",
@@ -1232,6 +1406,7 @@ def airp_4
    :icao=>"",
    :city=>"Coorabie",
    :country=>"Australia",
+:country_code=>"AU",
    :location=>"Coorabie, South Australia, Australia"},
  "CMD"=>
   {:iata=>"CMD",
@@ -1239,6 +1414,7 @@ def airp_4
    :icao=>"YCTM",
    :city=>"Cootamundra",
    :country=>"Australia",
+:country_code=>"AU",
    :location=>"Cootamundra, New South Wales, Australia"},
  "CWW"=>
   {:iata=>"CWW",
@@ -1246,6 +1422,7 @@ def airp_4
    :icao=>"YCOR",
    :city=>"Corowa",
    :country=>"Australia",
+:country_code=>"AU",
    :location=>"Corowa, New South Wales, Australia"},
  "CYG"=>
   {:iata=>"CYG",
@@ -1253,6 +1430,7 @@ def airp_4
    :icao=>"YCRG",
    :city=>"Corryong",
    :country=>"Australia",
+:country_code=>"AU",
    :location=>"Corryong, Victoria, Australia"},
  "CWR"=>
   {:iata=>"CWR",
@@ -1260,6 +1438,7 @@ def airp_4
    :icao=>"YCWI",
    :city=>"Cowarie",
    :country=>"Australia",
+:country_code=>"AU",
    :location=>"Cowarie, South Australia, Australia"},
  "CCW"=>
   {:iata=>"CCW",
@@ -1267,6 +1446,7 @@ def airp_4
    :icao=>"YCWL",
    :city=>"Cowell",
    :country=>"Australia",
+:country_code=>"AU",
    :location=>"Cowell, South Australia, Australia"},
  "CWT"=>
   {:iata=>"CWT",
@@ -1274,6 +1454,7 @@ def airp_4
    :icao=>"YCWR",
    :city=>"Cowra",
    :country=>"Australia",
+:country_code=>"AU",
    :location=>"Cowra, New South Wales, Australia"},
  "CSD"=>
   {:iata=>"CSD",
@@ -1281,6 +1462,7 @@ def airp_4
    :icao=>"",
    :city=>"Cresswell Downs",
    :country=>"Australia",
+:country_code=>"AU",
    :location=>"Cresswell Downs, Northern Territory, Australia"},
  "CKI"=>
   {:iata=>"CKI",
@@ -1288,6 +1470,7 @@ def airp_4
    :icao=>"YCKI",
    :city=>"Croker Island",
    :country=>"Australia",
+:country_code=>"AU",
    :location=>"Croker Island, Northern Territory, Australia"},
  "CDQ"=>
   {:iata=>"CDQ",
@@ -1295,6 +1478,7 @@ def airp_4
    :icao=>"YCRY",
    :city=>"Croydon",
    :country=>"Australia",
+:country_code=>"AU",
    :location=>"Croydon, Queensland, Australia"},
  "CUG"=>
   {:iata=>"CUG",
@@ -1302,6 +1486,7 @@ def airp_4
    :icao=>"YCUA",
    :city=>"Cudal",
    :country=>"Australia",
+:country_code=>"AU",
    :location=>"Cudal, New South Wales, Australia"},
  "CUY"=>
   {:iata=>"CUY",
@@ -1309,6 +1494,7 @@ def airp_4
    :icao=>"YCUE",
    :city=>"Cue",
    :country=>"Australia",
+:country_code=>"AU",
    :location=>"Cue, Western Australia, Australia"},
  "CCK"=>
   {:iata=>"CCK",
@@ -1316,6 +1502,7 @@ def airp_4
    :icao=>"",
    :city=>"Cocos Islands",
    :country=>"Australia",
+:country_code=>"AU",
    :location=>"Cocos Islands, Australia"},
  "CST"=>
   {:iata=>"CST",
@@ -1323,6 +1510,7 @@ def airp_4
    :icao=>"NFCS",
    :city=>"Qalito",
    :country=>"Fiji",
+:country_code=>"FJ",
    :location=>"Qalito, Mamanuca Islands, Fiji"},
  "CXI"=>
   {:iata=>"CXI",
@@ -1330,6 +1518,7 @@ def airp_4
    :icao=>"PLCH",
    :city=>"Christmas Island",
    :country=>"Kiribati",
+:country_code=>"KI",
    :location=>"Christmas Island, Kiribati"},
  "CIS"=>
   {:iata=>"CIS",
@@ -1337,6 +1526,7 @@ def airp_4
    :icao=>"PCIS",
    :city=>"Canton Island",
    :country=>"Kiribati",
+:country_code=>"KI",
    :location=>"Canton Island, Kiribati"},
  "CHC"=>
   {:iata=>"CHC",
@@ -1344,6 +1534,7 @@ def airp_4
    :icao=>"NZCH",
    :city=>"Christchurch",
    :country=>"New Zealand",
+:country_code=>"NZ",
    :location=>"Christchurch, New Zealand"},
  "CHT"=>
   {:iata=>"CHT",
@@ -1351,6 +1542,7 @@ def airp_4
    :icao=>"NZCI",
    :city=>"Waitangi",
    :country=>"New Zealand",
+:country_code=>"NZ",
    :location=>"Waitangi, Chatham Islands, New Zealand"},
  "CMV"=>
   {:iata=>"CMV",
@@ -1358,6 +1550,7 @@ def airp_4
    :icao=>"NZCX",
    :city=>"Coromandel",
    :country=>"New Zealand",
+:country_code=>"NZ",
    :location=>"Coromandel, New Zealand"},
  "CHY"=>
   {:iata=>"CHY",
@@ -1365,6 +1558,7 @@ def airp_4
    :icao=>"AGGC",
    :city=>"Choiseul Bay",
    :country=>"Solomon Islands",
+:country_code=>"SB",
    :location=>"Choiseul Bay, Taro Island, Solomon Islands"},
  "CCV"=>
   {:iata=>"CCV",
@@ -1372,6 +1566,7 @@ def airp_4
    :icao=>"NVSF",
    :city=>"Craig Cove",
    :country=>"Vanuatu",
+:country_code=>"VU",
    :location=>"Craig Cove, Ambrym Island, Malampa, Vanuatu"},
  "CCZ"=>
   {:iata=>"CCZ",
@@ -1379,6 +1574,7 @@ def airp_4
    :icao=>"MYBC",
    :city=>"Chub Cay",
    :country=>"Bahamas",
+:country_code=>"BS",
    :location=>"Chub Cay, Berry Islands, Bahamas"},
  "CRI"=>
   {:iata=>"CRI",
@@ -1386,6 +1582,7 @@ def airp_4
    :icao=>"MYCI",
    :city=>"Colonel Hill",
    :country=>"Bahamas",
+:country_code=>"BS",
    :location=>"Colonel Hill, Crooked Island, Bahamas"},
  "CEL"=>
   {:iata=>"CEL",
@@ -1393,6 +1590,7 @@ def airp_4
    :icao=>"MYEC",
    :city=>"Cape Eleuthera",
    :country=>"Bahamas",
+:country_code=>"BS",
    :location=>"Cape Eleuthera, Eleuthera, Bahamas"},
  "CXY"=>
   {:iata=>"CXY",
@@ -1400,6 +1598,7 @@ def airp_4
    :icao=>"MYCC",
    :city=>"Cat Cay",
    :country=>"Bahamas",
+:country_code=>"BS",
    :location=>"Cat Cay, Bimini Islands, Bahamas"},
  "CAT"=>
   {:iata=>"CAT",
@@ -1407,6 +1606,7 @@ def airp_4
    :city=>"Cat Island",
    :icao=>"",
    :country=>"Bahamas",
+:country_code=>"BS",
    :location=>"Cat Island, Bahamas"},
  "COX"=>
   {:iata=>"COX",
@@ -1414,13 +1614,14 @@ def airp_4
    :city=>"Congo Town",
    :icao=>"",
    :country=>"Bahamas",
+:country_code=>"BS",
    :location=>"Congo Town, Bahamas"},
  "CYB"=>
   {:iata=>"CYB",
    :name=>"Gerrard Smith International Airport",
    :icao=>"MWCB",
    :city=>"Cayman Brac",
-   :country=>"Cayman Islands",
+   :country=>'Cayman Islands', :country_code=>'KY',
    :location=>"Cayman Brac, Cayman Islands"},
  "CMW"=>
   {:iata=>"CMW",
@@ -1428,6 +1629,7 @@ def airp_4
    :icao=>"MUCM",
    :city=>"Camagüey",
    :country=>"Cuba",
+:country_code=>"CU",
    :location=>"Camagüey, Cuba"},
  "CCC"=>
   {:iata=>"CCC",
@@ -1435,6 +1637,7 @@ def airp_4
    :icao=>"MUOC",
    :city=>"Cayo Coco",
    :country=>"Cuba",
+:country_code=>"CU",
    :location=>"Cayo Coco, Cuba"},
  "CYO"=>
   {:iata=>"CYO",
@@ -1442,6 +1645,7 @@ def airp_4
    :icao=>"MUCL",
    :city=>"Cayo Largo del Sur",
    :country=>"Cuba",
+:country_code=>"CU",
    :location=>"Cayo Largo del Sur, Cuba"},
  "CFG"=>
   {:iata=>"CFG",
@@ -1449,13 +1653,14 @@ def airp_4
    :icao=>"MUCF",
    :city=>"Cienfuegos",
    :country=>"Cuba",
+:country_code=>"CU",
    :location=>"Cienfuegos, Cuba"},
  "CUR"=>
   {:iata=>"CUR",
    :name=>"Hato International Airport",
    :icao=>"TNCC",
    :city=>"Willemstad",
-   :country=>"Kingdom of the Netherlands",
+   :country=>'Kingdom of the Netherlands', :country_code=>'',
    :location=>"Willemstad, Curaçao, Kingdom of the Netherlands"},
  "CBJ"=>
   {:iata=>"CBJ",
@@ -1463,6 +1668,7 @@ def airp_4
    :icao=>"MDCR",
    :city=>"Pedernales",
    :country=>"Dominican Republic",
+:country_code=>"DO",
    :location=>"Pedernales, Dominican Republic"},
  "COZ"=>
   {:iata=>"COZ",
@@ -1470,34 +1676,35 @@ def airp_4
    :icao=>"MDCZ",
    :city=>"Constanza",
    :country=>"Dominican Republic",
+:country_code=>"DO",
    :location=>"Constanza, Dominican Republic"},
  "CRU"=>
   {:iata=>"CRU",
    :name=>"Carriacou island airport",
    :icao=>"",
    :city=>"Carriacou Island",
-   :country=>"Grenada",
+   :country=>'Grenada', :country_code=>'GD',
    :location=>"Carriacou Island, Grenada"},
  "CCE"=>
   {:iata=>"CCE",
    :name=>"L'Espérance Airport (Grand Case Airport)",
    :icao=>"TFFG",
    :city=>"Saint Martin",
-   :country=>"Guadeloupe",
+   :country=>'Guadeloupe', :country_code=>'GP',
    :location=>"Saint Martin, Guadeloupe"},
  "CAP"=>
   {:iata=>"CAP",
    :name=>"Cap-Haïtien International Airport",
    :icao=>"MTCH",
    :city=>"Cap-Haïtien",
-   :country=>"Haiti",
+   :country=>'Haiti', :country_code=>'HT',
    :location=>"Cap-Haïtien, Haiti"},
  "CYA"=>
   {:iata=>"CYA",
    :name=>"Les Cayes Airport",
    :icao=>"MTCA",
    :city=>"Les Cayes",
-   :country=>"Haiti",
+   :country=>'Haiti', :country_code=>'HT',
    :location=>"Les Cayes, Haiti"},
  "CPX"=>
   {:iata=>"CPX",
@@ -1505,13 +1712,14 @@ def airp_4
    :icao=>"TJCP",
    :city=>"Isla de Culebra",
    :country=>"Puerto Rico",
+:country_code=>"PR",
    :location=>"Isla de Culebra, Puerto Rico"},
  "CIW"=>
   {:iata=>"CIW",
    :name=>"Canouan Island Airport",
    :icao=>"TVSC",
    :city=>"Canouan Island",
-   :country=>"Saint Vincent and the Grenadines",
+   :country=>'Saint Vincent and the Grenadines', :country_code=>'VC',
    :location=>"Canouan Island, Saint Vincent and the Grenadines"},
  "CBH"=>
   {:iata=>"CBH",
@@ -1519,6 +1727,7 @@ def airp_4
    :icao=>"DAOR",
    :city=>"Béchar",
    :country=>"Algeria",
+:country_code=>"DZ",
    :location=>"Béchar, Algeria"},
  "CFK"=>
   {:iata=>"CFK",
@@ -1526,6 +1735,7 @@ def airp_4
    :icao=>"DAOI",
    :city=>"Chlef",
    :country=>"Algeria",
+:country_code=>"DZ",
    :location=>"Chlef, Algeria"},
  "CZL"=>
   {:iata=>"CZL",
@@ -1533,356 +1743,357 @@ def airp_4
    :icao=>"DABC",
    :city=>"Constantine",
    :country=>"Algeria",
+:country_code=>"DZ",
    :location=>"Constantine, Algeria"},
  "CAB"=>
   {:iata=>"CAB",
    :name=>"Cabinda Airport",
    :icao=>"FNCA",
    :city=>"Cabinda",
-   :country=>"Angola",
+   :country=>'Angola', :country_code=>'AO',
    :location=>"Cabinda, Angola"},
  "CBT"=>
   {:iata=>"CBT",
    :name=>"Catumbela Airport",
    :icao=>"FNCT",
    :city=>"Catumbela",
-   :country=>"Angola",
+   :country=>'Angola', :country_code=>'AO',
    :location=>"Catumbela, Angola"},
  "CFF"=>
   {:iata=>"CFF",
    :name=>"Cafunfo Airport",
    :icao=>"FNCF",
    :city=>"Cafunfo",
-   :country=>"Angola",
+   :country=>'Angola', :country_code=>'AO',
    :location=>"Cafunfo, Angola"},
  "CNZ"=>
   {:iata=>"CNZ",
    :name=>"Cangamba Airport",
    :icao=>"",
    :city=>"Cangamba",
-   :country=>"Angola",
+   :country=>'Angola', :country_code=>'AO',
    :location=>"Cangamba, Angola"},
  "CAV"=>
   {:iata=>"CAV",
    :name=>"Cazombo Airport",
    :icao=>"FNCZ",
    :city=>"Cazombo",
-   :country=>"Angola",
+   :country=>'Angola', :country_code=>'AO',
    :location=>"Cazombo, Angola"},
  "CTI"=>
   {:iata=>"CTI",
    :name=>"Cuito Cuanavale Airport",
    :icao=>"FNCV",
    :city=>"Cuito Cuanavale",
-   :country=>"Angola",
+   :country=>'Angola', :country_code=>'AO',
    :location=>"Cuito Cuanavale, Angola"},
  "CEO"=>
   {:iata=>"CEO",
    :name=>"Waco Kungo Airport",
    :icao=>"FNWK",
    :city=>"Waco Kungo",
-   :country=>"Angola",
+   :country=>'Angola', :country_code=>'AO',
    :location=>"Waco Kungo, Angola"},
  "COO"=>
   {:iata=>"COO",
    :name=>"Cadjehoun Airport",
    :icao=>"DBBB",
    :city=>"Cotonou",
-   :country=>"Benin",
+   :country=>'Benin', :country_code=>'BJ',
    :location=>"Cotonou, Benin"},
  "CRF"=>
   {:iata=>"CRF",
    :name=>"Carnot Airport",
    :icao=>"FEFC",
    :city=>"Carnot",
-   :country=>"Central African Republic",
+   :country=>'Central African Republic', :country_code=>'CF',
    :location=>"Carnot, Central African Republic"},
  "CKY"=>
   {:iata=>"CKY",
    :name=>"Gbessia Airport",
    :icao=>"GUCY",
    :city=>"Conakry",
-   :country=>"Guinea",
+   :country=>'Guinea', :country_code=>'GN',
    :location=>"Conakry, Guinea"},
  "CPA"=>
   {:iata=>"CPA",
    :name=>"Cape Palmas Airport (A. Tubman Airport)",
    :icao=>"GLCP",
    :city=>"Cape Palmas",
-   :country=>"Liberia",
+   :country=>'Liberia', :country_code=>'LR',
    :location=>"Cape Palmas, Liberia"},
  "CEH"=>
   {:iata=>"CEH",
    :name=>"Chelinda Airport",
    :icao=>"FWCD",
    :city=>"Chelinda",
-   :country=>"Malawi",
+   :country=>'Malawi', :country_code=>'MW',
    :location=>"Chelinda, Malawi"},
  "CMK"=>
   {:iata=>"CMK",
    :name=>"Club Makokola Airport",
    :icao=>"FWCM",
    :city=>"Club Makokola",
-   :country=>"Malawi",
+   :country=>'Malawi', :country_code=>'MW',
    :location=>"Club Makokola, Malawi"},
  "CGT"=>
   {:iata=>"CGT",
    :name=>"Chinguitti Airport",
    :icao=>"",
    :city=>"Chinguitti",
-   :country=>"Mauritania",
+   :country=>'Mauritania', :country_code=>'MR',
    :location=>"Chinguitti, Mauritania"},
  "CMN"=>
   {:iata=>"CMN",
    :name=>"Mohammed V International Airport",
    :icao=>"GMMN",
    :city=>"Casablanca",
-   :country=>"Morocco",
+   :country=>'Morocco', :country_code=>'MA',
    :location=>"Casablanca, Morocco"},
  "CAS"=>
   {:iata=>"CAS",
    :name=>"Anfa Airport",
    :icao=>"GMMC",
    :city=>"Casablanca",
-   :country=>"Morocco",
+   :country=>'Morocco', :country_code=>'MA',
    :location=>"Casablanca, Morocco"},
  "CMZ"=>
   {:iata=>"CMZ",
    :name=>"Caia Airport",
    :city=>"Caia",
    :icao=>"",
-   :country=>"Mozambique",
+   :country=>'Mozambique', :country_code=>'MZ',
    :location=>"Caia, Mozambique"},
  "CBQ"=>
   {:iata=>"CBQ",
    :name=>"Calabar Airport",
    :icao=>"DNCA",
    :city=>"Calabar",
-   :country=>"Nigeria",
+   :country=>'Nigeria', :country_code=>'NG',
    :location=>"Calabar, Nigeria"},
  "CSK"=>
   {:iata=>"CSK",
    :name=>"Cap Skirring Airport",
    :icao=>"GOGS",
    :city=>"Cap Skirring",
-   :country=>"Senegal",
+   :country=>'Senegal', :country_code=>'SN',
    :location=>"Cap Skirring, Senegal"},
  "CXN"=>
   {:iata=>"CXN",
    :name=>"Candala Airport",
    :icao=>"HCMC",
    :city=>"Candala",
-   :country=>"Somalia",
+   :country=>'Somalia', :country_code=>'SO',
    :location=>"Candala, Somalia"},
  "CMO"=>
   {:iata=>"CMO",
    :name=>"Obbia Airport",
    :icao=>"HCMO",
    :city=>"Obbia",
-   :country=>"Somalia",
+   :country=>'Somalia', :country_code=>'SO',
    :location=>"Obbia, Somalia"},
  "CMS"=>
   {:iata=>"CMS",
    :name=>"Scusciuban Airport",
    :icao=>"HCMS",
    :city=>"Scusciuban",
-   :country=>"Somalia",
+   :country=>'Somalia', :country_code=>'SO',
    :location=>"Scusciuban, Somalia"},
  "CPT"=>
   {:iata=>"CPT",
    :name=>"Cape Town International Airport",
    :icao=>"FACT",
    :city=>"Cape Town",
-   :country=>"South Africa",
+   :country=>'South Africa', :country_code=>'ZA',
    :location=>"Cape Town, South Africa"},
  "CDO"=>
   {:iata=>"CDO",
    :name=>"Cradock Airport",
    :icao=>"FACD",
    :city=>"Cradock",
-   :country=>"South Africa",
+   :country=>'South Africa', :country_code=>'ZA',
    :location=>"Cradock, Eastern Cape, South Africa"},
  "CIP"=>
   {:iata=>"CIP",
    :name=>"Chipata Airport",
    :icao=>"FLCP",
    :city=>"Chipata",
-   :country=>"Zambia",
+   :country=>'Zambia', :country_code=>'ZM',
    :location=>"Chipata, Zambia"},
  "CGJ"=>
   {:iata=>"CGJ",
    :name=>"Kasompe Airport",
    :icao=>"",
    :city=>"Chingola",
-   :country=>"Zambia",
+   :country=>'Zambia', :country_code=>'ZM',
    :location=>"Chingola, Zambia"},
  "CHJ"=>
   {:iata=>"CHJ",
    :name=>"Chipinge Airport",
    :icao=>"FVCH",
    :city=>"Chipinge",
-   :country=>"Zimbabwe",
+   :country=>'Zimbabwe', :country_code=>'ZW',
    :location=>"Chipinge, Zimbabwe"},
  "CRL"=>
   {:iata=>"CRL",
    :name=>"Brussels South Charleroi Airport",
    :icao=>"EBCI",
    :city=>"Charleroi",
-   :country=>"Belgium",
+   :country=>'Belgium', :country_code=>'BE',
    :location=>"Charleroi, Wallonia, Belgium"},
  "CPH"=>
   {:iata=>"CPH",
    :name=>"Copenhagen Airport, Kastrup Airport",
    :icao=>"EKCH",
    :city=>"Copenhagen (København)",
-   :country=>"Denmark",
+   :country=>'Denmark', :country_code=>'DK',
    :location=>"Copenhagen (København), Denmark"},
  "CNL"=>
   {:iata=>"CNL",
    :name=>"Sindal Airport",
    :icao=>"EKSN",
    :city=>"Sindal",
-   :country=>"Denmark",
+   :country=>'Denmark', :country_code=>'DK',
    :location=>"Sindal, Denmark"},
  "CDG"=>
   {:iata=>"CDG",
    :name=>"Charles de Gaulle Airport (Roissy Airport)",
    :icao=>"LFPG",
    :city=>"Paris",
-   :country=>"France",
+   :country=>'France', :country_code=>'FR',
    :location=>"Paris, France"},
  "CFR"=>
   {:iata=>"CFR",
    :name=>"Caen – Carpiquet Airport",
    :icao=>"LFRK",
    :city=>"Caen",
-   :country=>"France",
+   :country=>'France', :country_code=>'FR',
    :location=>"Caen, France"},
  "CLY"=>
   {:iata=>"CLY",
    :name=>"Calvi - Sainte-Catherine Airport",
    :icao=>"LFKC",
    :city=>"Calvi",
-   :country=>"France",
+   :country=>'France', :country_code=>'FR',
    :location=>"Calvi, Corsica, France"},
  "CCF"=>
   {:iata=>"CCF",
    :name=>"Carcassonne Salvaza Airport",
    :icao=>"LFMK",
    :city=>"Carcassonne",
-   :country=>"France",
+   :country=>'France', :country_code=>'FR',
    :location=>"Carcassonne, France"},
  "CMF"=>
   {:iata=>"CMF",
    :name=>"Chambéry-Savoie Airport",
    :icao=>"LFLB",
    :city=>"Chambéry",
-   :country=>"France",
+   :country=>'France', :country_code=>'FR',
    :location=>"Chambéry, France"},
  "CHR"=>
   {:iata=>"CHR",
    :name=>"Châteauroux-Déols \"Marcel Dassault\" Airport",
    :icao=>"LFLX",
    :city=>"Châteauroux / Déols",
-   :country=>"France",
+   :country=>'France', :country_code=>'FR',
    :location=>"Châteauroux / Déols, France"},
  "CER"=>
   {:iata=>"CER",
    :name=>"Cherbourg - Maupertus Airport",
    :icao=>"LFRC",
    :city=>"Cherbourg",
-   :country=>"France",
+   :country=>'France', :country_code=>'FR',
    :location=>"Cherbourg, France"},
  "CFE"=>
   {:iata=>"CFE",
    :name=>"Clermont-Ferrand Auvergne Airport",
    :icao=>"LFLC",
    :city=>"Clermont-Ferrand",
-   :country=>"France",
+   :country=>'France', :country_code=>'FR',
    :location=>"Clermont-Ferrand, France"},
  "CQF"=>
   {:iata=>"CQF",
    :name=>"Calais–Dunkerque Airport",
    :icao=>"LFAC",
    :city=>"Calais / Dunkerque",
-   :country=>"France",
+   :country=>'France', :country_code=>'FR',
    :location=>"Calais / Dunkerque, France"},
  "CEQ"=>
   {:iata=>"CEQ",
    :name=>"Cannes - Mandelieu Airport",
    :icao=>"LFMD",
    :city=>"Cannes",
-   :country=>"France",
+   :country=>'France', :country_code=>'FR',
    :location=>"Cannes, France"},
  "CET"=>
   {:iata=>"CET",
    :name=>"Cholet Le Pontreau Airport",
    :icao=>"LFOU",
    :city=>"Cholet",
-   :country=>"France",
+   :country=>'France', :country_code=>'FR',
    :location=>"Cholet, France"},
  "CNG"=>
   {:iata=>"CNG",
    :name=>"Cognac - Châteaubernard Air Base",
    :icao=>"LFBG",
    :city=>"Cognac / Châteaubernard",
-   :country=>"France",
+   :country=>'France', :country_code=>'FR',
    :location=>"Cognac / Châteaubernard, France"},
  "CMR"=>
   {:iata=>"CMR",
    :name=>"Colmar - Houssen Airport",
    :icao=>"LFGA",
    :city=>"Colmar / Houssen",
-   :country=>"France",
+   :country=>'France', :country_code=>'FR',
    :location=>"Colmar / Houssen, France"},
  "CVF"=>
   {:iata=>"CVF",
    :name=>"Courchevel Aerodrome",
    :icao=>"LFLJ",
    :city=>"Courchevel",
-   :country=>"France",
+   :country=>'France', :country_code=>'FR',
    :location=>"Courchevel, France"},
  "CSF"=>
   {:iata=>"CSF",
    :name=>"Creil Air Base",
    :icao=>"LFPC",
    :city=>"Creil",
-   :country=>"France",
+   :country=>'France', :country_code=>'FR',
    :location=>"Creil, France"},
  "CTT"=>
   {:iata=>"CTT",
    :name=>"Le Castellet Airport",
    :icao=>"LFMQ",
    :city=>"Le Castellet",
-   :country=>"France",
+   :country=>'France', :country_code=>'FR',
    :location=>"Le Castellet, France"},
  "CGN"=>
   {:iata=>"CGN",
    :name=>"Cologne Bonn Airport (Köln/Bonn - Konrad Adenauer)",
    :icao=>"EDDK",
    :city=>"Cologne",
-   :country=>"Germany",
+   :country=>'Germany', :country_code=>'DE',
    :location=>"Cologne, North Rhine-Westphalia, Germany"},
  "CSO"=>
   {:iata=>"CSO",
    :name=>"Magdeburg–Cochstedt Airport",
    :icao=>"EDBC",
    :city=>"Magdeburg",
-   :country=>"Germany",
+   :country=>'Germany', :country_code=>'DE',
    :location=>"Magdeburg, Germany"},
  "CBU"=>
   {:iata=>"CBU",
    :name=>"Cottbus-Drewitz Airport",
    :icao=>"EDCD",
    :city=>"Cottbus",
-   :country=>"Germany",
+   :country=>'Germany', :country_code=>'DE',
    :location=>"Cottbus, Brandenburg, Germany"},
  "CHQ"=>
   {:iata=>"CHQ",
    :name=>"Chania International Airport (\"Ioannis Daskalogiannis\")",
    :icao=>"LGSA",
    :city=>"Chania",
-   :country=>"Greece",
+   :country=>'Greece', :country_code=>'GR',
    :location=>"Chania, Greece"},
  "CFU"=>
   {:iata=>"CFU",
@@ -1890,434 +2101,434 @@ def airp_4
     "Ioannis Kapodistrias International Airport (Corfu International Airport)",
    :icao=>"LGKR",
    :city=>"Corfu",
-   :country=>"Greece",
+   :country=>'Greece', :country_code=>'GR',
    :location=>"Corfu, Greece"},
  "CHE"=>
   {:iata=>"CHE",
    :name=>"Reenroe Airport",
    :icao=>"",
    :city=>"Cahersiveen",
-   :country=>"Ireland",
+   :country=>'Ireland', :country_code=>'IE',
    :location=>"Cahersiveen, County Kerry, Ireland"},
  "CFN"=>
   {:iata=>"CFN",
    :name=>"Donegal Airport",
    :icao=>"EIDL",
    :city=>"Carrickfinn",
-   :country=>"Ireland",
+   :country=>'Ireland', :country_code=>'IE',
    :location=>"Carrickfinn, Ireland"},
  "CLB"=>
   {:iata=>"CLB",
    :name=>"Castlebar Airport",
    :city=>"Castlebar",
    :icao=>"",
-   :country=>"Ireland",
+   :country=>'Ireland', :country_code=>'IE',
    :location=>"Castlebar, Ireland"},
  "CAG"=>
   {:iata=>"CAG",
    :name=>"Cagliari Airport",
    :icao=>"LIEE",
    :city=>"Cagliari",
-   :country=>"Italy",
+   :country=>'Italy', :country_code=>'IT',
    :location=>"Cagliari, Italy"},
  "CTA"=>
   {:iata=>"CTA",
    :name=>"Catania–Fontanarossa Airport",
    :icao=>"LICC",
    :city=>"Catania",
-   :country=>"Italy",
+   :country=>'Italy', :country_code=>'IT',
    :location=>"Catania, Sicily, Italy"},
  "CIY"=>
   {:iata=>"CIY",
    :name=>"Comiso Airport",
    :icao=>"LICB",
    :city=>"Comiso",
-   :country=>"Italy",
+   :country=>'Italy', :country_code=>'IT',
    :location=>"Comiso, Italy"},
  "CRV"=>
   {:iata=>"CRV",
    :name=>"Crotone Airport",
    :icao=>"LIBC",
    :city=>"Crotone",
-   :country=>"Italy",
+   :country=>'Italy', :country_code=>'IT',
    :location=>"Crotone, Italy"},
  "CUF"=>
   {:iata=>"CUF",
    :name=>"Levaldigi Airport",
    :icao=>"LIMZ",
    :city=>"Cuneo",
-   :country=>"Italy",
+   :country=>'Italy', :country_code=>'IT',
    :location=>"Cuneo, Italy"},
  "CIA"=>
   {:iata=>"CIA",
    :name=>"Rome Ciampino Airport (Giovan Battista Pastine Airport)",
    :icao=>"LIRA",
    :city=>"Rome",
-   :country=>"Italy",
+   :country=>'Italy', :country_code=>'IT',
    :location=>"Rome, Italy"},
  "CDF"=>
   {:iata=>"CDF",
    :name=>"Fiames Airport",
    :icao=>"LIDI",
    :city=>"Cortina d'Ampezzo",
-   :country=>"Italy",
+   :country=>'Italy', :country_code=>'IT',
    :location=>"Cortina d'Ampezzo, Italy"},
  "CZW"=>
   {:iata=>"CZW",
    :name=>"Rudniki Airport",
    :icao=>"EPCH",
    :city=>"Częstochowa",
-   :country=>"Poland",
+   :country=>'Poland', :country_code=>'PL',
    :location=>"Częstochowa, Poland"},
  "CVU"=>
   {:iata=>"CVU",
    :name=>"Corvo Airport",
    :icao=>"LPCR",
    :city=>"Corvo Island",
-   :country=>"Portugal",
+   :country=>'Portugal', :country_code=>'PT',
    :location=>"Corvo Island, Azores, Portugal"},
  "CHV"=>
   {:iata=>"CHV",
    :name=>"Chaves Airport",
    :icao=>"LPCH",
    :city=>"Chaves",
-   :country=>"Portugal",
+   :country=>'Portugal', :country_code=>'PT',
    :location=>"Chaves, Portugal"},
  "CBP"=>
   {:iata=>"CBP",
    :name=>"Coimbra Airport (Aeródromo Municipal Bissaya Barreto)",
    :icao=>"LPCO",
    :city=>"Coimbra",
-   :country=>"Portugal",
+   :country=>'Portugal', :country_code=>'PT',
    :location=>"Coimbra, Portugal"},
  "COV"=>
   {:iata=>"COV",
    :name=>"Covilhã Airport",
    :icao=>"LPCV",
    :city=>"Covilhã",
-   :country=>"Portugal",
+   :country=>'Portugal', :country_code=>'PT',
    :location=>"Covilhã, Portugal"},
  "CLJ"=>
   {:iata=>"CLJ",
    :name=>"Cluj-Napoca International Airport",
    :icao=>"LRCL",
    :city=>"Cluj-Napoca",
-   :country=>"Romania",
+   :country=>'Romania', :country_code=>'RO',
    :location=>"Cluj-Napoca, Romania"},
  "CND"=>
   {:iata=>"CND",
    :name=>"Mihail Kogălniceanu International Airport",
    :icao=>"LRCK",
    :city=>"Constanța",
-   :country=>"Romania",
+   :country=>'Romania', :country_code=>'RO',
    :location=>"Constanța, Romania"},
  "CRA"=>
   {:iata=>"CRA",
    :name=>"Craiova Airport",
    :icao=>"LRCV",
    :city=>"Craiova",
-   :country=>"Romania",
+   :country=>'Romania', :country_code=>'RO',
    :location=>"Craiova, Romania"},
  "CSB"=>
   {:iata=>"CSB",
    :name=>"Caransebeş Airport",
    :icao=>"LRCS",
    :city=>"Caransebeş",
-   :country=>"Romania",
+   :country=>'Romania', :country_code=>'RO',
    :location=>"Caransebeş, Romania"},
  "CSY"=>
   {:iata=>"CSY",
    :name=>"Cheboksary Airport",
    :icao=>"UWKS",
    :city=>"Cheboksary",
-   :country=>"Russia",
+   :country=>'Russia', :country_code=>'RU',
    :location=>"Cheboksary, Chuvashia, Russia"},
  "CEK"=>
   {:iata=>"CEK",
    :name=>"Chelyabinsk Balandino Airport",
    :icao=>"USCC",
    :city=>"Chelyabinsk",
-   :country=>"Russia",
+   :country=>'Russia', :country_code=>'RU',
    :location=>"Chelyabinsk, Russia"},
  "CEE"=>
   {:iata=>"CEE",
    :name=>"Cherepovets Airport",
    :icao=>"ULWC",
    :city=>"Cherepovets",
-   :country=>"Russia",
+   :country=>'Russia', :country_code=>'RU',
    :location=>"Cherepovets, Vologda Oblast, Russia"},
  "CYX"=>
   {:iata=>"CYX",
    :name=>"Chersky Airport",
    :icao=>"UESS",
    :city=>"Chersky",
-   :country=>"Russia",
+   :country=>'Russia', :country_code=>'RU',
    :location=>"Chersky, Yakutia, Russia"},
  "CKH"=>
   {:iata=>"CKH",
    :name=>"Chokurdah Airport",
    :icao=>"UESO",
    :city=>"Chokurdakh",
-   :country=>"Russia",
+   :country=>'Russia', :country_code=>'RU',
    :location=>"Chokurdakh, Russia"},
  "CSH"=>
   {:iata=>"CSH",
    :name=>"Solovki Airport",
    :icao=>"ULAS",
    :city=>"Solovetsky Islands",
-   :country=>"Russia",
+   :country=>'Russia', :country_code=>'RU',
    :location=>"Solovetsky Islands, Russia"},
  "CKL"=>
   {:iata=>"CKL",
    :name=>"Chkalovsky Airport",
    :icao=>"UUMU",
    :city=>"Shchyolkovo (Moscow Oblast)",
-   :country=>"Russia",
+   :country=>'Russia', :country_code=>'RU',
    :location=>"Shchyolkovo (Moscow Oblast), Russia"},
  "CNN"=>
   {:iata=>"CNN",
    :name=>"Chulman Airport",
    :city=>"Chulman",
    :icao=>"",
-   :country=>"Federation",
+   :country=>'Federation', :country_code=>'',
    :location=>"Chulman, Federation"},
  "CDZ"=>
   {:iata=>"CDZ",
    :name=>"Cadiz Airport",
    :city=>"Cadiz",
    :icao=>"",
-   :country=>"Islands",
+   :country=>'Islands', :country_code=>'',
    :location=>"Cadiz, Islands"},
  "CJI"=>
   {:iata=>"CJI",
    :name=>"Ciudad Real Airport",
    :city=>"Ciudad Real",
    :icao=>"",
-   :country=>"Islands",
+   :country=>'Islands', :country_code=>'',
    :location=>"Ciudad Real, Islands"},
  "CQM"=>
   {:iata=>"CQM",
    :name=>"Ciudad Real Central Airport",
    :icao=>"LERL",
    :city=>"Ciudad Real",
-   :country=>"Spain",
+   :country=>'Spain', :country_code=>'ES',
    :location=>"Ciudad Real, Spain"},
  "CKZ"=>
   {:iata=>"CKZ",
    :name=>"Çanakkale Airport",
    :icao=>"LTBH",
    :city=>"Çanakkale",
-   :country=>"Turkey",
+   :country=>'Turkey', :country_code=>'TR',
    :location=>"Çanakkale, Turkey"},
  "CWC"=>
   {:iata=>"CWC",
    :name=>"Chernovtsy Airport",
    :icao=>"UKLN",
    :city=>"Chernivtsi",
-   :country=>"Ukraine",
+   :country=>'Ukraine', :country_code=>'UA',
    :location=>"Chernivtsi, Ukraine"},
  "CKC"=>
   {:iata=>"CKC",
    :name=>"Cherkasy Airport",
    :icao=>"UKKE",
    :city=>"Cherkasy",
-   :country=>"Ukraine",
+   :country=>'Ukraine', :country_code=>'UA',
    :location=>"Cherkasy, Ukraine"},
  "CEJ"=>
   {:iata=>"CEJ",
    :name=>"Chernihiv Shestovitsa Airport",
    :icao=>"UKKL",
    :city=>"Chernihiv",
-   :country=>"Ukraine",
+   :country=>'Ukraine', :country_code=>'UA',
    :location=>"Chernihiv, Ukraine"},
  "CBG"=>
   {:iata=>"CBG",
    :name=>"Cambridge Airport",
    :icao=>"EGSC",
    :city=>"Cambridge",
-   :country=>"United Kingdom",
+   :country=>'United Kingdom', :country_code=>'GB',
    :location=>"Cambridge, England, United Kingdom"},
  "CAL"=>
   {:iata=>"CAL",
    :name=>"Campbeltown Airport (RAF Machrihanish)",
    :icao=>"EGEC",
    :city=>"Campbeltown",
-   :country=>"United Kingdom",
+   :country=>'United Kingdom', :country_code=>'GB',
    :location=>"Campbeltown, Scotland, United Kingdom"},
  "CWL"=>
   {:iata=>"CWL",
    :name=>"Cardiff Airport",
    :icao=>"EGFF",
    :city=>"Cardiff",
-   :country=>"United Kingdom",
+   :country=>'United Kingdom', :country_code=>'GB',
    :location=>"Cardiff, Wales, United Kingdom"},
  "CEG"=>
   {:iata=>"CEG",
    :name=>"Hawarden Airport (Chester Airport)",
    :icao=>"EGNR",
    :city=>"Chester",
-   :country=>"United Kingdom",
+   :country=>'United Kingdom', :country_code=>'GB',
    :location=>"Chester, England, United Kingdom"},
  "CVT"=>
   {:iata=>"CVT",
    :name=>"Coventry Airport",
    :icao=>"EGBE",
    :city=>"Coventry",
-   :country=>"United Kingdom",
+   :country=>'United Kingdom', :country_code=>'GB',
    :location=>"Coventry, West Midlands, England, United Kingdom"},
  "CAX"=>
   {:iata=>"CAX",
    :name=>"Carlisle Lake District Airport",
    :icao=>"EGNC",
    :city=>"Carlisle",
-   :country=>"United Kingdom",
+   :country=>'United Kingdom', :country_code=>'GB',
    :location=>"Carlisle, England, United Kingdom"},
  "COL"=>
   {:iata=>"COL",
    :name=>"Coll Island Airport",
    :icao=>"",
    :city=>"Coll",
-   :country=>"United Kingdom",
+   :country=>'United Kingdom', :country_code=>'GB',
    :location=>"Coll, Scotland, United Kingdom"},
  "CSA"=>
   {:iata=>"CSA",
    :name=>"Colonsay Airport",
    :icao=>"",
    :city=>"Colonsay",
-   :country=>"United Kingdom",
+   :country=>'United Kingdom', :country_code=>'GB',
    :location=>"Colonsay, Inner Hebrides, Scotland, United Kingdom"},
  "CLF"=>
   {:iata=>"CLF",
    :name=>"Coltishall (IATA off-point)",
    :icao=>"",
    :city=>"Coltishall",
-   :country=>"United Kingdom",
+   :country=>'United Kingdom', :country_code=>'GB',
    :location=>"Coltishall, United Kingdom"},
  "CRN"=>
   {:iata=>"CRN",
    :name=>"Cromarty Airport",
    :icao=>"",
    :city=>"Cromarty",
-   :country=>"United Kingdom",
+   :country=>'United Kingdom', :country_code=>'GB',
    :location=>"Cromarty, Scotland, United Kingdom"},
  "CCN"=>
   {:iata=>"CCN",
    :name=>"Chaghcharan Airport",
    :icao=>"OACC",
    :city=>"Chaghcharan",
-   :country=>"Afghanistan",
+   :country=>'Afghanistan', :country_code=>'AF',
    :location=>"Chaghcharan, Afghanistan"},
  "CGP"=>
   {:iata=>"CGP",
    :name=>"Shah Amanat International Airport",
    :icao=>"VGEG",
    :city=>"Chittagong",
-   :country=>"Bangladesh",
+   :country=>'Bangladesh', :country_code=>'BD',
    :location=>"Chittagong, Bangladesh"},
  "CLA"=>
   {:iata=>"CLA",
    :name=>"Comilla Airport",
    :icao=>"VGCM",
    :city=>"Comilla",
-   :country=>"Bangladesh",
+   :country=>'Bangladesh', :country_code=>'BD',
    :location=>"Comilla, Bangladesh"},
  "CXB"=>
   {:iata=>"CXB",
    :name=>"Cox's Bazar Airport",
    :icao=>"VGCB",
    :city=>"Cox's Bazar",
-   :country=>"Bangladesh",
+   :country=>'Bangladesh', :country_code=>'BD',
    :location=>"Cox's Bazar, Bangladesh"},
  "CGQ"=>
   {:iata=>"CGQ",
    :name=>"Changchun Longjia International Airport",
    :icao=>"ZYCC",
    :city=>"Changchun",
-   :country=>"China",
+   :country=>'China', :country_code=>'CN',
    :location=>"Changchun, Jilin, China"},
  "CSX"=>
   {:iata=>"CSX",
    :name=>"Changsha Huanghua International Airport",
    :icao=>"ZGHA",
    :city=>"Changsha",
-   :country=>"China",
+   :country=>'China', :country_code=>'CN',
    :location=>"Changsha, Hunan, China"},
  "CTU"=>
   {:iata=>"CTU",
    :name=>"Chengdu Shuangliu International Airport",
    :icao=>"ZUUU",
    :city=>"Chengdu",
-   :country=>"China",
+   :country=>'China', :country_code=>'CN',
    :location=>"Chengdu, Sichuan, China"},
  "CKG"=>
   {:iata=>"CKG",
    :name=>"Chongqing Jiangbei International Airport",
    :icao=>"ZUCK",
    :city=>"Chongqing",
-   :country=>"China",
+   :country=>'China', :country_code=>'CN',
    :location=>"Chongqing, China"},
  "CAN"=>
   {:iata=>"CAN",
    :name=>"Guangzhou Baiyun International Airport",
    :icao=>"ZGGG",
    :city=>"Guangzhou",
-   :country=>"China",
+   :country=>'China', :country_code=>'CN',
    :location=>"Guangzhou, Guangdong, China"},
  "CGO"=>
   {:iata=>"CGO",
    :name=>"Zhengzhou Xinzheng International Airport",
    :icao=>"ZHCC",
    :city=>"Zhengzhou",
-   :country=>"China",
+   :country=>'China', :country_code=>'CN',
    :location=>"Zhengzhou, Henan, China"},
  "CGD"=>
   {:iata=>"CGD",
    :name=>"Changde Airport",
    :icao=>"ZGCD",
    :city=>"Changde",
-   :country=>"China",
+   :country=>'China', :country_code=>'CN',
    :location=>"Changde, Hunan, China"},
  "CIH"=>
   {:iata=>"CIH",
    :name=>"Changzhi Airport",
    :icao=>"ZBCZ",
    :city=>"Changzhi",
-   :country=>"China",
+   :country=>'China', :country_code=>'CN',
    :location=>"Changzhi, Shanxi, China"},
  "CZX"=>
   {:iata=>"CZX",
    :name=>"Changzhou Benniu Airport",
    :icao=>"ZSCG",
    :city=>"Changzhou",
-   :country=>"China",
+   :country=>'China', :country_code=>'CN',
    :location=>"Changzhou, Jiangsu, China"},
  "CHG"=>
   {:iata=>"CHG",
    :name=>"Chaoyang Airport",
    :icao=>"ZYCY",
    :city=>"Chaoyang",
-   :country=>"China",
+   :country=>'China', :country_code=>'CN',
    :location=>"Chaoyang, Liaoning, China"},
  "CIF"=>
   {:iata=>"CIF",
    :name=>"Chifeng Airport",
    :icao=>"ZBCF",
    :city=>"Chifeng",
-   :country=>"China",
+   :country=>'China', :country_code=>'CN',
    :location=>"Chifeng, Inner Mongolia, China"},
  "CNI"=>
   {:iata=>"CNI",
    :name=>"Changhai Airport",
    :icao=>"ZYCH",
    :city=>"Changhai",
-   :country=>"China",
+   :country=>'China', :country_code=>'CN',
    :location=>"Changhai, China"},
  "CHW"=>
   {:iata=>"CHW",
    :name=>"Jiuquan Airport",
    :city=>"Jiuquan",
    :icao=>"",
-   :country=>"China",
+   :country=>'China', :country_code=>'CN',
    :location=>"Jiuquan, China"},
  "CCU"=>
   {:iata=>"CCU",
@@ -2325,6 +2536,7 @@ def airp_4
    :icao=>"VECC",
    :city=>"Dum Dum (near Kolkata)",
    :country=>"India",
+:country_code=>"IN",
    :location=>"Dum Dum (near Kolkata), India"},
  "CJB"=>
   {:iata=>"CJB",
@@ -2332,6 +2544,7 @@ def airp_4
    :icao=>"VOCB",
    :city=>"Coimbatore",
    :country=>"India",
+:country_code=>"IN",
    :location=>"Coimbatore, India"},
  "COK"=>
   {:iata=>"COK",
@@ -2339,6 +2552,7 @@ def airp_4
    :icao=>"VOCI",
    :city=>"Nedumbassery near Kochi (Cochin)",
    :country=>"India",
+:country_code=>"IN",
    :location=>"Nedumbassery near Kochi (Cochin), Kerala, India"},
  "CCJ"=>
   {:iata=>"CCJ",
@@ -2346,6 +2560,7 @@ def airp_4
    :icao=>"VOCL",
    :city=>"Kozhikode (Calicut)",
    :country=>"India",
+:country_code=>"IN",
    :location=>"Kozhikode (Calicut), India"},
  "CBD"=>
   {:iata=>"CBD",
@@ -2353,6 +2568,7 @@ def airp_4
    :icao=>"VOCX",
    :city=>"Car Nicobar",
    :country=>"India",
+:country_code=>"IN",
    :location=>"Car Nicobar, India"},
  "COH"=>
   {:iata=>"COH",
@@ -2360,6 +2576,7 @@ def airp_4
    :icao=>"VECO",
    :city=>"Cooch Behar",
    :country=>"India",
+:country_code=>"IN",
    :location=>"Cooch Behar, India"},
  "CDP"=>
   {:iata=>"CDP",
@@ -2367,1546 +2584,1705 @@ def airp_4
    :icao=>"VOCP",
    :city=>"Cuddapah",
    :country=>"India",
+:country_code=>"IN",
    :location=>"Cuddapah, India"},
  "CGK"=>
   {:iata=>"CGK",
    :name=>"Soekarno–Hatta International Airport",
    :icao=>"WIII",
    :city=>"Jakarta",
-   :country=>"Indonesia",
+   :country=>'Indonesia', :country_code=>'ID',
    :location=>"Jakarta, Indonesia"},
  "CPF"=>
   {:iata=>"CPF",
    :name=>"Ngloram Airport",
    :icao=>"WRSC",
    :city=>"Cepu",
-   :country=>"Indonesia",
+   :country=>'Indonesia', :country_code=>'ID',
    :location=>"Cepu, Indonesia"},
  "CXP"=>
   {:iata=>"CXP",
    :name=>"Tunggul Wulung Airport",
    :icao=>"WIHL",
    :city=>"Cilacap",
-   :country=>"Indonesia",
+   :country=>'Indonesia', :country_code=>'ID',
    :location=>"Cilacap, Java Island, Indonesia"},
  "CBN"=>
   {:iata=>"CBN",
    :name=>"Penggung Airport",
    :icao=>"WICD",
    :city=>"Cirebon",
-   :country=>"Indonesia",
+   :country=>'Indonesia', :country_code=>'ID',
    :location=>"Cirebon, Java, Indonesia"},
  "CQD"=>
   {:iata=>"CQD",
    :name=>"Shahrekord Airport",
    :icao=>"OIFS",
    :city=>"Shahrekord",
-   :country=>"Iran",
+   :country=>'Iran', :country_code=>'IR',
    :location=>"Shahrekord, Iran"},
  "CKT"=>
   {:iata=>"CKT",
    :name=>"Sarakhs Airport",
    :icao=>"OIMC",
    :city=>"Sarakhs",
-   :country=>"Iran",
+   :country=>'Iran', :country_code=>'IR',
    :location=>"Sarakhs, Iran"},
  "CTS"=>
   {:iata=>"CTS",
    :name=>"Chitose International Airport",
    :icao=>"RJCC",
    :city=>"Sapporo",
-   :country=>"Japan",
+   :country=>'Japan', :country_code=>'JP',
    :location=>"Sapporo, Hokkaido, Japan"},
  "CIT"=>
   {:iata=>"CIT",
    :name=>"Shymkent Airport",
    :icao=>"UAII",
    :city=>"Shymkent",
-   :country=>"Kazakhstan",
+   :country=>'Kazakhstan', :country_code=>'KZ',
    :location=>"Shymkent, Kazakhstan"},
  "COQ"=>
   {:iata=>"COQ",
    :name=>"Choibalsan Airport",
    :icao=>"ZMCD",
    :city=>"Choibalsan",
-   :country=>"Mongolia",
+   :country=>'Mongolia', :country_code=>'MN',
    :location=>"Choibalsan, Mongolia"},
  "CJL"=>
   {:iata=>"CJL",
    :name=>"Chitral Airport",
    :icao=>"OPCH",
    :city=>"Chitral",
-   :country=>"Pakistan",
+   :country=>'Pakistan', :country_code=>'PK',
    :location=>"Chitral, Pakistan"},
  "CWP"=>
   {:iata=>"CWP",
    :name=>"Campbellpore Airport",
    :icao=>"",
    :city=>"Campbellpore",
-   :country=>"Pakistan",
+   :country=>'Pakistan', :country_code=>'PK',
    :location=>"Campbellpore, Pakistan"},
  "CHB"=>
   {:iata=>"CHB",
    :name=>"Chilas Airport",
    :icao=>"OPCL",
    :city=>"Chilas",
-   :country=>"Pakistan",
+   :country=>'Pakistan', :country_code=>'PK',
    :location=>"Chilas, Pakistan"},
  "CMU"=>
   {:iata=>"CMU",
    :name=>"Chimbu Airport",
    :icao=>"AYCH",
    :city=>"Kundiawa",
-   :country=>"Papua New Guinea",
+   :country=>'Papua New Guinea', :country_code=>'PG',
    :location=>"Kundiawa, Papua New Guinea"},
  "CGC"=>
   {:iata=>"CGC",
    :name=>"Cape Gloucester Airport",
    :icao=>"AYCG",
    :city=>"Cape Gloucester",
-   :country=>"Papua New Guinea",
+   :country=>'Papua New Guinea', :country_code=>'PG',
    :location=>"Cape Gloucester, Papua New Guinea"},
  "CPI"=>
   {:iata=>"CPI",
    :name=>"Cape Orford Airport",
    :city=>"Cape Orford",
    :icao=>"",
-   :country=>"Guinea",
+   :country=>'Guinea', :country_code=>'GN',
    :location=>"Cape Orford, Guinea"},
  "CPN"=>
   {:iata=>"CPN",
    :name=>"Cape Rodney Airport",
    :icao=>"",
    :city=>"Cape Rodney",
-   :country=>"Papua New Guinea",
+   :country=>'Papua New Guinea', :country_code=>'PG',
    :location=>"Cape Rodney, Papua New Guinea"},
  "CVL"=>
   {:iata=>"CVL",
    :name=>"Cape Vogel Airport",
    :icao=>"",
    :city=>"Cape Vogel",
-   :country=>"Papua New Guinea",
+   :country=>'Papua New Guinea', :country_code=>'PG',
    :location=>"Cape Vogel, Papua New Guinea"},
  "CVB"=>
   {:iata=>"CVB",
    :name=>"Chungribu Airport",
    :icao=>"AYCB",
    :city=>"Chungribu",
-   :country=>"Papua New Guinea",
+   :country=>'Papua New Guinea', :country_code=>'PG',
    :location=>"Chungribu, Papua New Guinea"},
  "CEB"=>
   {:iata=>"CEB",
    :name=>"Mactan-Cebu International Airport",
    :icao=>"RPVM",
    :city=>"Lapu-Lapu City",
-   :country=>"Philippines",
+   :country=>'Philippines', :country_code=>'PH',
    :location=>"Lapu-Lapu City, Philippines"},
  "CGY"=>
   {:iata=>"CGY",
    :name=>"Laguindingan International Airport",
    :icao=>"RP02",
    :city=>"Cagayan de Oro City",
-   :country=>"Philippines",
+   :country=>'Philippines', :country_code=>'PH',
    :location=>"Cagayan de Oro City, Philippines"},
  "CYP"=>
   {:iata=>"CYP",
    :name=>"Calbayog Airport",
    :icao=>"RPVC",
    :city=>"Calbayog City",
-   :country=>"Philippines",
+   :country=>'Philippines', :country_code=>'PH',
    :location=>"Calbayog City, Samar, Philippines"},
  "CRM"=>
   {:iata=>"CRM",
    :name=>"Catarman National Airport",
    :icao=>"RPVF",
    :city=>"Catarman",
-   :country=>"Philippines",
+   :country=>'Philippines', :country_code=>'PH',
    :location=>"Catarman, Northern Samar, Philippines"},
  "CYZ"=>
   {:iata=>"CYZ",
    :name=>"Cauayan Airport",
    :icao=>"RPUY",
    :city=>"Cauayan City",
-   :country=>"Philippines",
+   :country=>'Philippines', :country_code=>'PH',
    :location=>"Cauayan City, Isabela, Philippines"},
  "CBO"=>
   {:iata=>"CBO",
    :name=>"Awang Airport",
    :icao=>"RPMC",
    :city=>"Cotabato City",
-   :country=>"Philippines",
+   :country=>'Philippines', :country_code=>'PH',
    :location=>"Cotabato City, Philippines"},
  "CRK"=>
   {:iata=>"CRK",
    :name=>"Clark International Airport",
    :icao=>"RPLC",
    :city=>"Clark Special Economic Zone",
-   :country=>"Philippines",
+   :country=>'Philippines', :country_code=>'PH',
    :location=>"Clark Special Economic Zone, Philippines"},
  "CGM"=>
   {:iata=>"CGM",
    :name=>"Camiguin Airport",
    :icao=>"RPMH",
    :city=>"Mambajao",
-   :country=>"Philippines",
+   :country=>'Philippines', :country_code=>'PH',
    :location=>"Mambajao, Camiguin, Philippines"},
  "CDY"=>
   {:iata=>"CDY",
    :name=>"Cagayan de Tawi-Tawi Airport",
    :icao=>"RPMU",
    :city=>"Mapun",
-   :country=>"Philippines",
+   :country=>'Philippines', :country_code=>'PH',
    :location=>"Mapun, Tawi-Tawi, Philippines"},
  "CGG"=>
   {:iata=>"CGG",
    :name=>"Casiguran Airport",
    :icao=>"",
    :city=>"Casiguran",
-   :country=>"Philippines",
+   :country=>'Philippines', :country_code=>'PH',
    :location=>"Casiguran, Aurora, Philippines"},
  "CUJ"=>
   {:iata=>"CUJ",
    :name=>"Culion Airport",
    :icao=>"",
    :city=>"Culion",
-   :country=>"Philippines",
+   :country=>'Philippines', :country_code=>'PH',
    :location=>"Culion, Palawan, Philippines"},
  "CYU"=>
   {:iata=>"CYU",
    :name=>"Cuyo Airport",
    :icao=>"RPLO",
    :city=>"Cuyo",
-   :country=>"Philippines",
+   :country=>'Philippines', :country_code=>'PH',
    :location=>"Cuyo, Palawan, Philippines"},
  "CYI"=>
   {:iata=>"CYI",
    :name=>"Chiayi Airport",
    :icao=>"RCKU",
    :city=>"Chiayi",
-   :country=>"Taiwan",
+   :country=>'Taiwan', :country_code=>'TW',
    :location=>"Chiayi, Taiwan"},
  "CMJ"=>
   {:iata=>"CMJ",
    :name=>"Cimei Airport",
    :icao=>"RCCM",
    :city=>"Cimei",
-   :country=>"Taiwan",
+   :country=>'Taiwan', :country_code=>'TW',
    :location=>"Cimei, Taiwan"},
  "CJU"=>
   {:iata=>"CJU",
    :name=>"Jeju International Airport",
    :icao=>"RKPC",
    :city=>"Jeju",
-   :country=>"South Korea",
+   :country=>'South Korea', :country_code=>'KR',
    :location=>"Jeju, South Korea"},
  "CJJ"=>
   {:iata=>"CJJ",
    :name=>"Cheong Ju International Airport",
    :icao=>"RKTU",
    :city=>"Cheong ju",
-   :country=>"South Korea",
+   :country=>'South Korea', :country_code=>'KR',
    :location=>"Cheong ju, South Korea"},
  "CHN"=>
   {:iata=>"CHN",
    :name=>"Chonju Airport",
    :icao=>"RKJU",
    :city=>"Chonju",
-   :country=>"South Korea",
+   :country=>'South Korea', :country_code=>'KR',
    :location=>"Chonju, South Korea"},
  "CHF"=>
   {:iata=>"CHF",
    :name=>"Chinhae Airport",
    :icao=>"RKPE",
    :city=>"Chinhae",
-   :country=>"South Korea",
+   :country=>'South Korea', :country_code=>'KR',
    :location=>"Chinhae, South Korea"},
  "CMB"=>
   {:iata=>"CMB",
    :name=>"Bandaranaike International Airport",
    :icao=>"VCBI",
    :city=>"Colombo",
-   :country=>"Sri Lanka",
+   :country=>'Sri Lanka', :country_code=>'LK',
    :location=>"Colombo, Sri Lanka"},
  "CNX"=>
   {:iata=>"CNX",
    :name=>"Chiang Mai International Airport",
    :icao=>"VTCC",
    :city=>"Chiang Mai",
-   :country=>"Thailand",
+   :country=>'Thailand', :country_code=>'TH',
    :location=>"Chiang Mai, Thailand"},
  "CEI"=>
   {:iata=>"CEI",
    :name=>"Mae Fah Luang International Airport",
    :icao=>"VTCT",
    :city=>"Chiang Rai",
-   :country=>"Thailand",
+   :country=>'Thailand', :country_code=>'TH',
    :location=>"Chiang Rai, Thailand"},
  "CJM"=>
   {:iata=>"CJM",
    :name=>"Chumphon Airport",
    :icao=>"VTSE",
    :city=>"Chumphon",
-   :country=>"Thailand",
+   :country=>'Thailand', :country_code=>'TH',
    :location=>"Chumphon, Thailand"},
  "CRZ"=>
   {:iata=>"CRZ",
    :name=>"Turkmenabat Airport",
    :icao=>"UTAV",
    :city=>"Türkmenabat",
-   :country=>"Turkmenistan",
+   :country=>'Turkmenistan', :country_code=>'TM',
    :location=>"Türkmenabat, Turkmenistan"},
  "CAH"=>
   {:iata=>"CAH",
    :name=>"Cà Mau Airport",
    :icao=>"VVCM",
    :city=>"Cà Mau Province",
-   :country=>"Vietnam",
+   :country=>'Vietnam', :country_code=>'VN',
    :location=>"Cà Mau Province, Vietnam"},
  "CXR"=>
   {:iata=>"CXR",
    :name=>"Cam Ranh International Airport",
    :icao=>"VVCR",
    :city=>"Cam Ranh",
-   :country=>"Vietnam",
+   :country=>'Vietnam', :country_code=>'VN',
    :location=>"Cam Ranh, Khánh Hòa, Vietnam"},
  "CSJ"=>
   {:iata=>"CSJ",
    :name=>"Cape St. Jacques Airport",
    :icao=>"",
    :city=>"Cape St. Jacques",
-   :country=>"Vietnam",
+   :country=>'Vietnam', :country_code=>'VN',
    :location=>"Cape St. Jacques, Vietnam"},
  "CUK"=>
   {:iata=>"CUK",
    :name=>"Caye Caulker Airport",
    :icao=>"",
    :city=>"Caye Caulker",
-   :country=>"Belize",
+   :country=>'Belize', :country_code=>'BZ',
    :location=>"Caye Caulker, Belize"},
  "CYC"=>
   {:iata=>"CYC",
    :name=>"Caye Chapel Airport",
    :icao=>"",
    :city=>"Caye Chapel",
-   :country=>"Belize",
+   :country=>'Belize', :country_code=>'BZ',
    :location=>"Caye Chapel, Belize"},
  "CZH"=>
   {:iata=>"CZH",
    :name=>"Corozal Airport",
    :icao=>"",
    :city=>"Corozal",
-   :country=>"Belize",
+   :country=>'Belize', :country_code=>'BZ',
    :location=>"Corozal, Belize"},
  "CSC"=>
   {:iata=>"CSC",
    :name=>"Canas Airport",
    :icao=>"",
    :city=>"Canas",
-   :country=>"Costa Rica",
+   :country=>'Costa Rica', :country_code=>'CR',
    :location=>"Canas, Costa Rica"},
  "CMM"=>
   {:iata=>"CMM",
    :name=>"Carmelita Airport",
    :icao=>"MGCR",
    :city=>"Carmelita",
-   :country=>"Guatemala",
+   :country=>'Guatemala', :country_code=>'GT',
    :location=>"Carmelita, El Petén, Guatemala"},
  "CIQ"=>
   {:iata=>"CIQ",
    :name=>"Chiquimula Airport",
    :icao=>"",
    :city=>"Chiquimula",
-   :country=>"Guatemala",
+   :country=>'Guatemala', :country_code=>'GT',
    :location=>"Chiquimula, Chiquimula, Guatemala"},
  "CTF"=>
   {:iata=>"CTF",
    :name=>"Coatepeque Airport",
    :icao=>"MGCT",
    :city=>"Coatepeque",
-   :country=>"Guatemala",
+   :country=>'Guatemala', :country_code=>'GT',
    :location=>"Coatepeque, Quetzaltenango, Guatemala"},
  "CBV"=>
   {:iata=>"CBV",
    :name=>"Cobán Airport",
    :icao=>"MGCB",
    :city=>"Cobán",
-   :country=>"Guatemala",
+   :country=>'Guatemala', :country_code=>'GT',
    :location=>"Cobán, Alta Verapaz, Guatemala"},
  "CAA"=>
   {:iata=>"CAA",
    :name=>"Catacamas Airport",
    :icao=>"MHCA",
    :city=>"Catacamas",
-   :country=>"Honduras",
+   :country=>'Honduras', :country_code=>'HN',
    :location=>"Catacamas, Honduras"},
  "CDD"=>
   {:iata=>"CDD",
    :name=>"Cauquira Airport",
    :icao=>"",
    :city=>"Cauquira",
-   :country=>"Honduras",
+   :country=>'Honduras', :country_code=>'HN',
    :location=>"Cauquira, Honduras"},
  "CYL"=>
   {:iata=>"CYL",
    :name=>"Coyoles Airport",
    :icao=>"",
    :city=>"Coyoles",
-   :country=>"Honduras",
+   :country=>'Honduras', :country_code=>'HN',
    :location=>"Coyoles, Honduras"},
  "CTE"=>
   {:iata=>"CTE",
    :name=>"Carti Airport",
    :icao=>"",
    :city=>"Cartí",
-   :country=>"Panama",
+   :country=>'Panama', :country_code=>'PA',
    :location=>"Cartí, Panama"},
  "CHX"=>
   {:iata=>"CHX",
    :name=>"Captain Manuel Niño International Airport",
    :icao=>"MPCH",
    :city=>"Changuinola",
-   :country=>"Panama",
+   :country=>'Panama', :country_code=>'PA',
    :location=>"Changuinola, Bocas del Toro, Panama"},
  "CTD"=>
   {:iata=>"CTD",
    :name=>"Herrera Alonso Valderrama Airport",
    :icao=>"MPCE",
    :city=>"Chitré",
-   :country=>"Panama",
+   :country=>'Panama', :country_code=>'PA',
    :location=>"Chitré, Panama"},
  "CZJ"=>
   {:iata=>"CZJ",
    :name=>"Corazon de Jesus Airport",
    :icao=>"",
    :city=>"Corazon de Jesus",
-   :country=>"Panamá",
+   :country=>'Panamá', :country_code=>'PA',
    :location=>"Corazon de Jesus, Panamá"},
  "CDE"=>
   {:iata=>"CDE",
    :name=>"Cape Decision Coast Guard Heliport",
    :icao=>"PACE",
    :city=>"Cape Decision",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Cape Decision, Alaska, United States"},
  "CAI"=>
   {:iata=>"CAI",
    :name=>"Cairo International Airport",
    :icao=>"HECA",
    :city=>"Cairo",
-   :country=>"Egypt",
+   :country=>'Egypt', :country_code=>'EG',
    :location=>"Cairo, Egypt"},
  "CAD"=>
   {:iata=>"CAD",
    :name=>"Wexford County Airport",
    :icao=>"KCAD",
    :city=>"Cadillac",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Cadillac, Michigan, United States"},
  "CAE"=>
   {:iata=>"CAE",
    :name=>"Columbia Metropolitan Airport",
    :icao=>"KCAE",
    :city=>"West Columbia (near Columbia)",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"West Columbia (near Columbia), South Carolina, United States"},
  "CAK"=>
   {:iata=>"CAK",
    :name=>"Akron-Canton Regional Airport",
    :icao=>"KCAK",
    :city=>"Akron / Canton",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Akron / Canton, Ohio, United States"},
  "CAO"=>
   {:iata=>"CAO",
    :name=>"Clayton Municipal Airpark",
    :icao=>"KCAO",
    :city=>"Clayton",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Clayton, New Mexico, United States"},
  "CAR"=>
   {:iata=>"CAR",
    :name=>"Caribou Municipal Airport",
    :icao=>"KCAR",
    :city=>"Caribou",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Caribou, Maine, United States"},
  "CBE"=>
   {:iata=>"CBE",
    :name=>"Greater Cumberland Regional Airport",
    :icao=>"KCBE",
    :city=>"Cumberland",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Cumberland, Maryland, United States"},
  "CBF"=>
   {:iata=>"CBF",
    :name=>"Council Bluffs Municipal Airport",
    :icao=>"KCBF",
    :city=>"Council Bluffs",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Council Bluffs, Iowa, United States"},
  "CBK"=>
   {:iata=>"CBK",
    :name=>"Colby Municipal Airport (Shalz Field)",
    :icao=>"KCBK",
    :city=>"Colby",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Colby, Kansas, United States"},
  "CBM"=>
   {:iata=>"CBM",
    :name=>"Columbus Air Force Base",
    :icao=>"KCBM",
    :city=>"Columbus",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Columbus, Mississippi, United States"},
  "CCB"=>
   {:iata=>"CCB",
    :name=>"Cable Airport",
    :icao=>"KCCB",
    :city=>"Upland",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Upland, California, United States"},
  "CCD"=>
   {:iata=>"CCD",
    :name=>"Century City Heliport (FAA: 84CL)",
    :icao=>"",
    :city=>"Los Angeles",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Los Angeles, United States"},
  "CCG"=>
   {:iata=>"CCG",
    :name=>"Crane County Airport (FAA: E13)",
    :icao=>"",
    :city=>"Crane",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Crane, Texas, United States"},
  "CCR"=>
   {:iata=>"CCR",
    :name=>"Buchanan Field",
    :icao=>"KCCR",
    :city=>"Concord",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Concord, California, United States"},
  "CCY"=>
   {:iata=>"CCY",
    :name=>"Northeast Iowa Regional Airport",
    :icao=>"KCCY",
    :city=>"Charles City",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Charles City, Iowa, United States"},
  "CDB"=>
   {:iata=>"CDB",
    :name=>"Cold Bay Airport",
    :icao=>"PACD",
    :city=>"Cold Bay",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Cold Bay, Alaska, United States"},
  "CDC"=>
   {:iata=>"CDC",
    :name=>"Cedar City Regional Airport",
    :icao=>"KCDC",
    :city=>"Cedar City",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Cedar City, Utah, United States"},
  "CDH"=>
   {:iata=>"CDH",
    :name=>"Harrell Field",
    :icao=>"KCDH",
    :city=>"Camden",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Camden, Arkansas, United States"},
  "CDK"=>
   {:iata=>"CDK",
    :name=>"George T. Lewis Airport",
    :icao=>"KCDK",
    :city=>"Cedar Key",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Cedar Key, Florida, United States"},
  "CDL"=>
   {:iata=>"CDL",
    :name=>"Candle 2 Airport (FAA: AK75)",
    :icao=>"",
    :city=>"Candle",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Candle, Alaska, United States"},
  "CDN"=>
   {:iata=>"CDN",
    :name=>"Woodward Field",
    :icao=>"KCDN",
    :city=>"Camden",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Camden, South Carolina, United States"},
  "CDR"=>
   {:iata=>"CDR",
    :name=>"Chadron Municipal Airport",
    :icao=>"KCDR",
    :city=>"Chadron",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Chadron, Nebraska, United States"},
  "CDS"=>
   {:iata=>"CDS",
    :name=>"Childress Municipal Airport",
    :icao=>"KCDS",
    :city=>"Childress",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Childress, Texas, United States"},
  "CDT"=>
   {:iata=>"CDT",
    :name=>"Castellón Airport",
    :icao=>"LECS",
    :city=>"Castellón de la Plana",
-   :country=>"Spain",
+   :country=>'Spain', :country_code=>'ES',
    :location=>"Castellón de la Plana, Comunidad Valenciana, Spain"},
  "CDV"=>
   {:iata=>"CDV",
    :name=>"Merle K. (Mudhole) Smith Airport",
    :icao=>"PACV",
    :city=>"Cordova",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Cordova, Alaska, United States"},
  "CDW"=>
   {:iata=>"CDW",
    :name=>"Essex County Airport",
    :icao=>"KCDW",
    :city=>"Caldwell",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Caldwell, New Jersey, United States"},
  "CEA"=>
   {:iata=>"CEA",
    :name=>"Cessna Aircraft Field",
    :icao=>"KCEA",
    :city=>"Wichita",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Wichita, Kansas, United States"},
  "CEC"=>
   {:iata=>"CEC",
    :name=>"Jack McNamara Field",
    :icao=>"KCEC",
    :city=>"Crescent City",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Crescent City, California, United States"},
  "CEF"=>
   {:iata=>"CEF",
    :name=>"Westover ARB/Westover Metropolitan Airport",
    :icao=>"KCEF",
    :city=>"Springfield/Chicopee",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Springfield/Chicopee, Massachusetts, United States"},
  "CEM"=>
   {:iata=>"CEM",
    :name=>"Central Airport",
    :icao=>"PARL",
    :city=>"Central",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Central, Alaska, United States"},
  "CEU"=>
   {:iata=>"CEU",
    :name=>"Oconee County Regional Airport",
    :icao=>"KCEU",
    :city=>"Clemson",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Clemson, South Carolina, United States"},
  "CEV"=>
   {:iata=>"CEV",
    :name=>"Mettel Field",
    :icao=>"KCEV",
    :city=>"Connersville",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Connersville, Indiana, United States"},
  "CEW"=>
   {:iata=>"CEW",
    :name=>"Bob Sikes Airport",
    :icao=>"KCEW",
    :city=>"Crestview",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Crestview, Florida, United States"},
  "CEX"=>
   {:iata=>"CEX",
    :name=>"Chena Hot Springs Airport (FAA: AK13)",
    :icao=>"",
    :city=>"Chena Hot Springs",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Chena Hot Springs, Alaska, United States"},
  "CEY"=>
   {:iata=>"CEY",
    :name=>"Murray-Calloway County Airport",
    :icao=>"KCEY",
    :city=>"Murray",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Murray, Kentucky, United States"},
  "CEZ"=>
   {:iata=>"CEZ",
    :name=>"Cortez Municipal Airport",
    :icao=>"KCEZ",
    :city=>"Cortez",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Cortez, Colorado, United States"},
  "CFD"=>
   {:iata=>"CFD",
    :name=>"Coulter Field",
    :icao=>"KCFD",
    :city=>"Bryan",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Bryan, Texas, United States"},
  "CFT"=>
   {:iata=>"CFT",
    :name=>"Greenlee County Airport",
    :icao=>"KCFT",
    :city=>"Clifton/Morenci",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Clifton/Morenci, Arizona, United States"},
  "CFV"=>
   {:iata=>"CFV",
    :name=>"Coffeyville Municipal Airport",
    :icao=>"KCFV",
    :city=>"Coffeyville",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Coffeyville, Kansas, United States"},
  "CGA"=>
   {:iata=>"CGA",
    :name=>"Craig Seaplane Base",
    :icao=>"",
    :city=>"Craig",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Craig, Alaska, United States"},
  "CGE"=>
   {:iata=>"CGE",
    :name=>"Cambridge–Dorchester Airport",
    :icao=>"KCGE",
    :city=>"Cambridge",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Cambridge, Maryland, United States"},
  "CGF"=>
   {:iata=>"CGF",
    :name=>"Cuyahoga County Airport",
    :icao=>"KCGF",
    :city=>"Cleveland",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Cleveland, Ohio, United States"},
  "CGI"=>
   {:iata=>"CGI",
    :name=>"Cape Girardeau Regional Airport",
    :icao=>"KCGI",
    :city=>"Cape Girardeau",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Cape Girardeau, Missouri, United States"},
  "CGS"=>
   {:iata=>"CGS",
    :name=>"College Park Airport",
    :icao=>"KCGS",
    :city=>"College Park",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"College Park, Maryland, United States"},
  "CGZ"=>
   {:iata=>"CGZ",
    :name=>"Casa Grande Municipal Airport",
    :icao=>"KCGZ",
    :city=>"Casa Grande",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Casa Grande, Arizona, United States"},
  "CHA"=>
   {:iata=>"CHA",
    :name=>"Chattanooga Metropolitan Airport (Lovell Field)",
    :icao=>"KCHA",
    :city=>"Chattanooga",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Chattanooga, Tennessee, United States"},
  "CHI"=>
   {:iata=>"CHI",
    :name=>"All Airports",
    :icao=>"",
    :city=>"Chicago",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Chicago, United States"},
  "CHK"=>
   {:iata=>"CHK",
    :name=>"Chickasha Municipal Airport",
    :icao=>"KCHK",
    :city=>"Chickasha",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Chickasha, Oklahoma, United States"},
  "CHL"=>
   {:iata=>"CHL",
    :name=>"Challis Airport (FAA: LLJ)",
    :icao=>"KLLJ",
    :city=>"Challis",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Challis, Idaho, United States"},
  "CHO"=>
   {:iata=>"CHO",
    :name=>"Charlottesville-Albemarle Airport",
    :icao=>"KCHO",
    :city=>"Charlottesville",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Charlottesville, Virginia, United States"},
  "CHP"=>
   {:iata=>"CHP",
    :name=>"Circle Hot Springs Airport",
    :icao=>"",
    :city=>"Circle Hot Springs",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Circle Hot Springs, Alaska, United States"},
  "CHS"=>
   {:iata=>"CHS",
    :name=>"Charleston International Airport / Charleston AFB",
    :icao=>"KCHS",
    :city=>"Charleston",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Charleston, South Carolina, United States"},
  "CHU"=>
   {:iata=>"CHU",
    :name=>"Chuathbaluk Airport (FAA: 9A3)",
    :icao=>"",
    :city=>"Chuathbaluk",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Chuathbaluk, Alaska, United States"},
  "CHZ"=>
   {:iata=>"CHZ",
    :name=>"Chiloquin State Airport (FAA: 2S7)",
    :icao=>"",
    :city=>"Chiloquin",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Chiloquin, Oregon, United States"},
  "CIB"=>
   {:iata=>"CIB",
    :name=>"Catalina Airport (FAA: AVX)",
    :icao=>"KAVX",
    :city=>"Avalon",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Avalon, California, United States"},
  "CIC"=>
   {:iata=>"CIC",
    :name=>"Chico Municipal Airport",
    :icao=>"KCIC",
    :city=>"Chico",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Chico, California, United States"},
  "CID"=>
   {:iata=>"CID",
    :name=>"The Eastern Iowa Airport",
    :icao=>"KCID",
    :city=>"Cedar Rapids",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Cedar Rapids, Iowa, United States"},
  "CIG"=>
   {:iata=>"CIG",
    :name=>"Craig–Moffat Airport (FAA: CAG)",
    :icao=>"KCAG",
    :city=>"Craig",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Craig, Colorado, United States"},
  "CIK"=>
   {:iata=>"CIK",
    :name=>"Chalkyitsik Airport",
    :icao=>"PACI",
    :city=>"Chalkyitsik",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Chalkyitsik, Alaska, United States"},
  "CIL"=>
   {:iata=>"CIL",
    :name=>"Council Airport (FAA: K29)",
    :icao=>"",
    :city=>"Council",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Council, Alaska, United States"},
  "CIN"=>
   {:iata=>"CIN",
    :name=>"Arthur N. Neu Airport",
    :icao=>"KCIN",
    :city=>"Carroll",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Carroll, Iowa, United States"},
  "CIR"=>
   {:iata=>"CIR",
    :name=>"Cairo Regional Airport",
    :icao=>"KCIR",
    :city=>"Cairo",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Cairo, Illinois, United States"},
  "CIU"=>
   {:iata=>"CIU",
    :name=>"Chippewa County International Airport",
    :icao=>"KCIU",
    :city=>"Sault Ste Marie",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Sault Ste Marie, Michigan, United States"},
  "CKA"=>
   {:iata=>"CKA",
    :name=>"Kegelman Air Force Auxiliary Field",
    :icao=>"KCKA",
    :city=>"Cherokee",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Cherokee, Oklahoma, United States"},
  "CKB"=>
   {:iata=>"CKB",
    :name=>"North Central West Virginia Airport",
    :icao=>"KCKB",
    :city=>"Clarksburg",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Clarksburg, West Virginia, United States"},
  "CKD"=>
   {:iata=>"CKD",
    :name=>"Crooked Creek Airport (FAA: CJX)",
    :icao=>"",
    :city=>"Crooked Creek",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Crooked Creek, Alaska, United States"},
  "CKE"=>
   {:iata=>"CKE",
    :name=>"Ferndale Resort Seaplane Base (FAA: CN20)",
    :icao=>"",
    :city=>"Kelseyville",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Kelseyville, California, United States"},
  "CKM"=>
   {:iata=>"CKM",
    :name=>"Fletcher Field",
    :icao=>"KCKM",
    :city=>"Clarksdale",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Clarksdale, Mississippi, United States"},
  "CKN"=>
   {:iata=>"CKN",
    :name=>"Crookston Municipal Airport (Kirkwood Field)",
    :icao=>"KCKN",
    :city=>"Crookston",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Crookston, Minnesota, United States"},
  "CKU"=>
   {:iata=>"CKU",
    :name=>"Cordova Municipal Airport",
    :icao=>"",
    :city=>"Cordova",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Cordova, Alaska, United States"},
  "CKV"=>
   {:iata=>"CKV",
    :name=>"Outlaw Field",
    :icao=>"KCKV",
    :city=>"Clarksville",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Clarksville, Tennessee, United States"},
  "CKX"=>
   {:iata=>"CKX",
    :name=>"Chicken Airport",
    :icao=>"",
    :city=>"Chicken",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Chicken, Alaska, United States"},
  "CLD"=>
   {:iata=>"CLD",
    :name=>"McClellan–Palomar Airport (FAA: CRQ)",
    :icao=>"KCRQ",
    :city=>"Carlsbad",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Carlsbad, California, United States"},
  "CLE"=>
   {:iata=>"CLE",
    :name=>"Cleveland Hopkins International Airport",
    :icao=>"KCLE",
    :city=>"Cleveland",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Cleveland, Ohio, United States"},
  "CLG"=>
   {:iata=>"CLG",
    :name=>"New Coalinga Municipal Airport (FAA: C80)",
    :icao=>"",
    :city=>"Coalinga",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Coalinga, California, United States"},
  "CLI"=>
   {:iata=>"CLI",
    :name=>"Clintonville Municipal Airport",
    :icao=>"KCLI",
    :city=>"Clintonville",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Clintonville, Wisconsin, United States"},
  "CLK"=>
   {:iata=>"CLK",
    :name=>"Clinton Regional Airport",
    :icao=>"KCLK",
    :city=>"Clinton",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Clinton, Oklahoma, United States"},
  "CLL"=>
   {:iata=>"CLL",
    :name=>"Easterwood Airport (Easterwood Field)",
    :icao=>"KCLL",
    :city=>"College Station",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"College Station, Texas, United States"},
  "CLM"=>
   {:iata=>"CLM",
    :name=>"William R. Fairchild International Airport",
    :icao=>"KCLM",
    :city=>"Port Angeles",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Port Angeles, Washington, United States"},
  "CLP"=>
   {:iata=>"CLP",
    :name=>"Clarks Point Airport",
    :icao=>"PFCL",
    :city=>"Clarks Point",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Clarks Point, Alaska, United States"},
  "CLR"=>
   {:iata=>"CLR",
    :name=>"All airports",
    :icao=>"",
    :city=>"Calipatria",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Calipatria, California, United States"},
  "CLS"=>
   {:iata=>"CLS",
    :name=>"Chehalis-Centralia Airport",
    :icao=>"KCLS",
    :city=>"Chehalis",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Chehalis, Washington, United States"},
  "CLT"=>
   {:iata=>"CLT",
    :name=>"Charlotte Douglas International Airport",
    :icao=>"KCLT",
    :city=>"Charlotte",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Charlotte, North Carolina, United States"},
  "CLU"=>
   {:iata=>"CLU",
    :name=>"Columbus Municipal Airport (FAA: BAK)",
    :icao=>"KBAK",
    :city=>"Columbus",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Columbus, Indiana, United States"},
  "CLW"=>
   {:iata=>"CLW",
    :name=>"Clearwater Air Park",
    :icao=>"KCLW",
    :city=>"Clearwater",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Clearwater, Florida, United States"},
  "CMH"=>
   {:iata=>"CMH",
    :name=>"Port Columbus International Airport",
    :icao=>"KCMH",
    :city=>"Columbus",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Columbus, Ohio, United States"},
  "CMI"=>
   {:iata=>"CMI",
    :name=>"University of Illinois Willard Airport",
    :icao=>"KCMI",
    :city=>"Champaign-Urbana",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Champaign-Urbana, Illinois, United States"},
  "CMX"=>
   {:iata=>"CMX",
    :name=>"Houghton County Memorial Airport",
    :icao=>"KCMX",
    :city=>"Hancock",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Hancock, Michigan, United States"},
  "CMY"=>
   {:iata=>"CMY",
    :name=>"Sparta/Fort McCoy Airport",
    :icao=>"KCMY",
    :city=>"Sparta",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Sparta, Wisconsin, United States"},
  "CNE"=>
   {:iata=>"CNE",
    :name=>"Fremont County Airport (FAA: 1V6)",
    :icao=>"",
    :city=>"Cañon City",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Cañon City, Colorado, United States"},
  "CNH"=>
   {:iata=>"CNH",
    :name=>"Claremont Municipal Airport",
    :icao=>"KCNH",
    :city=>"Claremont",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Claremont, New Hampshire, United States"},
  "CNK"=>
   {:iata=>"CNK",
    :name=>"Blosser Municipal Airport",
    :icao=>"KCNK",
    :city=>"Concordia",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Concordia, Kansas, United States"},
  "CNM"=>
   {:iata=>"CNM",
    :name=>"Cavern City Air Terminal",
    :icao=>"KCNM",
    :city=>"Carlsbad",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Carlsbad, New Mexico, United States"},
  "CNO"=>
   {:iata=>"CNO",
    :name=>"Chino Airport",
    :icao=>"KCNO",
    :city=>"Chino",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Chino, California, United States"},
  "CNU"=>
   {:iata=>"CNU",
    :name=>"Chanute Martin Johnson Airport",
    :icao=>"KCNU",
    :city=>"Chanute",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Chanute, Kansas, United States"},
  "CNW"=>
   {:iata=>"CNW",
    :name=>"TSTC Waco Airport",
    :icao=>"KCNW",
    :city=>"Waco",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Waco, Texas, United States"},
  "CNY"=>
   {:iata=>"CNY",
    :name=>"Canyonlands Field",
    :icao=>"KCNY",
    :city=>"Moab",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Moab, Utah, United States"},
  "COA"=>
   {:iata=>"COA",
    :name=>"Columbia Airport (FAA: O22)",
    :icao=>"",
    :city=>"Columbia",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Columbia, California, United States"},
  "COE"=>
   {:iata=>"COE",
    :name=>"Coeur d'Alene Air Terminal",
    :icao=>"KCOE",
    :city=>"Coeur d'Alene",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Coeur d'Alene, Idaho, United States"},
  "COF"=>
   {:iata=>"COF",
    :name=>"Patrick Air Force Base",
    :icao=>"KCOF",
    :city=>"Cocoa Beach",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Cocoa Beach, Florida, United States"},
  "COI"=>
   {:iata=>"COI",
    :name=>"Merritt Island Airport",
    :icao=>"KCOI",
    :city=>"Merritt Island",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Merritt Island, Florida, United States"},
  "COM"=>
   {:iata=>"COM",
    :name=>"Coleman Municipal Airport",
    :icao=>"KCOM",
    :city=>"Coleman",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Coleman, Texas, United States"},
  "CON"=>
   {:iata=>"CON",
    :name=>"Concord Municipal Airport",
    :icao=>"KCON",
    :city=>"Concord",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Concord, New Hampshire, United States"},
  "COP"=>
   {:iata=>"COP",
    :name=>"Cooperstown-Westville Airport (FAA: K23)",
    :icao=>"",
    :city=>"Cooperstown",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Cooperstown, New York, United States"},
  "COS"=>
   {:iata=>"COS",
    :name=>"Colorado Springs Airport",
    :icao=>"KCOS",
    :city=>"Colorado Springs",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Colorado Springs, Colorado, United States"},
  "COT"=>
   {:iata=>"COT",
    :name=>"Cotulla–La Salle County Airport",
    :icao=>"KCOT",
    :city=>"Cotulla",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Cotulla, Texas, United States"},
  "COU"=>
   {:iata=>"COU",
    :name=>"Columbia Regional Airport",
    :icao=>"KCOU",
    :city=>"Columbia",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Columbia, Missouri, United States"},
  "CPM"=>
   {:iata=>"CPM",
    :name=>"Compton/Woodley Airport",
    :icao=>"KCPM",
    :city=>"Compton",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Compton, California, United States"},
  "CPP"=>
   {:iata=>"CPP",
    :name=>"Calapan Airport",
    :icao=>"RPUK",
    :city=>"Calapan City",
-   :country=>"Philippines",
+   :country=>'Philippines', :country_code=>'PH',
    :location=>"Calapan City, Oriental Mindoro, Philippines"},
  "CPS"=>
   {:iata=>"CPS",
    :name=>"St. Louis Downtown Airport",
    :icao=>"KCPS",
    :city=>"Cahokia",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Cahokia, Illinois (near St. Louis), United States"},
  "CRE"=>
   {:iata=>"CRE",
    :name=>"Grand Strand Airport",
    :icao=>"KCRE",
    :city=>"North Myrtle Beach",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"North Myrtle Beach, South Carolina, United States"},
  "CRG"=>
   {:iata=>"CRG",
    :name=>"Craig Municipal Airport",
    :icao=>"KCRG",
    :city=>"Jacksonville",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Jacksonville, Florida, United States"},
  "CRO"=>
   {:iata=>"CRO",
    :name=>"Corcoran Airport",
    :icao=>"KCRO",
    :city=>"Corcoran",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Corcoran, California, United States"},
  "CRP"=>
   {:iata=>"CRP",
    :name=>"Corpus Christi International Airport",
    :icao=>"KCRP",
    :city=>"Corpus Christi",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Corpus Christi, Texas, United States"},
  "CRS"=>
   {:iata=>"CRS",
    :name=>"Corsicana Municipal Airport (C. David Campbell Field)",
    :icao=>"KCRS",
    :city=>"Corsicana",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Corsicana, Texas, United States"},
  "CRT"=>
   {:iata=>"CRT",
    :name=>"Z. M. Jack Stell Field",
    :icao=>"KCRT",
    :city=>"Crossett",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Crossett, Arkansas, United States"},
  "CRW"=>
   {:iata=>"CRW",
    :name=>"Yeager Airport",
    :icao=>"KCRW",
    :city=>"Charleston",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Charleston, West Virginia, United States"},
  "CRX"=>
   {:iata=>"CRX",
    :name=>"Roscoe Turner Airport",
    :icao=>"KCRX",
    :city=>"Corinth",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Corinth, Mississippi, United States"},
  "CSE"=>
   {:iata=>"CSE",
    :name=>"Buckhorn Ranch Airport (FAA: 0CO2)",
    :icao=>"",
    :city=>"Crested Butte",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Crested Butte, Colorado, United States"},
  "CSG"=>
   {:iata=>"CSG",
    :name=>"Columbus Airport",
    :icao=>"KCSG",
    :city=>"Columbus",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Columbus, Georgia, United States"},
  "CSL"=>
   {:iata=>"CSL",
    :name=>"O'Sullivan Army Heliport",
    :icao=>"KCSL",
    :city=>"Camp San Luis Obispo",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Camp San Luis Obispo, California, United States"},
  "CSM"=>
   {:iata=>"CSM",
    :name=>"Clinton-Sherman Airport",
    :icao=>"KCSM",
    :city=>"Clinton",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Clinton, Oklahoma, United States"},
  "CSN"=>
   {:iata=>"CSN",
    :name=>"Carson Airport (FAA: CXP)",
    :icao=>"KCXP",
    :city=>"Carson City",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Carson City, Nevada, United States"},
  "CSP"=>
   {:iata=>"CSP",
    :name=>"Cape Spencer Coast Guard Heliport",
    :icao=>"PACA",
    :city=>"Cape Spencer",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Cape Spencer, Alaska, United States"},
  "CSQ"=>
   {:iata=>"CSQ",
    :name=>"Creston Municipal Airport",
    :icao=>"KCSQ",
    :city=>"Creston",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Creston, Iowa, United States"},
  "CSV"=>
   {:iata=>"CSV",
    :name=>"Crossville Memorial-Whitson Field",
    :icao=>"KCSV",
    :city=>"Crossville",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Crossville, Tennessee, United States"},
  "CTB"=>
   {:iata=>"CTB",
    :name=>"Cut Bank Municipal Airport",
    :icao=>"KCTB",
    :city=>"Cut Bank",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Cut Bank, Montana, United States"},
  "CTH"=>
   {:iata=>"CTH",
    :name=>"Chester County G. O. Carlson Airport (FAA: MQS)",
    :icao=>"KMQS",
    :city=>"Coatesville",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Coatesville, Pennsylvania, United States"},
  "CTK"=>
   {:iata=>"CTK",
    :name=>"Canton Municipal Airport (FAA: 7G9)",
    :icao=>"",
    :city=>"Canton",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Canton, South Dakota, United States"},
  "CTO"=>
   {:iata=>"CTO",
    :name=>"Calverton Executive Airpark (FAA: 3C8)",
    :icao=>"",
    :city=>"Calverton",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Calverton, New York, United States"},
  "CTW"=>
   {:iata=>"CTW",
    :name=>"Cottonwood Airport (FAA: P52)",
    :icao=>"",
    :city=>"Cottonwood",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Cottonwood, Arizona, United States"},
  "CTX"=>
   {:iata=>"CTX",
    :name=>"Cortland County Airport (Chase Field, FAA: N03)",
    :icao=>"",
    :city=>"Cortland",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Cortland, New York, United States"},
  "CTY"=>
   {:iata=>"CTY",
    :name=>"Cross City Airport",
    :icao=>"KCTY",
    :city=>"Cross City",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Cross City, Florida, United States"},
  "CTZ"=>
   {:iata=>"CTZ",
    :name=>"Sampson County Airport",
    :icao=>"KCTZ",
    :city=>"Clinton",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Clinton, North Carolina, United States"},
  "CUB"=>
   {:iata=>"CUB",
    :name=>"Columbia Owens Downtown Airport",
    :icao=>"KCUB",
    :city=>"Columbia",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Columbia, South Carolina, United States"},
  "CUH"=>
   {:iata=>"CUH",
    :name=>"Cushing Municipal Airport",
    :icao=>"KCUH",
    :city=>"Cushing",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Cushing, Oklahoma, United States"},
  "CUS"=>
   {:iata=>"CUS",
    :name=>"Columbus Municipal Airport (FAA: 0NM0)",
    :icao=>"",
    :city=>"Columbus",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Columbus, New Mexico, United States"},
  "CUX"=>
   {:iata=>"CUX",
    :name=>"Cuddihy Field (FAA: 07TE)",
    :icao=>"",
    :city=>"Corpus Christi",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Corpus Christi, Texas, United States"},
  "CVG"=>
   {:iata=>"CVG",
    :name=>"Cincinnati/Northern Kentucky International Airport",
    :icao=>"KCVG",
    :city=>"Hebron",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Hebron, Kentucky (near Cincinnati), United States"},
  "CVN"=>
   {:iata=>"CVN",
    :name=>"Clovis Municipal Airport",
    :icao=>"KCVN",
    :city=>"Clovis",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Clovis, New Mexico, United States"},
  "CVO"=>
   {:iata=>"CVO",
    :name=>"Corvallis Municipal Airport",
    :icao=>"KCVO",
    :city=>"Corvallis",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Corvallis, Oregon, United States"},
  "CVS"=>
   {:iata=>"CVS",
    :name=>"Cannon Air Force Base",
    :icao=>"KCVS",
    :city=>"Clovis",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Clovis, New Mexico, United States"},
  "CWA"=>
   {:iata=>"CWA",
    :name=>"Central Wisconsin Airport",
    :icao=>"KCWA",
    :city=>"Mosinee",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Mosinee, Wisconsin, United States"},
  "CWF"=>
   {:iata=>"CWF",
    :name=>"Chennault International Airport",
    :icao=>"KCWF",
    :city=>"Lake Charles",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Lake Charles, Louisiana, United States"},
  "CWI"=>
   {:iata=>"CWI",
    :name=>"Clinton Municipal Airport",
    :icao=>"KCWI",
    :city=>"Clinton",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Clinton, Iowa, United States"},
  "CWS"=>
   {:iata=>"CWS",
    :name=>"Center Island Airport (FAA: 78WA)",
    :icao=>"",
    :city=>"Center Island",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Center Island, Washington, United States"},
  "CXC"=>
   {:iata=>"CXC",
    :name=>"Chitina Airport",
    :icao=>"",
    :city=>"Chitina",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Chitina, Alaska, United States"},
  "CXF"=>
   {:iata=>"CXF",
    :name=>"Coldfoot Airport",
    :icao=>"PACX",
    :city=>"Coldfoot",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Coldfoot, Alaska, United States"},
  "CXL"=>
   {:iata=>"CXL",
    :name=>"Calexico International Airport",
    :icao=>"KCXL",
    :city=>"Calexico",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Calexico, California, United States"},
  "CXO"=>
   {:iata=>"CXO",
    :name=>"Lone Star Executive Airport",
    :icao=>"KCXO",
    :city=>"Houston",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Houston, Texas, United States"},
  "CYF"=>
   {:iata=>"CYF",
    :name=>"Chefornak Airport (FAA: CFK)",
    :icao=>"PACK",
    :city=>"Chefornak",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Chefornak, Alaska, United States"},
  "CYM"=>
   {:iata=>"CYM",
    :name=>"Chatham Seaplane Base",
    :icao=>"",
    :city=>"Chatham",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Chatham, Alaska, United States"},
  "CYT"=>
   {:iata=>"CYT",
    :name=>"Yakataga Airport",
    :icao=>"PACY",
    :city=>"Cape Yakataga",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Cape Yakataga, Alaska, United States"},
  "CZC"=>
   {:iata=>"CZC",
    :name=>"Copper Center 2 Airport (FAA: Z93)",
    :icao=>"",
    :city=>"Copper Center",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Copper Center, Alaska, United States"},
  "CZF"=>
   {:iata=>"CZF",
    :name=>"Cape Romanzof Long Range Radar Station",
    :icao=>"PACZ",
    :city=>"Cape Romanzof",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Cape Romanzof, Alaska, United States"},
  "CZK"=>
   {:iata=>"CZK",
    :name=>"Cascade Locks State Airport",
    :icao=>"KCZK",
    :city=>"Cascade Locks",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Cascade Locks, Oregon, United States"},
  "CZN"=>
   {:iata=>"CZN",
    :name=>"Chisana Airport",
    :icao=>"",
    :city=>"Chisana",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Chisana, Alaska, United States"},
  "CZO"=>
   {:iata=>"CZO",
    :name=>"Chistochina Airport",
    :icao=>"",
    :city=>"Chistochina",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Chistochina, Alaska, United States"},
  "CZP"=>
   {:iata=>"CZP",
    :name=>"Cape Pole Seaplane Base (FAA: Z71)",
    :icao=>"",
    :city=>"Cape Pole",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Cape Pole, Alaska, United States"},
  "CZT"=>
   {:iata=>"CZT",
    :name=>"Dimmit County Airport",
    :icao=>"KCZT",
    :city=>"Carrizo Springs",
-   :country=>"United States",
+   :country=>'United States', :country_code=>'US',
+
    :location=>"Carrizo Springs, Texas, United States"}}
 
 end
