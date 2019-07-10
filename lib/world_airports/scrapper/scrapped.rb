@@ -25,6 +25,7 @@ class WorldAirports::Scrapped
         raise "must have country: #{iata}" if (airp[:country].nil?)
         raise "must have city: #{iata}" if (airp[:city].nil?)
         raise "must have location: #{iata}" if (airp[:location].nil?)
+        raise "must have country_code: #{iata} country #{airp[:country]}" if (airp[:country_code].nil?)
       end
 
       ((2..27).to_a + [0]).each do |method_id|
