@@ -2252,11 +2252,11 @@ def airp_20
    :location=>"Strezhevoy, Tomsk Oblast, Russia"},
  "SAI"=>
   {:iata=>"SAI",
-   :name=>"San Marino Airport",
-   :icao=>"",
-   :city=>"San Marino",
-   :country=>'Republic of San Marino', :country_code=>'SM',
-   :location=>"San Marino, Republic of San Marino"},
+   :name=>"Siem Reap–Angkor International Airport",
+   :icao=>"VDSA",
+   :city=>"Siem Reap",
+   :country=>'Cambodia', :country_code=>'KH',
+   :location=>"Sotr Nikum, Siem Reap, Cambodia"},
  "SLD"=>
   {:iata=>"SLD",
    :name=>"Sliač Airport",
