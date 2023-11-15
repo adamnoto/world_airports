@@ -2256,7 +2256,7 @@ def airp_20
    :icao=>"VDSA",
    :city=>"Siem Reap",
    :country=>'Cambodia', :country_code=>'KH',
-   :location=>"Sotr Nikum, Siem Reap, Cambodia"},
+   :location=>"Siem Reap, Cambodia"},
  "SLD"=>
   {:iata=>"SLD",
    :name=>"Sliač Airport",
