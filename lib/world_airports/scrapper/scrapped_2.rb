@@ -2480,7 +2480,6 @@ def airp_2
    :icao=>"VYSW",
    :city=>"Sittwe",
    :country=>"Myanmar (Burma)", :country_code=>'MM',
-   :country_code=> "MM",
    :location=>"Sittwe, Myanmar (Burma)"},
  "AAW"=>
   {:iata=>"AAW",
